@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "zh-tw.zhanli.b1",
+  "language": "zh-tw",
+  "level": "B1",
+  "topic": "work",
+  "title": "站立會議",
+  "description": "Quick standup with your team lead at a Taiwan tech company.",
+  "estimated_minutes": 4,
+  "tags": ["meeting", "casual"],
+  "characters": {
+    "bot": { "name": "主管", "voice": "zh-TW-YunJheNeural" },
+    "player": { "name": "你" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "專案進度怎麼樣?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "hai bu cuo kuai wan le", "display": "還不錯,快完了。", "hint_zh": "還不錯,快完了(hai bu cuo kuai wan le)。" }] },
+    { "id": "t3", "speaker": "bot", "text": "有什麼卡住的地方嗎?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "mei you", "display": "沒有。", "hint_zh": "沒有(mei you)。" }] },
+    { "id": "t5", "speaker": "bot", "text": "好,有事再叫我。" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "hao de xie xie", "display": "好的,謝謝。", "hint_zh": "好的,謝謝(hao de xie xie)。" }] }
+  ]
+}

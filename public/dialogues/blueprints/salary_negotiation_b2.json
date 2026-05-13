@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "salary_negotiation_b2",
+  "level": "B2",
+  "topic": "work",
+  "estimated_minutes": 5,
+  "tags": [
+    "interview",
+    "career",
+    "formal"
+  ],
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    }
+  ]
+}

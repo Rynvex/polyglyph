@@ -1,0 +1,31 @@
+{
+  "id": "ko_hangul_aspirated_a1",
+  "title": "Hangul — Aspirated",
+  "cefr": "A1",
+  "description": "ㅋ ㅌ ㅍ ㅊ rows — aspirated initials.",
+  "conceptIds": [
+    "hangul_ka",
+    "hangul_keo",
+    "hangul_ko",
+    "hangul_ku",
+    "hangul_ki",
+    "hangul_ta",
+    "hangul_teo",
+    "hangul_to",
+    "hangul_tu",
+    "hangul_ti",
+    "hangul_pa",
+    "hangul_peo",
+    "hangul_po",
+    "hangul_pu",
+    "hangul_pi",
+    "hangul_cha",
+    "hangul_cheo",
+    "hangul_cho",
+    "hangul_chu",
+    "hangul_chi"
+  ],
+  "estimated_minutes": 2,
+  "kind": "alphabet",
+  "target": "ko"
+}

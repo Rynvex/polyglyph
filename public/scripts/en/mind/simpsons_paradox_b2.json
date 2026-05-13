@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.simpsons_paradox.b2",
+  "language": "en",
+  "level": "B2",
+  "topic": "mind",
+  "title": "An A/B Test That Lies to You",
+  "description": "Your A/B numbers tell two different stories depending on how you slice them. Walk through Simpson's paradox with a data lead.",
+  "estimated_minutes": 5,
+  "tags": [
+    "analytics",
+    "decision-making",
+    "formal"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Data Lead",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "The overall A/B test says variant B wins. Per region, variant A wins everywhere. What's going on?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Classic Simpson's paradox. Group trends can flip when you aggregate.",
+          "hint_zh": "經典 Simpson 悖論。分組的趨勢匯總後可能反轉。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "How does that even happen?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Usually a confounder. Different regions have very different sample sizes or base rates.",
+          "hint_zh": "通常是干擾變數。各區的樣本量或基礎率差很多。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "We had eighty percent of variant B users in our highest-converting region."
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "There it is. The aggregate is just measuring the region mix, not the variant.",
+          "hint_zh": "問題就在這。匯總其實在量區域組成,不是變體效果。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "So which result do we trust?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Per-region. The aggregate is misleading until we control for the imbalance.",
+          "hint_zh": "用分區結果。匯總在調平之前都會誤導人。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "How do we report this without confusing leadership?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Show both views, label the confounder, and recommend re-randomizing the next test.",
+          "hint_zh": "兩個視角都呈現,標出干擾變數,建議下次重新隨機分配。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Good. I'll redraft the readout."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Thanks. Easy mistake to ship if we just trusted the headline.",
+          "hint_zh": "謝。要是我們只信頭條數字,這錯誤很容易就出貨了。"
+        }
+      ]
+    }
+  ]
+}

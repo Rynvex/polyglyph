@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ko.insa.a1",
+  "language": "ko",
+  "level": "A1",
+  "topic": "daily",
+  "title": "인사",
+  "description": "Greet a neighbor in the morning. Type Revised Romanization on your keyboard, the IME composes Hangul cells.",
+  "estimated_minutes": 2,
+  "tags": ["greetings", "casual"],
+  "characters": {
+    "bot": { "name": "이웃", "voice": "ko-KR-SunHiNeural" },
+    "player": { "name": "당신" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "안녕하세요! 잘 지내세요?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "안녕하세요", "display": "안녕하세요.", "hint_zh": "annyeonghaseyo — 您好。" }] },
+    { "id": "t3", "speaker": "bot", "text": "오늘 날씨가 좋네요." },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "네좋아요", "display": "네, 좋아요.", "hint_zh": "ne johayo — 對啊,真好。" }] },
+    { "id": "t5", "speaker": "bot", "text": "그럼 좋은 하루 보내세요." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "감사합니다", "display": "감사합니다.", "hint_zh": "gamsahapnida — 謝謝。" }] }
+  ]
+}

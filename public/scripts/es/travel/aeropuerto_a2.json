@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "es.aeropuerto.a2",
+  "language": "es",
+  "level": "A2",
+  "topic": "travel",
+  "title": "En el aeropuerto",
+  "description": "Check in for an international flight at a Spanish-speaking airport.",
+  "estimated_minutes": 3,
+  "tags": ["airport", "service"],
+  "characters": {
+    "bot": { "name": "Agente", "voice": "es-ES-ElviraNeural" },
+    "player": { "name": "Tú" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Buenos dias. Su pasaporte y billete, por favor." },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Aqui tiene, gracias.", "hint_zh": "在這裡,謝謝。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Cuantas maletas factura?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Solo una maleta.", "hint_zh": "只有一個行李箱。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Asiento ventanilla o pasillo?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Ventanilla, por favor.", "hint_zh": "靠窗,謝謝。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Aqui tiene su tarjeta de embarque. Buen viaje." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Muchas gracias, adios.", "hint_zh": "非常感謝,再見。" }] }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "restaurant_dinner_b1",
+  "language": "es",
+  "title": "Cena con la camarera",
+  "description": "Pide cena completa — bebidas, entrante, principal — y al final dividis la cuenta.",
+  "characters": {
+    "bot": {
+      "name": "Camarera",
+      "voice": "es-ES-ElviraNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Buenas noches, bienvenidos. Os pongo algo de beber para empezar?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Si, una botella de agua con gas y una copa de vino tinto, por favor.",
+          "hint_zh": "好的,可以給我們一瓶氣泡水跟一杯紅酒嗎?"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Claro, alguna preferencia? Esta noche tenemos un Malbec por copa muy bueno."
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "El Malbec suena bien. Me pongo eso.",
+          "hint_zh": "Malbec 聽起來不錯,我點那個。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Buena eleccion. Habeis mirado la carta o necesitais un par de minutos?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Estamos listos. Para empezar compartimos una burrata.",
+          "hint_zh": "我們其實已經想好了,前菜想分一份布拉塔起司。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Excelente, la burrata es una de las favoritas. Y de principal?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Yo el salmon, y me cuentas que lleva el risotto de hoy?",
+          "hint_zh": "我要鮭魚,可以說一下今天的燉飯有什麼食材嗎?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "El risotto de hoy es de setas silvestres con aceite de trufa, parmesano y cebollino al final."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Suena delicioso. Lo cogemos para el segundo principal.",
+          "hint_zh": "聽起來很棒,我們第二個主菜要那個。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Estupendo. Alguna alergia que deba avisar a la cocina?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Alergia no, pero mi amigo no come marisco si pudieras avisar.",
+          "hint_zh": "沒有過敏,但麻煩告知我朋友不吃帶殼海鮮。"
+        }
+      ]
+    },
+    "t13": {
+      "text": "Lo digo. Vuelvo enseguida con las bebidas."
+    },
+    "t14": {
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Genial, gracias. Al final podriamos dividir la cuenta?",
+          "hint_zh": "好的,謝謝。等等吃完可以幫我們分開結帳嗎?"
+        }
+      ]
+    },
+    "t15": {
+      "text": "Por supuesto, decidme como la quereis dividir cuando esteis listos."
+    },
+    "t16": {
+      "templates": [
+        {
+          "id": "t16.0",
+          "text": "Perfecto. Muchas gracias por todo.",
+          "hint_zh": "太好了,真的謝謝你。"
+        }
+      ]
+    }
+  }
+}

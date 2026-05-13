@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "friends_catching_up_b1",
+  "language": "it",
+  "title": "Rincontro con un vecchio amico",
+  "description": "Incontri per caso qualcuno che non vedi da anni. Tanti modi di dire e registro colloquiale.",
+  "characters": {
+    "bot": {
+      "name": "Sam",
+      "voice": "it-IT-DiegoNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Ehi sconosciuto! Quanto tempo, come stai?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Sam! Wow, una vita. Sto bene, e tu?",
+          "hint_zh": "Sam!天啊,好久不見。我還不錯,你呢?"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Non mi posso lamentare. Solita zuppa. Sei ancora nello stesso posto?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "No, ho cambiato l'anno scorso. Ora lavoro da remoto, molto meglio.",
+          "hint_zh": "沒,我去年跳槽了。現在遠端工作,好太多了。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Davvero?! Bravo. Anch'io continuo a dire che lo faccio ma non mi muovo mai."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Sinceramente, fai il salto. La scelta migliore che ho fatto.",
+          "hint_zh": "說真的你該下定決心做。是我做過最好的決定。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Si, si, ti capisco. Ehi, ti va un caffe' veloce?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Vorrei, ma sono in ritardo. Lo recuperiamo un'altra volta?",
+          "hint_zh": "好想去,但我快遲到了。下次補?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Certo. Scrivimi e ci organizziamo."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Senz'altro. Bello rivederti, mi raccomando!",
+          "hint_zh": "一定。很高興遇到你,保重!"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Anche per me. A presto!"
+    }
+  }
+}

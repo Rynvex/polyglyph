@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "coffee_shop_order_a1",
+  "language": "it",
+  "title": "Un caffè, per favore",
+  "description": "Ordinare un caffè al bar. Scambio semplice A1 — saluto, ordine, dimensione e pagamento.",
+  "characters": {
+    "bot": { "name": "Giulia", "voice": "it-IT-ElsaNeural" },
+    "player": { "name": "Tu" }
+  },
+  "turns": {
+    "t1": { "text": "Buongiorno! Cosa posso offrirLe?" },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "display": "Buongiorno. Posso avere un caffè, per favore?",
+          "hint_zh": "你好，我可以點一杯咖啡嗎？"
+        }
+      ]
+    },
+    "t3": { "text": "Certo! Che misura desidera? Piccolo, medio o grande?" },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "display": "Medio, per favore.",
+          "hint_zh": "中杯，麻煩你。"
+        }
+      ]
+    },
+    "t5": { "text": "Benissimo. Desidera altro?" },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "display": "No, è tutto. Grazie.",
+          "hint_zh": "不用了，就這樣。謝謝。"
+        }
+      ]
+    },
+    "t7": { "text": "Sono tre e cinquanta. Ecco il Suo caffè. Buona giornata!" },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "display": "Grazie. Buona giornata anche a Lei!",
+          "hint_zh": "謝謝，也祝您有美好的一天！"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "ja.kaigi.b1",
+  "language": "ja",
+  "level": "B1",
+  "topic": "work",
+  "title": "会議で",
+  "description": "Quick standup with your manager. Type romaji; cells render hiragana.",
+  "estimated_minutes": 4,
+  "tags": ["meeting", "casual"],
+  "characters": {
+    "bot": { "name": "上司", "voice": "ja-JP-KeitaNeural" },
+    "player": { "name": "あなた" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "プロジェクトの進捗はどうですか?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "じゅんちょうにすすんでいます", "display": "順調に進んでいます。", "hint_zh": "junchou ni susunde imasu — 進展順利。" }] },
+    { "id": "t3", "speaker": "bot", "text": "何か問題はありますか?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "とくにありません", "display": "特にありません。", "hint_zh": "tokuni arimasen — 沒什麼特別問題。" }] },
+    { "id": "t5", "speaker": "bot", "text": "いつ終わりそうですか?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "らいしゅうのきんようびまでに", "display": "来週の金曜日までに。", "hint_zh": "raishuu no kinyoubi made ni — 下週五前。" }] },
+    { "id": "t7", "speaker": "bot", "text": "わかりました。お願いします。" },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "はいわかりました", "display": "はい、わかりました。", "hint_zh": "hai wakarimashita — 好的,知道了。" }] }
+  ]
+}

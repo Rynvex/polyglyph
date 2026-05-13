@@ -1,0 +1,11 @@
+{
+  "id": "numbers_a1",
+  "title": "Numbers",
+  "cefr": "A1",
+  "description": "Counting and ordering — one to a thousand.",
+  "estimated_minutes": 3,
+  "conceptIds": [
+    "one", "two", "three", "four", "five", "six", "seven", "eight",
+    "nine", "ten", "twenty", "fifty", "hundred", "thousand", "first", "second"
+  ]
+}

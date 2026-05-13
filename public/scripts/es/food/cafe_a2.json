@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "es.cafe.a2",
+  "language": "es",
+  "level": "A2",
+  "topic": "food",
+  "title": "Pidiendo un café",
+  "description": "Order a coffee and a croissant at a Spanish cafetería.",
+  "estimated_minutes": 3,
+  "tags": ["cafe", "service"],
+  "characters": {
+    "bot": { "name": "Camarero", "voice": "es-ES-AlvaroNeural" },
+    "player": { "name": "Tú" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Hola, buenos dias. Que va a tomar?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Un cafe con leche, por favor.", "hint_zh": "我要一杯咖啡加奶,謝謝。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Algo de comer? Tenemos croissants frescos." },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Si, un croissant tambien.", "hint_zh": "好,我也要一個可頌。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Para llevar o para tomar aqui?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Para tomar aqui, gracias.", "hint_zh": "在這裡用,謝謝。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Son cuatro euros con cincuenta." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Aqui tiene. Gracias.", "hint_zh": "這是錢,謝謝你。" }] }
+  ]
+}

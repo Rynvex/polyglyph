@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "en.cafe_basic.a2",
+  "language": "en",
+  "level": "A2",
+  "topic": "food",
+  "title": "Coffee Shop Basics",
+  "description": "Order a coffee and a pastry, then chat about the weather.",
+  "estimated_minutes": 4,
+  "tags": [
+    "food",
+    "service",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Barista",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Hi there! What can I get you today?",
+      "translation_zh": "嗨,今天要點什麼?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "I'd like a medium latte, please.",
+          "hint_zh": "我想要一杯中杯拿鐵,謝謝。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Sure! Anything to eat with that?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "A blueberry muffin would be great.",
+          "hint_zh": "來個藍莓馬芬就好。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Great choice. That'll be six fifty. For here or to go?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "For here, thanks.",
+          "hint_zh": "內用,謝謝。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Lovely day, isn't it? The rain finally stopped this morning."
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Yeah, it's been raining all week. I'm glad it's over.",
+          "hint_zh": "對啊,下了一整週,終於停了真好。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Take a seat by the window, I'll bring it over in a minute."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Sounds good, thank you so much!",
+          "hint_zh": "好的,非常感謝!"
+        }
+      ]
+    }
+  ],
+  "rewards": {
+    "complete": {
+      "xp": 50
+    },
+    "perfect": {
+      "xp": 100,
+      "badge": "barista_friend"
+    }
+  }
+}

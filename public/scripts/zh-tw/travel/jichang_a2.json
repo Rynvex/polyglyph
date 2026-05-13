@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "zh-tw.jichang.a2",
+  "language": "zh-tw",
+  "level": "A2",
+  "topic": "travel",
+  "title": "在機場",
+  "description": "Check in at a Taiwanese airport. Player types toneless pinyin; bot bubbles show characters.",
+  "estimated_minutes": 3,
+  "tags": ["airport", "service"],
+  "characters": {
+    "bot": { "name": "地勤", "voice": "zh-TW-HsiaoChenNeural" },
+    "player": { "name": "你" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "您好,請出示護照跟機票。" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "zai zhe li xie xie", "display": "在這裡,謝謝。", "hint_zh": "在這裡,謝謝(zai zhe li xie xie)。" }] },
+    { "id": "t3", "speaker": "bot", "text": "幾件行李託運?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "yi jian xie xie", "display": "一件,謝謝。", "hint_zh": "一件,謝謝(yi jian xie xie)。" }] },
+    { "id": "t5", "speaker": "bot", "text": "靠窗還是走道?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "kao chuang xie xie", "display": "靠窗,謝謝。", "hint_zh": "靠窗,謝謝(kao chuang xie xie)。" }] }
+  ]
+}

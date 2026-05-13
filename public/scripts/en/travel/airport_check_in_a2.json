@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "id": "en.airport_check_in.a2",
+  "language": "en",
+  "level": "A2",
+  "topic": "travel",
+  "title": "Airport Check-In",
+  "description": "Check in for an international flight, drop a bag, and clarify carry-on rules.",
+  "estimated_minutes": 4,
+  "tags": [
+    "travel",
+    "airport",
+    "service"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Agent",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Good morning, are you flying with us today?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Yes, I'm on the eleven thirty flight to Tokyo.",
+          "hint_zh": "對,我搭十一點半飛東京的班機。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Passport, please."
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Here you go. I have one bag to check.",
+          "hint_zh": "在這裡,我有一件行李要託運。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Could you place it on the scale, please? Anything fragile or any spare batteries inside?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Nothing fragile. The batteries are in my carry-on.",
+          "hint_zh": "沒有易碎品,電池都放在隨身行李裡。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Perfect. Your bag is twenty-one kilos, you're good. Window or aisle seat?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Aisle, please. I'd like to stretch my legs on a long flight.",
+          "hint_zh": "走道,謝謝。長程飛行希望腿能伸展一下。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Got you on 24C. Boarding starts at ten forty-five at gate B12."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Great. How strict is the carry-on size limit today?",
+          "hint_zh": "好的,今天隨身行李的尺寸要求嚴格嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Pretty strict on this route. If it doesn't fit the sizer at the gate, we'll have to check it."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Got it, I'll repack a few things. Thanks for letting me know.",
+          "hint_zh": "了解,我會重新整理一下行李,感謝提醒。"
+        }
+      ]
+    },
+    {
+      "id": "t13",
+      "speaker": "bot",
+      "text": "No problem. Have a great flight."
+    },
+    {
+      "id": "t14",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Thanks, you too. See you on the way back!",
+          "hint_zh": "謝謝,你也是,回程見!"
+        }
+      ]
+    }
+  ]
+}

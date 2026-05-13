@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "coffee_shop_order_a1",
+  "language": "de",
+  "title": "Einen Kaffee, bitte",
+  "description": "Einen Kaffee im Café bestellen. Einfacher A1-Austausch — Begrüßung, Bestellung, Größe und Bezahlung.",
+  "characters": {
+    "bot": { "name": "Lena", "voice": "de-DE-KatjaNeural" },
+    "player": { "name": "Du" }
+  },
+  "turns": {
+    "t1": { "text": "Hallo! Was darf es sein?" },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "display": "Hallo. Kann ich einen Kaffee haben, bitte?",
+          "hint_zh": "你好，我可以點一杯咖啡嗎？"
+        }
+      ]
+    },
+    "t3": { "text": "Natürlich! Welche Größe möchten Sie? Klein, mittel oder groß?" },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "display": "Mittel, bitte.",
+          "hint_zh": "中杯，麻煩你。"
+        }
+      ]
+    },
+    "t5": { "text": "Gut. Möchten Sie noch etwas?" },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "display": "Nein, das ist alles. Danke.",
+          "hint_zh": "不用了，就這樣。謝謝。"
+        }
+      ]
+    },
+    "t7": { "text": "Das macht drei fünfzig. Hier ist Ihr Kaffee. Guten Appetit!" },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "display": "Danke. Einen schönen Tag noch!",
+          "hint_zh": "謝謝，祝你有美好的一天！"
+        }
+      ]
+    }
+  }
+}

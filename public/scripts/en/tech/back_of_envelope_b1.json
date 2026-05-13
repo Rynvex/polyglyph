@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.back_of_envelope.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "tech",
+  "title": "Back-of-the-Envelope Sanity Check",
+  "description": "A junior engineer asks if the new feature can really handle launch-day traffic. Walk through a quick estimate.",
+  "estimated_minutes": 4,
+  "tags": [
+    "engineering",
+    "casual",
+    "estimation"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Junior",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Marketing says we'll get a million users at launch. Can our system handle it?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Let's do a quick back-of-the-envelope check before we panic.",
+          "hint_zh": "我們先做個粗估,別先慌。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Okay. Where do we start?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "If a million users hit us in one hour, that's about three hundred requests per second on average.",
+          "hint_zh": "一百萬用戶集中在一小時,平均約每秒三百個請求。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "And our current backend?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "One node handles maybe two hundred requests per second. So we need at least two, three with margin.",
+          "hint_zh": "一個節點大概每秒兩百請求。所以至少兩台,留 margin 抓三台。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "What if traffic spikes ten times higher in the first minute?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Then we need a queue or a CDN cache. Otherwise we'll see timeouts.",
+          "hint_zh": "那要加 queue 或 CDN cache,不然會 timeout。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Should I add Redis as a cache layer?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Yes, for the read-heavy paths. Most launch traffic reads the same five things anyway.",
+          "hint_zh": "讀為主的路徑加。launch 大部分流量也只是讀那五個東西。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Cool. I'll write up the estimate and the plan."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Good. Numbers in the doc, not in your head.",
+          "hint_zh": "好,把數字寫進文件,不要只放在腦袋裡。"
+        }
+      ]
+    }
+  ]
+}

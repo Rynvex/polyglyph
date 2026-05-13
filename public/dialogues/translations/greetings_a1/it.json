@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "greetings_a1",
+  "language": "it",
+  "title": "Primo saluto",
+  "description": "Conosci qualcuno di nuovo a un evento informale e rompete il ghiaccio.",
+  "characters": {
+    "bot": {
+      "name": "Sam",
+      "voice": "it-IT-DiegoNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Ciao, non credo ci siamo gia incontrati. Sono Sam."
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Piacere, Sam. Io sono Alex.",
+          "hint_zh": "幸會,Sam。我叫 Alex。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Piacere mio. Come va la serata?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Piuttosto bene, grazie. E tu?",
+          "hint_zh": "我還不錯,謝謝。你呢?"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Non male. Un po' stanco, ma contento di essere qui. Di cosa ti occupi?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Faccio l'ingegnere informatico in centro.",
+          "hint_zh": "我在市區當軟體工程師。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Bello. Io sono designer, quindi probabilmente finiremo a litigare sugli stessi progetti."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Ah, sicuro. Di dove sei originariamente?",
+          "hint_zh": "哈,的確。你本來是哪裡人?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Sono di Bologna, ma mi sono trasferito qui circa due anni fa."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Bello, ti piace vivere qui?",
+          "hint_zh": "喔不錯,你目前喜歡這裡嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Si, in generale! Si mangia divinamente. Vado a prendere da bere, ci sentiamo dopo?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Va bene, ci vediamo dopo!",
+          "hint_zh": "好啊沒問題,等等再聊!"
+        }
+      ]
+    }
+  }
+}

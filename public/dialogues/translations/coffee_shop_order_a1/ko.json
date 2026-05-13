@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "coffee_shop_order_a1",
+  "language": "ko",
+  "title": "커피 한 잔 주세요",
+  "description": "카페에서 커피를 주문하는 간단한 A1 대화 — 인사, 주문, 사이즈 선택, 계산.",
+  "characters": {
+    "bot": { "name": "수진", "voice": "ko-KR-SunHiNeural" },
+    "player": { "name": "당신" }
+  },
+  "turns": {
+    "t1": { "text": "안녕하세요! 주문하시겠어요?" },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "display": "안녕하세요. 커피 한 잔 주세요.",
+          "hint_zh": "你好，請給我一杯咖啡。"
+        }
+      ]
+    },
+    "t3": { "text": "네! 사이즈는 어떻게 하시겠어요? 스몰, 미디엄, 라지 있어요." },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "display": "미디엄으로 주세요.",
+          "hint_zh": "請給我中杯。"
+        }
+      ]
+    },
+    "t5": { "text": "네. 다른 건 필요하세요?" },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "display": "아니요, 괜찮아요. 감사합니다.",
+          "hint_zh": "不用了，沒關係。謝謝。"
+        }
+      ]
+    },
+    "t7": { "text": "삼천오백 원이에요. 여기 커피 나왔습니다. 맛있게 드세요!" },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "display": "감사합니다. 좋은 하루 보내세요!",
+          "hint_zh": "謝謝，祝你有美好的一天！"
+        }
+      ]
+    }
+  }
+}

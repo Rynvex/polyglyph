@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "de.im_cafe.a2",
+  "language": "de",
+  "level": "A2",
+  "topic": "food",
+  "title": "Im Café",
+  "description": "Order coffee and a piece of cake at a German café. (ASCII fallback for ß/ö/ü.)",
+  "estimated_minutes": 3,
+  "tags": ["cafe", "service"],
+  "characters": {
+    "bot": { "name": "Bedienung", "voice": "de-DE-ConradNeural" },
+    "player": { "name": "Du" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Hallo, was darf es sein?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Einen Kaffee, bitte.", "hint_zh": "我要一杯咖啡,謝謝。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Mit Milch und Zucker?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Mit Milch, ohne Zucker.", "hint_zh": "加奶不加糖。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Moechten Sie auch ein Stueck Kuchen?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Ja, ein Stueck Apfelkuchen, bitte.", "hint_zh": "好,我要一塊蘋果蛋糕。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Das macht zusammen sechs Euro." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Hier, bitte. Vielen Dank.", "hint_zh": "在這,謝謝。" }] }
+  ]
+}

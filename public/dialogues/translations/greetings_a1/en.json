@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "greetings_a1",
+  "language": "en",
+  "title": "First Greetings",
+  "description": "Meet someone new at a casual gathering and exchange basics.",
+  "characters": {
+    "bot": {
+      "name": "Sam",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Hi! I don't think we've met. I'm Sam."
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Nice to meet you, Sam. I'm Alex.",
+          "hint_zh": "幸會,Sam。我叫 Alex。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Nice to meet you too! How are you doing tonight?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "I'm pretty good, thanks. How about you?",
+          "hint_zh": "我還不錯,謝謝。你呢?"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Not bad! A little tired but happy to be here. So, what do you do?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "I work as a software engineer in the city.",
+          "hint_zh": "我在市區當軟體工程師。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Oh, that's cool. I'm a designer, so we probably end up arguing on the same projects."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Ha, definitely. Where are you from originally?",
+          "hint_zh": "哈,的確。你本來是哪裡人?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "I'm from Toronto, but I moved here about two years ago."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Oh nice, do you like it here so far?",
+          "hint_zh": "喔不錯,你目前喜歡這裡嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Yeah, mostly! The food scene is amazing. Anyway, I should grab a drink. Talk later?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Sure, sounds good. Catch up with you later!",
+          "hint_zh": "好啊沒問題,等等再聊!"
+        }
+      ]
+    }
+  }
+}

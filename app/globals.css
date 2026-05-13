@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+/* Theme tokens — concrete colors per theme. Switching `[data-theme]` on the
+   <html> element flips every variable at once. The :root default mirrors
+   dark so the inline init script can override before paint without flash. */
+:root,
+[data-theme="dark"] {
+  --canvas: #0c0a09;            /* stone-950 */
+  --surface: #1c1917;           /* stone-900 */
+  --surface-2: #292524;         /* stone-800 */
+  --border: #292524;            /* stone-800 */
+  --border-strong: #44403c;     /* stone-700 */
+
+  --fg: #f5f5f4;                /* stone-100 */
+  --fg-muted: #a8a29e;          /* stone-400 */
+  --fg-faint: #78716c;          /* stone-500 */
+
+  --accent: #f97316;            /* orange-500 */
+  --accent-hover: #fb923c;      /* orange-400 */
+
+  --success: #10b981;           /* emerald-500 */
+  --success-hover: #34d399;     /* emerald-400 */
+
+  --warning: #fbbf24;           /* amber-400 */
+  --error: #fb7185;             /* rose-400 */
+
+  --bubble-bot-bg: #f5f5f4;
+  --bubble-bot-fg: #1c1917;
+  --bubble-player-bg: #10b981;  /* emerald-500 */
+  --bubble-player-fg: #ffffff;
+
+  --avatar-bg: #44403c;
+  --avatar-fg: #f5f5f4;
+
+  --typing-panel-bg: rgba(28, 25, 23, 0.85);
+  --typing-panel-ring: #292524;
+
+  --cell-correct: #34d399;      /* emerald-400 */
+  --cell-wrong: #fb7185;        /* rose-400 */
+  --cell-pending: #78716c;      /* stone-500 */
+
+  --cursor: #fb923c;            /* orange-400 */
+}
+
+[data-theme="light"] {
+  --canvas: #fafaf9;            /* stone-50 */
+  --surface: #ffffff;
+  --surface-2: #f5f5f4;         /* stone-100 */
+  --border: #e7e5e4;            /* stone-200 */
+  --border-strong: #d6d3d1;     /* stone-300 */
+
+  --fg: #1c1917;                /* stone-900 */
+  --fg-muted: #57534e;          /* stone-600 (one step deeper than dark's muted for AA) */
+  --fg-faint: #78716c;          /* stone-500 */
+
+  --accent: #ea580c;            /* orange-600 */
+  --accent-hover: #c2410c;      /* orange-700 */
+
+  --success: #059669;           /* emerald-600 */
+  --success-hover: #047857;     /* emerald-700 */
+
+  --warning: #d97706;           /* amber-600 */
+  --error: #e11d48;             /* rose-600 */
+
+  --bubble-bot-bg: #ffffff;
+  --bubble-bot-fg: #1c1917;
+  --bubble-player-bg: #059669;  /* emerald-600 darker for contrast on cream */
+  --bubble-player-fg: #ffffff;
+
+  --avatar-bg: #e7e5e4;
+  --avatar-fg: #1c1917;
+
+  --typing-panel-bg: #ffffff;
+  --typing-panel-ring: #e7e5e4;
+
+  --cell-correct: #059669;
+  --cell-wrong: #e11d48;
+  --cell-pending: #a8a29e;
+
+  --cursor: #ea580c;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-faint: var(--fg-faint);
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+
+  --color-success: var(--success);
+  --color-success-hover: var(--success-hover);
+
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+
+  --color-bubble-bot: var(--bubble-bot-bg);
+  --color-bubble-bot-fg: var(--bubble-bot-fg);
+  --color-bubble-player: var(--bubble-player-bg);
+  --color-bubble-player-fg: var(--bubble-player-fg);
+
+  --color-avatar: var(--avatar-bg);
+  --color-avatar-fg: var(--avatar-fg);
+
+  --color-typing-panel: var(--typing-panel-bg);
+  --color-typing-panel-ring: var(--typing-panel-ring);
+
+  --color-cell-correct: var(--cell-correct);
+  --color-cell-wrong: var(--cell-wrong);
+  --color-cell-pending: var(--cell-pending);
+
+  --color-cursor: var(--cursor);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--canvas);
+  color: var(--fg);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Blink for the typing cursor underline. Reduced-motion users get a
+   solid bar instead of the flicker. */
+@keyframes polyglyph-blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.cursor-blink {
+  animation: polyglyph-blink 1s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor-blink {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* Selection ring painted by LandingKeyboardNav as the user moves through
+   the script list with arrow / j / k keys. */
+[data-keynav-selected="true"] {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

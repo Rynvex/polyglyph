@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "cap_theorem_explain_b2",
+  "language": "de",
+  "title": "CAP-Theorem in fuenf Minuten",
+  "description": "Ein Senior bittet dich, das CAP-Theorem einer nicht-technischen PM zu erklaeren. Zeig die Trade-offs ohne Jargon-Overload.",
+  "characters": {
+    "bot": {
+      "name": "Senior",
+      "voice": "de-DE-ConradNeural"
+    },
+    "player": {
+      "name": "Du"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Die neue PM faengt morgen an. Erklaerst du ihr CAP, ohne sie zu verschrecken?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Klar. Einfach erklaert: in einer verteilten Datenbank kannst du nur zwei der drei Garantien haben.",
+          "hint_zh": "好,簡單版:分散式資料庫只能同時保住三個保證裡的兩個。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Welche drei?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Konsistenz, Verfuegbarkeit und Partition Tolerance. Netzwerk-Partitionen sind unvermeidbar, also waehlst du wirklich zwischen C und A.",
+          "hint_zh": "一致性、可用性、分區容錯。網路分區不可避免,所以實質是在 C 跟 A 之間二選一。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Alles klar. Gib mir ein konkretes Beispiel pro Seite."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Ein Bank-Ledger waehlt CP — lieber Service stoppen als falsche Saldos zeigen. Ein Social-Feed waehlt AP — bleibt online, zeigt aber evtl. alte Posts.",
+          "hint_zh": "銀行帳本選 CP,寧可停服務也不顯示錯誤餘額;社群動態選 AP,寧可顯示舊資料也要持續可用。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Und wo passt eventual consistency rein?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Das ist der praktische Mittelweg. Die meisten Systeme sind weder rein CP noch rein AP — sie synchronisieren mit Verzoegerung.",
+          "hint_zh": "務實的中間值,大多數現實系統不是純 CP 或純 AP,而是稍後同步補上。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Eine Sache noch — sind das C in CAP und das C in ACID dasselbe?"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Zwei verschiedene Tiere. CAPs C bedeutet, dass Nodes sich einigen. ACIDs C bedeutet, dass eine Transaktion die DB in einem gueltigen Zustand hinterlaesst.",
+          "hint_zh": "不一樣。CAP 的 C 講節點之間達成共識,ACID 的 C 講交易結束後資料庫仍處於有效狀態。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Perfekt. Genau das Level, das ich wollte. Schickst du ihr einen Einseiter bis morgen?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Mach ich. Ich halt's unter einer Seite und verlinke die tieferen Docs.",
+          "hint_zh": "沒問題,我會控制在一頁內,深入的文件用連結帶。"
+        }
+      ]
+    }
+  }
+}

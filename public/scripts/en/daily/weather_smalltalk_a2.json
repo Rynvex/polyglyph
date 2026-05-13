@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "en.weather_smalltalk.a2",
+  "language": "en",
+  "level": "A2",
+  "topic": "daily",
+  "title": "Weather and Weekends",
+  "description": "Quick chat with a coworker in the elevator about the weather and weekend plans.",
+  "estimated_minutes": 3,
+  "tags": [
+    "smalltalk",
+    "office",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Jordan",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Morning! Did you see the rain this morning? It came out of nowhere."
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Yeah, I got soaked walking from the station.",
+          "hint_zh": "對啊,我從車站走過來整個淋濕了。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Oh no. Forecast says it'll keep raining until Wednesday."
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "That's a bummer. I was hoping to go hiking this weekend.",
+          "hint_zh": "真掃興,我這週末本來想去爬山的。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Maybe try indoor stuff instead? There's a new coffee shop on Pine Street."
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Oh nice, what's it like? Quiet enough to work?",
+          "hint_zh": "喔不錯,環境怎樣?夠安靜可以工作嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Surprisingly yes, especially on weekend mornings. Their flat white is excellent."
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "I'll have to check it out. Thanks for the tip!",
+          "hint_zh": "那我有空一定去,感謝推薦!"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Anytime. Hope the weather clears up for your hike eventually."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Me too. Have a good one, see you in the meeting later.",
+          "hint_zh": "希望如此。祝你今天順利,等等開會見。"
+        }
+      ]
+    }
+  ]
+}

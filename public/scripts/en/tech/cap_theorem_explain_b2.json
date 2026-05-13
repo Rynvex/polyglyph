@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "en.cap_theorem_explain.b2",
+  "language": "en",
+  "level": "B2",
+  "topic": "tech",
+  "title": "CAP Theorem in Five Minutes",
+  "description": "A senior asks you to explain CAP theorem to a non-technical PM. Walk the trade-offs without jargon overload.",
+  "estimated_minutes": 5,
+  "tags": [
+    "engineering",
+    "system-design",
+    "interview",
+    "explain-to-pm"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Senior",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Hey, the new PM is joining tomorrow. Can you explain CAP theorem to her without scaring her off?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Sure. The simple version: in a distributed database, you can only get two out of three guarantees.",
+          "hint_zh": "好,簡單版:分散式資料庫只能同時保住三個保證裡的兩個。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Which three?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Consistency, Availability, and Partition tolerance. Network partitions are unavoidable, so you really pick between C and A.",
+          "hint_zh": "一致性、可用性、分區容錯。網路分區不可避免,所以實質是在 C 跟 A 之間二選一。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Got it. Give me a concrete example of each side."
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "A bank ledger picks CP, so it stops serving rather than show wrong balances. A social feed picks AP, so it stays up but might show stale posts.",
+          "hint_zh": "銀行帳本選 CP,寧可停服務也不顯示錯誤餘額;社群動態選 AP,寧可顯示舊資料也要持續可用。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Where does eventual consistency fit in?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "It's the practical middle ground. Most real systems aren't pure CP or AP. They sync up after a delay.",
+          "hint_zh": "務實的中間值,大多數現實系統不是純 CP 或純 AP,而是稍後同步補上。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "One more thing — the C in CAP and the C in ACID. Same thing?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Different beasts. CAP's C is about nodes agreeing. ACID's C is about a transaction leaving the database in a valid state.",
+          "hint_zh": "不一樣。CAP 的 C 講節點之間達成共識,ACID 的 C 講交易結束後資料庫仍處於有效狀態。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Perfect. That's exactly the level I wanted. Mind sending her a one-pager before tomorrow?"
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Will do. I'll keep it under a page and link the deeper docs.",
+          "hint_zh": "沒問題,我會控制在一頁內,深入的文件用連結帶。"
+        }
+      ]
+    }
+  ]
+}

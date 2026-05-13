@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "asking_directions_a1",
+  "language": "de",
+  "title": "Nach dem Weg fragen",
+  "description": "Sprich auf der Strasse jemanden an und finde den Weg zum Buchladen.",
+  "characters": {
+    "bot": {
+      "name": "Passant",
+      "voice": "de-DE-ConradNeural"
+    },
+    "player": {
+      "name": "Du"
+    }
+  },
+  "turns": {
+    "t1": {
+      "templates": [
+        {
+          "id": "t1.0",
+          "text": "Entschuldigung, darf ich Sie kurz was fragen?",
+          "hint_zh": "不好意思,可以耽誤你一下嗎?"
+        }
+      ]
+    },
+    "t2": {
+      "text": "Klar, was gibt's?"
+    },
+    "t3": {
+      "templates": [
+        {
+          "id": "t3.0",
+          "text": "Wissen Sie, wie man zur zentralen Buchhandlung kommt?",
+          "hint_zh": "你知道中央書店怎麼去嗎?"
+        }
+      ]
+    },
+    "t4": {
+      "text": "Doch, ist nicht weit. Zwei Strassen weiter, dann an der Ampel links."
+    },
+    "t5": {
+      "templates": [
+        {
+          "id": "t5.0",
+          "text": "Zwei Strassen weiter und dann links. Ist sie in der Strasse?",
+          "hint_zh": "走兩個街區後左轉,知道了。在那條街上嗎?"
+        }
+      ]
+    },
+    "t6": {
+      "text": "Ja, nach drei Minuten siehst du sie auf der rechten Seite. Grosses rotes Schild."
+    },
+    "t7": {
+      "templates": [
+        {
+          "id": "t7.0",
+          "text": "Perfekt. Hat sie sonntags auf?",
+          "hint_zh": "太好了,星期天有開嗎?"
+        }
+      ]
+    },
+    "t8": {
+      "text": "Glaub schon, bis sechs Uhr abends. Ruf zur Sicherheit lieber kurz an."
+    },
+    "t9": {
+      "templates": [
+        {
+          "id": "t9.0",
+          "text": "Mach ich. Vielen Dank fuer die Hilfe!",
+          "hint_zh": "我會打去問,真的很感謝你!"
+        }
+      ]
+    },
+    "t10": {
+      "text": "Kein Problem, schoenen Tag noch!"
+    },
+    "t11": {
+      "templates": [
+        {
+          "id": "t11.0",
+          "text": "Ihnen auch, machen Sie's gut!",
+          "hint_zh": "你也是,保重!"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ja.aisatsu.a1",
+  "language": "ja",
+  "level": "A1",
+  "topic": "daily",
+  "title": "あいさつ",
+  "description": "Greet a neighbor in the morning. Type romaji on your keyboard, the IME converts to hiragana cells.",
+  "estimated_minutes": 2,
+  "tags": ["greetings", "casual"],
+  "characters": {
+    "bot": { "name": "となり", "voice": "ja-JP-NanamiNeural" },
+    "player": { "name": "あなた" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "おはようございます。お元気ですか?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "おはようございます", "display": "おはようございます", "hint_zh": "ohayou gozaimasu — 早安。" }] },
+    { "id": "t3", "speaker": "bot", "text": "今日もいい天気ですね。" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "はいそうですね", "display": "はい、そうですね。", "hint_zh": "hai sou desu ne — 對啊,真不錯。" }] },
+    { "id": "t5", "speaker": "bot", "text": "それじゃ、いってらっしゃい。" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "いってきます", "display": "いってきます。", "hint_zh": "itte kimasu — 我出門了。" }] }
+  ]
+}

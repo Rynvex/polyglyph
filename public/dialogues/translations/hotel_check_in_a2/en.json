@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "hotel_check_in_a2",
+  "language": "en",
+  "title": "Hotel Check-In",
+  "description": "Check into your hotel room and ask about amenities.",
+  "characters": {
+    "bot": {
+      "name": "Concierge",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Good evening, welcome to the Grand Bayview. Are you checking in?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Yes, I have a reservation under the name Lee.",
+          "hint_zh": "是的,我用 Lee 這個名字訂了房。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Let me find that. Could I see your passport, please?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Sure, here you go.",
+          "hint_zh": "沒問題,給你。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Thank you. I have you in a king deluxe room for three nights, is that right?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "That's correct. Would it be possible to get a room on a higher floor?",
+          "hint_zh": "沒錯。可以幫我安排比較高樓層的房間嗎?"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Let me check. Yes, I can move you to the seventeenth floor with an ocean view."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "That sounds amazing, thank you. What time is breakfast?",
+          "hint_zh": "聽起來太棒了,謝謝。早餐幾點開始?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Breakfast runs from six thirty to ten on the second floor. The pool is on the rooftop."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Great. Is there a gym I can use this evening?",
+          "hint_zh": "好的。今天晚上可以使用健身房嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Yes, the gym is open twenty-four hours. Your room key opens it automatically."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Perfect. One last thing - is the wifi free in the rooms?",
+          "hint_zh": "太好了。最後一個問題--房間裡的網路是免費的嗎?"
+        }
+      ]
+    },
+    "t13": {
+      "text": "Yes, the network name is on this card and the password is your room number."
+    },
+    "t14": {
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Thanks so much. Have a great night!",
+          "hint_zh": "非常感謝,祝你今晚愉快!"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "en.greetings.a1",
+  "language": "en",
+  "level": "A1",
+  "topic": "daily",
+  "title": "First Greetings",
+  "description": "Meet someone new at a casual gathering and exchange basics.",
+  "estimated_minutes": 3,
+  "tags": [
+    "social",
+    "introduction",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Sam",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Hi! I don't think we've met. I'm Sam.",
+      "translation_zh": "嗨,我們應該還沒見過,我是 Sam。"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Nice to meet you, Sam. I'm Alex.",
+          "hint_zh": "幸會,Sam。我叫 Alex。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Nice to meet you too! How are you doing tonight?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "I'm pretty good, thanks. How about you?",
+          "hint_zh": "我還不錯,謝謝。你呢?"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Not bad! A little tired but happy to be here. So, what do you do?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "I work as a software engineer in the city.",
+          "hint_zh": "我在市區當軟體工程師。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Oh, that's cool. I'm a designer, so we probably end up arguing on the same projects."
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Ha, definitely. Where are you from originally?",
+          "hint_zh": "哈,的確。你本來是哪裡人?"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "I'm from Toronto, but I moved here about two years ago."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Oh nice, do you like it here so far?",
+          "hint_zh": "喔不錯,你目前喜歡這裡嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Yeah, mostly! The food scene is amazing. Anyway, I should grab a drink. Talk later?"
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Sure, sounds good. Catch up with you later!",
+          "hint_zh": "好啊沒問題,等等再聊!"
+        }
+      ]
+    }
+  ]
+}

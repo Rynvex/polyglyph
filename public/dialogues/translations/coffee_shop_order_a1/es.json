@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "coffee_shop_order_a1",
+  "language": "es",
+  "title": "Un café, por favor",
+  "description": "Pedir un café en una cafetería. Intercambio sencillo de nivel A1 — saludo, pedido, tamaño y pago.",
+  "characters": {
+    "bot": { "name": "Lucía", "voice": "es-ES-ElviraNeural" },
+    "player": { "name": "Tú" }
+  },
+  "turns": {
+    "t1": { "text": "¡Hola! ¿Qué le puedo servir?" },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "display": "Hola. ¿Puedo pedir un café, por favor?",
+          "hint_zh": "你好，我可以點一杯咖啡嗎？"
+        }
+      ]
+    },
+    "t3": { "text": "¡Claro! ¿Qué tamaño quiere? Pequeño, mediano o grande." },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "display": "Mediano, por favor.",
+          "hint_zh": "中杯，麻煩你。"
+        }
+      ]
+    },
+    "t5": { "text": "Muy bien. ¿Desea algo más?" },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "display": "No, eso es todo. Gracias.",
+          "hint_zh": "不用了，就這樣。謝謝。"
+        }
+      ]
+    },
+    "t7": { "text": "Son tres con cincuenta. Aquí tiene su café. ¡Que lo disfrute!" },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "display": "Gracias. ¡Que tenga un buen día!",
+          "hint_zh": "謝謝，祝你有美好的一天！"
+        }
+      ]
+    }
+  }
+}

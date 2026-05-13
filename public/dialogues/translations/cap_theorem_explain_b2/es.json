@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "cap_theorem_explain_b2",
+  "language": "es",
+  "title": "CAP en cinco minutos",
+  "description": "Un senior te pide explicar CAP a una PM no tecnica. Hazle ver los trade-offs sin sobrecargar de jerga.",
+  "characters": {
+    "bot": {
+      "name": "Senior",
+      "voice": "es-ES-AlvaroNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "La nueva PM se incorpora manana. Le explicas CAP sin asustarla?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Claro. Version corta: en una BBDD distribuida solo puedes tener dos de las tres garantias.",
+          "hint_zh": "好,簡單版:分散式資料庫只能同時保住三個保證裡的兩個。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Cuales son las tres?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Consistencia, disponibilidad y tolerancia a particiones. Las particiones son inevitables, asi que eliges entre C y A.",
+          "hint_zh": "一致性、可用性、分區容錯。網路分區不可避免,所以實質是在 C 跟 A 之間二選一。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Vale. Dame un ejemplo concreto de cada lado."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "El libro mayor de un banco va a CP, prefiere parar antes que mostrar saldos malos. El feed social va a AP, sigue arriba aunque muestre datos viejos.",
+          "hint_zh": "銀行帳本選 CP,寧可停服務也不顯示錯誤餘額;社群動態選 AP,寧可顯示舊資料也要持續可用。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Y la consistencia eventual donde encaja?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Es el termino medio practico. La mayoria de los sistemas no son CP ni AP puros. Se sincronizan con retraso.",
+          "hint_zh": "務實的中間值,大多數現實系統不是純 CP 或純 AP,而是稍後同步補上。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Una mas: la C de CAP y la C de ACID son lo mismo?"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Bichos distintos. La C de CAP es que los nodos esten de acuerdo. La C de ACID es que la transaccion deje la BBDD en estado valido.",
+          "hint_zh": "不一樣。CAP 的 C 講節點之間達成共識,ACID 的 C 講交易結束後資料庫仍處於有效狀態。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Genial, justo el nivel que queria. Le mandas una hojita antes de manana?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Hecho. Una pagina como mucho y enlazo lo profundo.",
+          "hint_zh": "沒問題,我會控制在一頁內,深入的文件用連結帶。"
+        }
+      ]
+    }
+  }
+}

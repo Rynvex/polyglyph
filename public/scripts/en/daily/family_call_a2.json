@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "en.family_call.a2",
+  "language": "en",
+  "level": "A2",
+  "topic": "daily",
+  "title": "Sunday Call to Mom",
+  "description": "A short weekly call home — how's the week, the weather, what's for dinner.",
+  "estimated_minutes": 3,
+  "tags": ["family", "casual"],
+  "characters": {
+    "bot": { "name": "Mom", "voice": "en-US-AriaNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Hi sweetheart! How's your week been?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Pretty busy, but I'm doing okay. How about you guys?", "hint_zh": "蠻忙的,但還好。你們呢?" }] },
+    { "id": "t3", "speaker": "bot", "text": "Same as always. Dad's in the garden, I'm cooking." },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "What are you making? Anything good?", "hint_zh": "你在煮什麼?有好料嗎?" }] },
+    { "id": "t5", "speaker": "bot", "text": "Just chicken soup. Easy day in the kitchen." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "I miss your soup. The one I make never tastes the same.", "hint_zh": "好懷念你煮的湯,我自己做的味道不一樣。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Come visit and I'll teach you. The trick is taking your time." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "I'll plan a weekend soon. Tell Dad I said hi.", "hint_zh": "我安排個週末過去。跟爸說我問好。" }] },
+    { "id": "t9", "speaker": "bot", "text": "Will do. Take care, eat well!" },
+    { "id": "t10", "speaker": "player", "templates": [{ "id": "t10.0", "text": "You too, Mom. Talk soon.", "hint_zh": "你也是,媽。再聊。" }] }
+  ]
+}

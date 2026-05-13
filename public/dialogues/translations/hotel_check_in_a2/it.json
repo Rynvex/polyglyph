@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "hotel_check_in_a2",
+  "language": "it",
+  "title": "Check-in in hotel",
+  "description": "Fai il check-in in camera e chiedi informazioni sui servizi.",
+  "characters": {
+    "bot": {
+      "name": "Concierge",
+      "voice": "it-IT-ElsaNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Buonasera, benvenuto al Grand Bayview. Si sta registrando?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Si, ho una prenotazione a nome Lee.",
+          "hint_zh": "是的,我用 Lee 這個名字訂了房。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "La cerco subito. Posso vedere il passaporto, per favore?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Certo, eccolo.",
+          "hint_zh": "沒問題,給你。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Grazie. Camera king deluxe per tre notti, esatto?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Esatto. Sarebbe possibile una camera ai piani alti?",
+          "hint_zh": "沒錯。可以幫我安排比較高樓層的房間嗎?"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Vediamo. Si, le posso assegnare una camera al diciassettesimo piano con vista mare."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Fantastico, grazie. A che ora e' la colazione?",
+          "hint_zh": "聽起來太棒了,謝謝。早餐幾點開始?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Colazione dalle sei e mezza alle dieci, al secondo piano. La piscina e' sul tetto."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Perfetto. Posso usare la palestra stasera?",
+          "hint_zh": "好的。今天晚上可以使用健身房嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Si, la palestra e' aperta ventiquattro ore. La chiave della camera la apre automaticamente."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Perfetto. Un'ultima cosa, il wifi nelle camere e' gratis?",
+          "hint_zh": "太好了。最後一個問題--房間裡的網路是免費的嗎?"
+        }
+      ]
+    },
+    "t13": {
+      "text": "Si, il nome della rete e' su questa scheda e la password e' il numero della camera."
+    },
+    "t14": {
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Grazie mille. Buona serata!",
+          "hint_zh": "非常感謝,祝你今晚愉快!"
+        }
+      ]
+    }
+  }
+}

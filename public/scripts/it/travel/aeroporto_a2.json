@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "it.aeroporto.a2",
+  "language": "it",
+  "level": "A2",
+  "topic": "travel",
+  "title": "All'aeroporto",
+  "description": "Check in for a flight at an Italian airport.",
+  "estimated_minutes": 3,
+  "tags": ["airport", "service"],
+  "characters": {
+    "bot": { "name": "Agente", "voice": "it-IT-IsabellaNeural" },
+    "player": { "name": "Tu" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Buongiorno. Passaporto e biglietto, per favore." },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Ecco a lei, grazie.", "hint_zh": "在這裡,謝謝。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Quante valigie imbarca?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Solo una valigia.", "hint_zh": "只有一個行李箱。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Posto finestrino o corridoio?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Finestrino, grazie.", "hint_zh": "靠窗,謝謝。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Ecco la carta d'imbarco. Buon viaggio." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Grazie mille, arrivederci.", "hint_zh": "非常謝謝,再見。" }] }
+  ]
+}

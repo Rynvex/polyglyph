@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "weather_a1",
+  "title": "Weather & Sky",
+  "cefr": "A1",
+  "description": "Sun, rain, snow, and the words you need to talk about a window's view.",
+  "estimated_minutes": 4,
+  "conceptIds": [
+    "sun",
+    "rain",
+    "snow",
+    "wind",
+    "cloud",
+    "storm",
+    "fog",
+    "rainbow",
+    "lightning",
+    "moon"
+  ]
+}

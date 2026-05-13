@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "restaurant_dinner_b1",
+  "language": "it",
+  "title": "Cena con la cameriera",
+  "description": "Ordini una cena completa — bevande, antipasto, primo — e a fine pasto dividete il conto.",
+  "characters": {
+    "bot": {
+      "name": "Cameriera",
+      "voice": "it-IT-ElsaNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Buonasera, benvenuti. Iniziamo con qualcosa da bere?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Si, una bottiglia di acqua frizzante e un calice di vino rosso, grazie.",
+          "hint_zh": "好的,可以給我們一瓶氣泡水跟一杯紅酒嗎?"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Certo, ha preferenze sul rosso? Stasera abbiamo un ottimo Malbec al calice."
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Il Malbec sembra ottimo. Prendo quello.",
+          "hint_zh": "Malbec 聽起來不錯,我點那個。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Ottima scelta. Avete dato un'occhiata al menu o vi serve ancora un attimo?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Siamo pronti. Come antipasto condividiamo la burrata.",
+          "hint_zh": "我們其實已經想好了,前菜想分一份布拉塔起司。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Eccellente, la burrata e' una delle nostre preferite. E come secondo?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Io prendo il salmone, e mi dice cosa c'e' nel risotto di oggi?",
+          "hint_zh": "我要鮭魚,可以說一下今天的燉飯有什麼食材嗎?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Stasera il risotto e' ai funghi porcini con olio al tartufo e parmigiano, completato con erba cipollina."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Sembra delizioso. Lo prendiamo come secondo piatto.",
+          "hint_zh": "聽起來很棒,我們第二個主菜要那個。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Perfetto. Allergie da segnalare alla cucina?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Niente allergie, ma il mio amico non mangia crostacei, se puo' avvisare.",
+          "hint_zh": "沒有過敏,但麻煩告知我朋友不吃帶殼海鮮。"
+        }
+      ]
+    },
+    "t13": {
+      "text": "Lo riferisco. Torno subito con le bevande."
+    },
+    "t14": {
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Bene, grazie. Alla fine possiamo avere il conto separato?",
+          "hint_zh": "好的,謝謝。等等吃完可以幫我們分開結帳嗎?"
+        }
+      ]
+    },
+    "t15": {
+      "text": "Certo, mi dica come dividerlo quando saremo al conto."
+    },
+    "t16": {
+      "templates": [
+        {
+          "id": "t16.0",
+          "text": "Perfetto. Grazie mille dell'aiuto.",
+          "hint_zh": "太好了,真的謝謝你。"
+        }
+      ]
+    }
+  }
+}

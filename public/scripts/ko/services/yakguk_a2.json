@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ko.yakguk.a2",
+  "language": "ko",
+  "level": "A2",
+  "topic": "services",
+  "title": "약국에서",
+  "description": "Pick up medicine at a Korean pharmacy. Type Revised Romanization; cells render Hangul.",
+  "estimated_minutes": 3,
+  "tags": ["health", "service"],
+  "characters": {
+    "bot": { "name": "약사", "voice": "ko-KR-SunHiNeural" },
+    "player": { "name": "당신" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "어디가 안 좋으세요?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "머리가아파요", "display": "머리가 아파요.", "hint_zh": "meoriga apayo — 頭痛。" }] },
+    { "id": "t3", "speaker": "bot", "text": "열은 있어요?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "없어요", "display": "없어요.", "hint_zh": "eopseoyo — 沒有。" }] },
+    { "id": "t5", "speaker": "bot", "text": "이 약 드세요." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "감사합니다", "display": "감사합니다.", "hint_zh": "gamsahapnida — 謝謝。" }] }
+  ]
+}

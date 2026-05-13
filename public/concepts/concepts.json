@@ -1,0 +1,4977 @@
+{
+  "schema_version": 1,
+  "concepts": [
+    {
+      "id": "apple",
+      "emoji": "🍎",
+      "category": "food.fruit",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍎"
+      }
+    },
+    {
+      "id": "banana",
+      "emoji": "🍌",
+      "category": "food.fruit",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍌"
+      }
+    },
+    {
+      "id": "bread",
+      "emoji": "🍞",
+      "category": "food.staple",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍞"
+      }
+    },
+    {
+      "id": "cheese",
+      "emoji": "🧀",
+      "category": "food.dairy",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🧀"
+      }
+    },
+    {
+      "id": "egg",
+      "emoji": "🥚",
+      "category": "food.staple",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🥚"
+      }
+    },
+    {
+      "id": "fish",
+      "emoji": "🐟",
+      "category": "food.protein",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🐟"
+      }
+    },
+    {
+      "id": "chicken",
+      "emoji": "🍗",
+      "category": "food.protein",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍗"
+      }
+    },
+    {
+      "id": "rice",
+      "emoji": "🍚",
+      "category": "food.staple",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍚"
+      }
+    },
+    {
+      "id": "soup",
+      "emoji": "🍲",
+      "category": "food.dish",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍲"
+      }
+    },
+    {
+      "id": "salad",
+      "emoji": "🥗",
+      "category": "food.dish",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🥗"
+      }
+    },
+    {
+      "id": "water",
+      "emoji": "💧",
+      "category": "food.drink",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "💧"
+      }
+    },
+    {
+      "id": "coffee",
+      "emoji": "☕",
+      "category": "food.drink",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "☕"
+      }
+    },
+    {
+      "id": "tea",
+      "emoji": "🍵",
+      "category": "food.drink",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍵"
+      }
+    },
+    {
+      "id": "milk",
+      "emoji": "🥛",
+      "category": "food.drink",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🥛"
+      }
+    },
+    {
+      "id": "juice",
+      "emoji": "🧃",
+      "category": "food.drink",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🧃"
+      }
+    },
+    {
+      "id": "wine",
+      "emoji": "🍷",
+      "category": "food.drink",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍷"
+      }
+    },
+    {
+      "id": "knife",
+      "emoji": "🔪",
+      "category": "kitchen.tool",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🔪"
+      }
+    },
+    {
+      "id": "fork",
+      "emoji": "🍴",
+      "category": "kitchen.tool",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍴"
+      }
+    },
+    {
+      "id": "spoon",
+      "emoji": "🥄",
+      "category": "kitchen.tool",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🥄"
+      }
+    },
+    {
+      "id": "plate",
+      "emoji": "🍽",
+      "category": "kitchen.tool",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍽"
+      }
+    },
+    {
+      "id": "cup",
+      "emoji": "🥤",
+      "category": "kitchen.tool",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🥤"
+      }
+    },
+    {
+      "id": "bottle",
+      "emoji": "🍾",
+      "category": "kitchen.tool",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍾"
+      }
+    },
+    {
+      "id": "pot",
+      "emoji": "🍳",
+      "category": "kitchen.tool",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍳"
+      }
+    },
+    {
+      "id": "fridge",
+      "emoji": "🧊",
+      "category": "kitchen.appliance",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🧊"
+      }
+    },
+    {
+      "id": "stove",
+      "emoji": "🔥",
+      "category": "kitchen.appliance",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🔥"
+      }
+    },
+    {
+      "id": "oven",
+      "emoji": "🥧",
+      "category": "kitchen.appliance",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🥧"
+      }
+    },
+    {
+      "id": "table",
+      "emoji": "🪑",
+      "category": "kitchen.furniture",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🪑"
+      }
+    },
+    {
+      "id": "chair",
+      "emoji": "💺",
+      "category": "kitchen.furniture",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "💺"
+      }
+    },
+    {
+      "id": "salt",
+      "emoji": "🧂",
+      "category": "kitchen.seasoning",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🧂"
+      }
+    },
+    {
+      "id": "pepper",
+      "emoji": "🌶",
+      "category": "kitchen.seasoning",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌶"
+      }
+    },
+    {
+      "id": "sugar",
+      "emoji": "🍬",
+      "category": "kitchen.seasoning",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🍬"
+      }
+    },
+    {
+      "id": "butter",
+      "emoji": "🧈",
+      "category": "kitchen.dairy",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🧈"
+      }
+    },
+    {
+      "id": "head",
+      "emoji": "🧠",
+      "category": "body.upper",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🧠"
+      }
+    },
+    {
+      "id": "eye",
+      "emoji": "👁",
+      "category": "body.face",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👁"
+      }
+    },
+    {
+      "id": "ear",
+      "emoji": "👂",
+      "category": "body.face",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👂"
+      }
+    },
+    {
+      "id": "nose",
+      "emoji": "👃",
+      "category": "body.face",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👃"
+      }
+    },
+    {
+      "id": "mouth",
+      "emoji": "👄",
+      "category": "body.face",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👄"
+      }
+    },
+    {
+      "id": "tooth",
+      "emoji": "🦷",
+      "category": "body.face",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🦷"
+      }
+    },
+    {
+      "id": "hand",
+      "emoji": "✋",
+      "category": "body.upper",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "✋"
+      }
+    },
+    {
+      "id": "arm",
+      "emoji": "💪",
+      "category": "body.upper",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "💪"
+      }
+    },
+    {
+      "id": "leg",
+      "emoji": "🦵",
+      "category": "body.lower",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🦵"
+      }
+    },
+    {
+      "id": "foot",
+      "emoji": "🦶",
+      "category": "body.lower",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🦶"
+      }
+    },
+    {
+      "id": "heart",
+      "emoji": "❤",
+      "category": "body.organ",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "❤"
+      }
+    },
+    {
+      "id": "hair",
+      "emoji": "💇",
+      "category": "body.upper",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "💇"
+      }
+    },
+    {
+      "id": "finger",
+      "emoji": "👆",
+      "category": "body.upper",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👆"
+      }
+    },
+    {
+      "id": "knee",
+      "emoji": "🦵",
+      "category": "body.lower",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🦵"
+      }
+    },
+    {
+      "id": "shoulder",
+      "emoji": "🤷",
+      "category": "body.upper",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🤷"
+      }
+    },
+    {
+      "id": "back",
+      "emoji": "🔙",
+      "category": "body.upper",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🔙"
+      }
+    },
+    {
+      "id": "one",
+      "emoji": "1️⃣",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "1️⃣"
+      }
+    },
+    {
+      "id": "two",
+      "emoji": "2️⃣",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "2️⃣"
+      }
+    },
+    {
+      "id": "three",
+      "emoji": "3️⃣",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "3️⃣"
+      }
+    },
+    {
+      "id": "four",
+      "emoji": "4️⃣",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "4️⃣"
+      }
+    },
+    {
+      "id": "five",
+      "emoji": "5️⃣",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "5️⃣"
+      }
+    },
+    {
+      "id": "six",
+      "emoji": "6️⃣",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "6️⃣"
+      }
+    },
+    {
+      "id": "seven",
+      "emoji": "7️⃣",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "7️⃣"
+      }
+    },
+    {
+      "id": "eight",
+      "emoji": "8️⃣",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "8️⃣"
+      }
+    },
+    {
+      "id": "nine",
+      "emoji": "9️⃣",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "9️⃣"
+      }
+    },
+    {
+      "id": "ten",
+      "emoji": "🔟",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🔟"
+      }
+    },
+    {
+      "id": "twenty",
+      "emoji": "🔢",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🔢"
+      }
+    },
+    {
+      "id": "fifty",
+      "emoji": "🔢",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🔢"
+      }
+    },
+    {
+      "id": "hundred",
+      "emoji": "💯",
+      "category": "number.cardinal",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "💯"
+      }
+    },
+    {
+      "id": "thousand",
+      "emoji": "🔢",
+      "category": "number.cardinal",
+      "cefr": "A2",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🔢"
+      }
+    },
+    {
+      "id": "first",
+      "emoji": "🥇",
+      "category": "number.ordinal",
+      "cefr": "A1",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🥇"
+      }
+    },
+    {
+      "id": "second",
+      "emoji": "🥈",
+      "category": "number.ordinal",
+      "cefr": "A1",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🥈"
+      }
+    },
+    {
+      "id": "key",
+      "emoji": "🔑",
+      "category": "object.daily",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🔑"
+      }
+    },
+    {
+      "id": "phone",
+      "emoji": "📱",
+      "category": "object.tech",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "📱"
+      }
+    },
+    {
+      "id": "book",
+      "emoji": "📕",
+      "category": "object.daily",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "📕"
+      }
+    },
+    {
+      "id": "pen",
+      "emoji": "🖊",
+      "category": "object.daily",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🖊"
+      }
+    },
+    {
+      "id": "bag",
+      "emoji": "👜",
+      "category": "object.daily",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👜"
+      }
+    },
+    {
+      "id": "umbrella",
+      "emoji": "☂",
+      "category": "object.daily",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "☂"
+      }
+    },
+    {
+      "id": "watch",
+      "emoji": "⌚",
+      "category": "object.daily",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "⌚"
+      }
+    },
+    {
+      "id": "wallet",
+      "emoji": "👛",
+      "category": "object.daily",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👛"
+      }
+    },
+    {
+      "id": "money",
+      "emoji": "💰",
+      "category": "object.daily",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "💰"
+      }
+    },
+    {
+      "id": "ticket",
+      "emoji": "🎫",
+      "category": "object.travel",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🎫"
+      }
+    },
+    {
+      "id": "passport",
+      "emoji": "🛂",
+      "category": "object.travel",
+      "cefr": "A2",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🛂"
+      }
+    },
+    {
+      "id": "computer",
+      "emoji": "💻",
+      "category": "object.tech",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "💻"
+      }
+    },
+    {
+      "id": "camera",
+      "emoji": "📷",
+      "category": "object.tech",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "📷"
+      }
+    },
+    {
+      "id": "door",
+      "emoji": "🚪",
+      "category": "object.home",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🚪"
+      }
+    },
+    {
+      "id": "window",
+      "emoji": "🪟",
+      "category": "object.home",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🪟"
+      }
+    },
+    {
+      "id": "key_card",
+      "emoji": "💳",
+      "category": "object.daily",
+      "cefr": "A2",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "💳"
+      }
+    },
+    {
+      "id": "airport",
+      "emoji": "✈",
+      "category": "place.travel",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "✈"
+      }
+    },
+    {
+      "id": "hotel",
+      "emoji": "🏨",
+      "category": "place.travel",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🏨"
+      }
+    },
+    {
+      "id": "station",
+      "emoji": "🚉",
+      "category": "place.travel",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🚉"
+      }
+    },
+    {
+      "id": "city",
+      "emoji": "🏙",
+      "category": "place.geography",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🏙"
+      }
+    },
+    {
+      "id": "country",
+      "emoji": "🌍",
+      "category": "place.geography",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌍"
+      }
+    },
+    {
+      "id": "beach",
+      "emoji": "🏖",
+      "category": "place.nature",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🏖"
+      }
+    },
+    {
+      "id": "mountain",
+      "emoji": "⛰",
+      "category": "place.nature",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "⛰"
+      }
+    },
+    {
+      "id": "hospital",
+      "emoji": "🏥",
+      "category": "place.urban",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🏥"
+      }
+    },
+    {
+      "id": "park",
+      "emoji": "🌳",
+      "category": "place.urban",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌳"
+      }
+    },
+    {
+      "id": "museum",
+      "emoji": "🏛",
+      "category": "place.urban",
+      "cefr": "A2",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🏛"
+      }
+    },
+    {
+      "id": "sun",
+      "emoji": "☀",
+      "category": "weather.sky",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "☀"
+      }
+    },
+    {
+      "id": "rain",
+      "emoji": "🌧",
+      "category": "weather.precip",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌧"
+      }
+    },
+    {
+      "id": "snow",
+      "emoji": "❄",
+      "category": "weather.precip",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "❄"
+      }
+    },
+    {
+      "id": "wind",
+      "emoji": "🌬",
+      "category": "weather.air",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌬"
+      }
+    },
+    {
+      "id": "cloud",
+      "emoji": "☁",
+      "category": "weather.sky",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "☁"
+      }
+    },
+    {
+      "id": "storm",
+      "emoji": "⛈",
+      "category": "weather.severe",
+      "cefr": "A2",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "⛈"
+      }
+    },
+    {
+      "id": "fog",
+      "emoji": "🌫",
+      "category": "weather.air",
+      "cefr": "A2",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌫"
+      }
+    },
+    {
+      "id": "rainbow",
+      "emoji": "🌈",
+      "category": "weather.sky",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌈"
+      }
+    },
+    {
+      "id": "lightning",
+      "emoji": "⚡",
+      "category": "weather.severe",
+      "cefr": "A2",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "⚡"
+      }
+    },
+    {
+      "id": "moon",
+      "emoji": "🌙",
+      "category": "weather.sky",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌙"
+      }
+    },
+    {
+      "id": "mother",
+      "emoji": "👩",
+      "category": "family.parent",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👩"
+      }
+    },
+    {
+      "id": "father",
+      "emoji": "👨",
+      "category": "family.parent",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👨"
+      }
+    },
+    {
+      "id": "sister",
+      "emoji": "👧",
+      "category": "family.sibling",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👧"
+      }
+    },
+    {
+      "id": "brother",
+      "emoji": "👦",
+      "category": "family.sibling",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👦"
+      }
+    },
+    {
+      "id": "friend",
+      "emoji": "👫",
+      "category": "family.social",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👫"
+      }
+    },
+    {
+      "id": "baby",
+      "emoji": "👶",
+      "category": "family.child",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👶"
+      }
+    },
+    {
+      "id": "child",
+      "emoji": "🧒",
+      "category": "family.child",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🧒"
+      }
+    },
+    {
+      "id": "family",
+      "emoji": "👪",
+      "category": "family.unit",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👪"
+      }
+    },
+    {
+      "id": "grandfather",
+      "emoji": "👴",
+      "category": "family.grandparent",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👴"
+      }
+    },
+    {
+      "id": "grandmother",
+      "emoji": "👵",
+      "category": "family.grandparent",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "👵"
+      }
+    },
+    {
+      "id": "happy",
+      "emoji": "😊",
+      "category": "emotion.positive",
+      "cefr": "A1",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "😊"
+      }
+    },
+    {
+      "id": "sad",
+      "emoji": "😢",
+      "category": "emotion.negative",
+      "cefr": "A1",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "😢"
+      }
+    },
+    {
+      "id": "angry",
+      "emoji": "😠",
+      "category": "emotion.negative",
+      "cefr": "A1",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "😠"
+      }
+    },
+    {
+      "id": "tired",
+      "emoji": "😴",
+      "category": "emotion.physical",
+      "cefr": "A1",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "😴"
+      }
+    },
+    {
+      "id": "scared",
+      "emoji": "😨",
+      "category": "emotion.negative",
+      "cefr": "A1",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "😨"
+      }
+    },
+    {
+      "id": "surprised",
+      "emoji": "😮",
+      "category": "emotion.neutral",
+      "cefr": "A1",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "😮"
+      }
+    },
+    {
+      "id": "calm",
+      "emoji": "😌",
+      "category": "emotion.positive",
+      "cefr": "A2",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "😌"
+      }
+    },
+    {
+      "id": "excited",
+      "emoji": "🤩",
+      "category": "emotion.positive",
+      "cefr": "A2",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🤩"
+      }
+    },
+    {
+      "id": "bored",
+      "emoji": "😑",
+      "category": "emotion.negative",
+      "cefr": "A1",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "😑"
+      }
+    },
+    {
+      "id": "nervous",
+      "emoji": "😬",
+      "category": "emotion.negative",
+      "cefr": "A2",
+      "kind": "adjective",
+      "visual": {
+        "kind": "emoji",
+        "asset": "😬"
+      }
+    },
+    {
+      "id": "day",
+      "emoji": "📅",
+      "category": "time.unit",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "📅"
+      }
+    },
+    {
+      "id": "night",
+      "emoji": "🌃",
+      "category": "time.period",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌃"
+      }
+    },
+    {
+      "id": "morning",
+      "emoji": "🌅",
+      "category": "time.period",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌅"
+      }
+    },
+    {
+      "id": "evening",
+      "emoji": "🌆",
+      "category": "time.period",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🌆"
+      }
+    },
+    {
+      "id": "today",
+      "emoji": "📆",
+      "category": "time.relative",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "📆"
+      }
+    },
+    {
+      "id": "tomorrow",
+      "emoji": "⏭",
+      "category": "time.relative",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "⏭"
+      }
+    },
+    {
+      "id": "yesterday",
+      "emoji": "⏮",
+      "category": "time.relative",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "⏮"
+      }
+    },
+    {
+      "id": "hour",
+      "emoji": "⏰",
+      "category": "time.unit",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "⏰"
+      }
+    },
+    {
+      "id": "minute",
+      "emoji": "⏱",
+      "category": "time.unit",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "⏱"
+      }
+    },
+    {
+      "id": "week",
+      "emoji": "🗓",
+      "category": "time.unit",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🗓"
+      }
+    },
+    {
+      "id": "car",
+      "emoji": "🚗",
+      "category": "transport.land",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🚗"
+      }
+    },
+    {
+      "id": "bus",
+      "emoji": "🚌",
+      "category": "transport.land",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🚌"
+      }
+    },
+    {
+      "id": "train",
+      "emoji": "🚆",
+      "category": "transport.land",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🚆"
+      }
+    },
+    {
+      "id": "plane",
+      "emoji": "🛫",
+      "category": "transport.air",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🛫"
+      }
+    },
+    {
+      "id": "bike",
+      "emoji": "🚲",
+      "category": "transport.land",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🚲"
+      }
+    },
+    {
+      "id": "taxi",
+      "emoji": "🚕",
+      "category": "transport.land",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🚕"
+      }
+    },
+    {
+      "id": "boat",
+      "emoji": "⛵",
+      "category": "transport.water",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "⛵"
+      }
+    },
+    {
+      "id": "road",
+      "emoji": "🛣",
+      "category": "transport.infra",
+      "cefr": "A1",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🛣"
+      }
+    },
+    {
+      "id": "motorcycle",
+      "emoji": "🏍",
+      "category": "transport.land",
+      "cefr": "A2",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🏍"
+      }
+    },
+    {
+      "id": "subway",
+      "emoji": "🚇",
+      "category": "transport.land",
+      "cefr": "A2",
+      "kind": "noun",
+      "visual": {
+        "kind": "emoji",
+        "asset": "🚇"
+      }
+    },
+    {
+      "id": "hira_a",
+      "emoji": "あ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "あ"
+      }
+    },
+    {
+      "id": "hira_i",
+      "emoji": "い",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "い"
+      }
+    },
+    {
+      "id": "hira_u",
+      "emoji": "う",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "う"
+      }
+    },
+    {
+      "id": "hira_e",
+      "emoji": "え",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "え"
+      }
+    },
+    {
+      "id": "hira_o",
+      "emoji": "お",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "お"
+      }
+    },
+    {
+      "id": "hira_ka",
+      "emoji": "か",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "か"
+      }
+    },
+    {
+      "id": "hira_ki",
+      "emoji": "き",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "き"
+      }
+    },
+    {
+      "id": "hira_ku",
+      "emoji": "く",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "く"
+      }
+    },
+    {
+      "id": "hira_ke",
+      "emoji": "け",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "け"
+      }
+    },
+    {
+      "id": "hira_ko",
+      "emoji": "こ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "こ"
+      }
+    },
+    {
+      "id": "hira_sa",
+      "emoji": "さ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "さ"
+      }
+    },
+    {
+      "id": "hira_shi",
+      "emoji": "し",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "し"
+      }
+    },
+    {
+      "id": "hira_su",
+      "emoji": "す",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "す"
+      }
+    },
+    {
+      "id": "hira_se",
+      "emoji": "せ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "せ"
+      }
+    },
+    {
+      "id": "hira_so",
+      "emoji": "そ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "そ"
+      }
+    },
+    {
+      "id": "hira_ta",
+      "emoji": "た",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "た"
+      }
+    },
+    {
+      "id": "hira_chi",
+      "emoji": "ち",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ち"
+      }
+    },
+    {
+      "id": "hira_tsu",
+      "emoji": "つ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "つ"
+      }
+    },
+    {
+      "id": "hira_te",
+      "emoji": "て",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "て"
+      }
+    },
+    {
+      "id": "hira_to",
+      "emoji": "と",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "と"
+      }
+    },
+    {
+      "id": "hira_na",
+      "emoji": "な",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "な"
+      }
+    },
+    {
+      "id": "hira_ni",
+      "emoji": "に",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "に"
+      }
+    },
+    {
+      "id": "hira_nu",
+      "emoji": "ぬ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぬ"
+      }
+    },
+    {
+      "id": "hira_ne",
+      "emoji": "ね",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ね"
+      }
+    },
+    {
+      "id": "hira_no",
+      "emoji": "の",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "の"
+      }
+    },
+    {
+      "id": "hira_ha",
+      "emoji": "は",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "は"
+      }
+    },
+    {
+      "id": "hira_hi",
+      "emoji": "ひ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ひ"
+      }
+    },
+    {
+      "id": "hira_fu",
+      "emoji": "ふ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ふ"
+      }
+    },
+    {
+      "id": "hira_he",
+      "emoji": "へ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "へ"
+      }
+    },
+    {
+      "id": "hira_ho",
+      "emoji": "ほ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ほ"
+      }
+    },
+    {
+      "id": "hira_ma",
+      "emoji": "ま",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ま"
+      }
+    },
+    {
+      "id": "hira_mi",
+      "emoji": "み",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "み"
+      }
+    },
+    {
+      "id": "hira_mu",
+      "emoji": "む",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "む"
+      }
+    },
+    {
+      "id": "hira_me",
+      "emoji": "め",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "め"
+      }
+    },
+    {
+      "id": "hira_mo",
+      "emoji": "も",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "も"
+      }
+    },
+    {
+      "id": "hira_ya",
+      "emoji": "や",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "や"
+      }
+    },
+    {
+      "id": "hira_yu",
+      "emoji": "ゆ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ゆ"
+      }
+    },
+    {
+      "id": "hira_yo",
+      "emoji": "よ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "よ"
+      }
+    },
+    {
+      "id": "hira_ra",
+      "emoji": "ら",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ら"
+      }
+    },
+    {
+      "id": "hira_ri",
+      "emoji": "り",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "り"
+      }
+    },
+    {
+      "id": "hira_ru",
+      "emoji": "る",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "る"
+      }
+    },
+    {
+      "id": "hira_re",
+      "emoji": "れ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "れ"
+      }
+    },
+    {
+      "id": "hira_ro",
+      "emoji": "ろ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ろ"
+      }
+    },
+    {
+      "id": "hira_wa",
+      "emoji": "わ",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "わ"
+      }
+    },
+    {
+      "id": "hira_wo",
+      "emoji": "を",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "を"
+      }
+    },
+    {
+      "id": "hira_n",
+      "emoji": "ん",
+      "category": "alphabet.hiragana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ん"
+      }
+    },
+    {
+      "id": "hira_ga",
+      "emoji": "が",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "が"
+      }
+    },
+    {
+      "id": "hira_gi",
+      "emoji": "ぎ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぎ"
+      }
+    },
+    {
+      "id": "hira_gu",
+      "emoji": "ぐ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぐ"
+      }
+    },
+    {
+      "id": "hira_ge",
+      "emoji": "げ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "げ"
+      }
+    },
+    {
+      "id": "hira_go",
+      "emoji": "ご",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ご"
+      }
+    },
+    {
+      "id": "hira_za",
+      "emoji": "ざ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ざ"
+      }
+    },
+    {
+      "id": "hira_ji",
+      "emoji": "じ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "じ"
+      }
+    },
+    {
+      "id": "hira_zu",
+      "emoji": "ず",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ず"
+      }
+    },
+    {
+      "id": "hira_ze",
+      "emoji": "ぜ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぜ"
+      }
+    },
+    {
+      "id": "hira_zo",
+      "emoji": "ぞ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぞ"
+      }
+    },
+    {
+      "id": "hira_da",
+      "emoji": "だ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "だ"
+      }
+    },
+    {
+      "id": "hira_di",
+      "emoji": "ぢ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぢ"
+      }
+    },
+    {
+      "id": "hira_du",
+      "emoji": "づ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "づ"
+      }
+    },
+    {
+      "id": "hira_de",
+      "emoji": "で",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "で"
+      }
+    },
+    {
+      "id": "hira_do",
+      "emoji": "ど",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ど"
+      }
+    },
+    {
+      "id": "hira_ba",
+      "emoji": "ば",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ば"
+      }
+    },
+    {
+      "id": "hira_bi",
+      "emoji": "び",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "び"
+      }
+    },
+    {
+      "id": "hira_bu",
+      "emoji": "ぶ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぶ"
+      }
+    },
+    {
+      "id": "hira_be",
+      "emoji": "べ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "べ"
+      }
+    },
+    {
+      "id": "hira_bo",
+      "emoji": "ぼ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぼ"
+      }
+    },
+    {
+      "id": "hira_pa",
+      "emoji": "ぱ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぱ"
+      }
+    },
+    {
+      "id": "hira_pi",
+      "emoji": "ぴ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぴ"
+      }
+    },
+    {
+      "id": "hira_pu",
+      "emoji": "ぷ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぷ"
+      }
+    },
+    {
+      "id": "hira_pe",
+      "emoji": "ぺ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぺ"
+      }
+    },
+    {
+      "id": "hira_po",
+      "emoji": "ぽ",
+      "category": "alphabet.hiragana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぽ"
+      }
+    },
+    {
+      "id": "hira_kya",
+      "emoji": "きゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "きゃ"
+      }
+    },
+    {
+      "id": "hira_kyu",
+      "emoji": "きゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "きゅ"
+      }
+    },
+    {
+      "id": "hira_kyo",
+      "emoji": "きょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "きょ"
+      }
+    },
+    {
+      "id": "hira_sha",
+      "emoji": "しゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "しゃ"
+      }
+    },
+    {
+      "id": "hira_shu",
+      "emoji": "しゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "しゅ"
+      }
+    },
+    {
+      "id": "hira_sho",
+      "emoji": "しょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "しょ"
+      }
+    },
+    {
+      "id": "hira_cha",
+      "emoji": "ちゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ちゃ"
+      }
+    },
+    {
+      "id": "hira_chu",
+      "emoji": "ちゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ちゅ"
+      }
+    },
+    {
+      "id": "hira_cho",
+      "emoji": "ちょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ちょ"
+      }
+    },
+    {
+      "id": "hira_nya",
+      "emoji": "にゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "にゃ"
+      }
+    },
+    {
+      "id": "hira_nyu",
+      "emoji": "にゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "にゅ"
+      }
+    },
+    {
+      "id": "hira_nyo",
+      "emoji": "にょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "にょ"
+      }
+    },
+    {
+      "id": "hira_hya",
+      "emoji": "ひゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ひゃ"
+      }
+    },
+    {
+      "id": "hira_hyu",
+      "emoji": "ひゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ひゅ"
+      }
+    },
+    {
+      "id": "hira_hyo",
+      "emoji": "ひょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ひょ"
+      }
+    },
+    {
+      "id": "hira_mya",
+      "emoji": "みゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "みゃ"
+      }
+    },
+    {
+      "id": "hira_myu",
+      "emoji": "みゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "みゅ"
+      }
+    },
+    {
+      "id": "hira_myo",
+      "emoji": "みょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "みょ"
+      }
+    },
+    {
+      "id": "hira_rya",
+      "emoji": "りゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "りゃ"
+      }
+    },
+    {
+      "id": "hira_ryu",
+      "emoji": "りゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "りゅ"
+      }
+    },
+    {
+      "id": "hira_ryo",
+      "emoji": "りょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "りょ"
+      }
+    },
+    {
+      "id": "hira_gya",
+      "emoji": "ぎゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぎゃ"
+      }
+    },
+    {
+      "id": "hira_gyu",
+      "emoji": "ぎゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぎゅ"
+      }
+    },
+    {
+      "id": "hira_gyo",
+      "emoji": "ぎょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぎょ"
+      }
+    },
+    {
+      "id": "hira_ja",
+      "emoji": "じゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "じゃ"
+      }
+    },
+    {
+      "id": "hira_ju",
+      "emoji": "じゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "じゅ"
+      }
+    },
+    {
+      "id": "hira_jo",
+      "emoji": "じょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "じょ"
+      }
+    },
+    {
+      "id": "hira_bya",
+      "emoji": "びゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "びゃ"
+      }
+    },
+    {
+      "id": "hira_byu",
+      "emoji": "びゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "びゅ"
+      }
+    },
+    {
+      "id": "hira_byo",
+      "emoji": "びょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "びょ"
+      }
+    },
+    {
+      "id": "hira_pya",
+      "emoji": "ぴゃ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぴゃ"
+      }
+    },
+    {
+      "id": "hira_pyu",
+      "emoji": "ぴゅ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぴゅ"
+      }
+    },
+    {
+      "id": "hira_pyo",
+      "emoji": "ぴょ",
+      "category": "alphabet.hiragana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ぴょ"
+      }
+    },
+    {
+      "id": "kata_a",
+      "emoji": "ア",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ア"
+      }
+    },
+    {
+      "id": "kata_i",
+      "emoji": "イ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "イ"
+      }
+    },
+    {
+      "id": "kata_u",
+      "emoji": "ウ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ウ"
+      }
+    },
+    {
+      "id": "kata_e",
+      "emoji": "エ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "エ"
+      }
+    },
+    {
+      "id": "kata_o",
+      "emoji": "オ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "オ"
+      }
+    },
+    {
+      "id": "kata_ka",
+      "emoji": "カ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "カ"
+      }
+    },
+    {
+      "id": "kata_ki",
+      "emoji": "キ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "キ"
+      }
+    },
+    {
+      "id": "kata_ku",
+      "emoji": "ク",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ク"
+      }
+    },
+    {
+      "id": "kata_ke",
+      "emoji": "ケ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ケ"
+      }
+    },
+    {
+      "id": "kata_ko",
+      "emoji": "コ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "コ"
+      }
+    },
+    {
+      "id": "kata_sa",
+      "emoji": "サ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "サ"
+      }
+    },
+    {
+      "id": "kata_shi",
+      "emoji": "シ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "シ"
+      }
+    },
+    {
+      "id": "kata_su",
+      "emoji": "ス",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ス"
+      }
+    },
+    {
+      "id": "kata_se",
+      "emoji": "セ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "セ"
+      }
+    },
+    {
+      "id": "kata_so",
+      "emoji": "ソ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ソ"
+      }
+    },
+    {
+      "id": "kata_ta",
+      "emoji": "タ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "タ"
+      }
+    },
+    {
+      "id": "kata_chi",
+      "emoji": "チ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "チ"
+      }
+    },
+    {
+      "id": "kata_tsu",
+      "emoji": "ツ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ツ"
+      }
+    },
+    {
+      "id": "kata_te",
+      "emoji": "テ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "テ"
+      }
+    },
+    {
+      "id": "kata_to",
+      "emoji": "ト",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ト"
+      }
+    },
+    {
+      "id": "kata_na",
+      "emoji": "ナ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ナ"
+      }
+    },
+    {
+      "id": "kata_ni",
+      "emoji": "ニ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ニ"
+      }
+    },
+    {
+      "id": "kata_nu",
+      "emoji": "ヌ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヌ"
+      }
+    },
+    {
+      "id": "kata_ne",
+      "emoji": "ネ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ネ"
+      }
+    },
+    {
+      "id": "kata_no",
+      "emoji": "ノ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ノ"
+      }
+    },
+    {
+      "id": "kata_ha",
+      "emoji": "ハ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ハ"
+      }
+    },
+    {
+      "id": "kata_hi",
+      "emoji": "ヒ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヒ"
+      }
+    },
+    {
+      "id": "kata_fu",
+      "emoji": "フ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "フ"
+      }
+    },
+    {
+      "id": "kata_he",
+      "emoji": "ヘ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヘ"
+      }
+    },
+    {
+      "id": "kata_ho",
+      "emoji": "ホ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ホ"
+      }
+    },
+    {
+      "id": "kata_ma",
+      "emoji": "マ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "マ"
+      }
+    },
+    {
+      "id": "kata_mi",
+      "emoji": "ミ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ミ"
+      }
+    },
+    {
+      "id": "kata_mu",
+      "emoji": "ム",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ム"
+      }
+    },
+    {
+      "id": "kata_me",
+      "emoji": "メ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "メ"
+      }
+    },
+    {
+      "id": "kata_mo",
+      "emoji": "モ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "モ"
+      }
+    },
+    {
+      "id": "kata_ya",
+      "emoji": "ヤ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヤ"
+      }
+    },
+    {
+      "id": "kata_yu",
+      "emoji": "ユ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ユ"
+      }
+    },
+    {
+      "id": "kata_yo",
+      "emoji": "ヨ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヨ"
+      }
+    },
+    {
+      "id": "kata_ra",
+      "emoji": "ラ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ラ"
+      }
+    },
+    {
+      "id": "kata_ri",
+      "emoji": "リ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "リ"
+      }
+    },
+    {
+      "id": "kata_ru",
+      "emoji": "ル",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ル"
+      }
+    },
+    {
+      "id": "kata_re",
+      "emoji": "レ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "レ"
+      }
+    },
+    {
+      "id": "kata_ro",
+      "emoji": "ロ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ロ"
+      }
+    },
+    {
+      "id": "kata_wa",
+      "emoji": "ワ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ワ"
+      }
+    },
+    {
+      "id": "kata_wo",
+      "emoji": "ヲ",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヲ"
+      }
+    },
+    {
+      "id": "kata_n",
+      "emoji": "ン",
+      "category": "alphabet.katakana.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ン"
+      }
+    },
+    {
+      "id": "kata_ga",
+      "emoji": "ガ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ガ"
+      }
+    },
+    {
+      "id": "kata_gi",
+      "emoji": "ギ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ギ"
+      }
+    },
+    {
+      "id": "kata_gu",
+      "emoji": "グ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "グ"
+      }
+    },
+    {
+      "id": "kata_ge",
+      "emoji": "ゲ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ゲ"
+      }
+    },
+    {
+      "id": "kata_go",
+      "emoji": "ゴ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ゴ"
+      }
+    },
+    {
+      "id": "kata_za",
+      "emoji": "ザ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ザ"
+      }
+    },
+    {
+      "id": "kata_ji",
+      "emoji": "ジ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ジ"
+      }
+    },
+    {
+      "id": "kata_zu",
+      "emoji": "ズ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ズ"
+      }
+    },
+    {
+      "id": "kata_ze",
+      "emoji": "ゼ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ゼ"
+      }
+    },
+    {
+      "id": "kata_zo",
+      "emoji": "ゾ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ゾ"
+      }
+    },
+    {
+      "id": "kata_da",
+      "emoji": "ダ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ダ"
+      }
+    },
+    {
+      "id": "kata_di",
+      "emoji": "ヂ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヂ"
+      }
+    },
+    {
+      "id": "kata_du",
+      "emoji": "ヅ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヅ"
+      }
+    },
+    {
+      "id": "kata_de",
+      "emoji": "デ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "デ"
+      }
+    },
+    {
+      "id": "kata_do",
+      "emoji": "ド",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ド"
+      }
+    },
+    {
+      "id": "kata_ba",
+      "emoji": "バ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "バ"
+      }
+    },
+    {
+      "id": "kata_bi",
+      "emoji": "ビ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ビ"
+      }
+    },
+    {
+      "id": "kata_bu",
+      "emoji": "ブ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ブ"
+      }
+    },
+    {
+      "id": "kata_be",
+      "emoji": "ベ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ベ"
+      }
+    },
+    {
+      "id": "kata_bo",
+      "emoji": "ボ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ボ"
+      }
+    },
+    {
+      "id": "kata_pa",
+      "emoji": "パ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "パ"
+      }
+    },
+    {
+      "id": "kata_pi",
+      "emoji": "ピ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ピ"
+      }
+    },
+    {
+      "id": "kata_pu",
+      "emoji": "プ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "プ"
+      }
+    },
+    {
+      "id": "kata_pe",
+      "emoji": "ペ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ペ"
+      }
+    },
+    {
+      "id": "kata_po",
+      "emoji": "ポ",
+      "category": "alphabet.katakana.dakuten",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ポ"
+      }
+    },
+    {
+      "id": "kata_kya",
+      "emoji": "キャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "キャ"
+      }
+    },
+    {
+      "id": "kata_kyu",
+      "emoji": "キュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "キュ"
+      }
+    },
+    {
+      "id": "kata_kyo",
+      "emoji": "キョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "キョ"
+      }
+    },
+    {
+      "id": "kata_sha",
+      "emoji": "シャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "シャ"
+      }
+    },
+    {
+      "id": "kata_shu",
+      "emoji": "シュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "シュ"
+      }
+    },
+    {
+      "id": "kata_sho",
+      "emoji": "ショ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ショ"
+      }
+    },
+    {
+      "id": "kata_cha",
+      "emoji": "チャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "チャ"
+      }
+    },
+    {
+      "id": "kata_chu",
+      "emoji": "チュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "チュ"
+      }
+    },
+    {
+      "id": "kata_cho",
+      "emoji": "チョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "チョ"
+      }
+    },
+    {
+      "id": "kata_nya",
+      "emoji": "ニャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ニャ"
+      }
+    },
+    {
+      "id": "kata_nyu",
+      "emoji": "ニュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ニュ"
+      }
+    },
+    {
+      "id": "kata_nyo",
+      "emoji": "ニョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ニョ"
+      }
+    },
+    {
+      "id": "kata_hya",
+      "emoji": "ヒャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヒャ"
+      }
+    },
+    {
+      "id": "kata_hyu",
+      "emoji": "ヒュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヒュ"
+      }
+    },
+    {
+      "id": "kata_hyo",
+      "emoji": "ヒョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ヒョ"
+      }
+    },
+    {
+      "id": "kata_mya",
+      "emoji": "ミャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ミャ"
+      }
+    },
+    {
+      "id": "kata_myu",
+      "emoji": "ミュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ミュ"
+      }
+    },
+    {
+      "id": "kata_myo",
+      "emoji": "ミョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ミョ"
+      }
+    },
+    {
+      "id": "kata_rya",
+      "emoji": "リャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "リャ"
+      }
+    },
+    {
+      "id": "kata_ryu",
+      "emoji": "リュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "リュ"
+      }
+    },
+    {
+      "id": "kata_ryo",
+      "emoji": "リョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "リョ"
+      }
+    },
+    {
+      "id": "kata_gya",
+      "emoji": "ギャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ギャ"
+      }
+    },
+    {
+      "id": "kata_gyu",
+      "emoji": "ギュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ギュ"
+      }
+    },
+    {
+      "id": "kata_gyo",
+      "emoji": "ギョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ギョ"
+      }
+    },
+    {
+      "id": "kata_ja",
+      "emoji": "ジャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ジャ"
+      }
+    },
+    {
+      "id": "kata_ju",
+      "emoji": "ジュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ジュ"
+      }
+    },
+    {
+      "id": "kata_jo",
+      "emoji": "ジョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ジョ"
+      }
+    },
+    {
+      "id": "kata_bya",
+      "emoji": "ビャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ビャ"
+      }
+    },
+    {
+      "id": "kata_byu",
+      "emoji": "ビュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ビュ"
+      }
+    },
+    {
+      "id": "kata_byo",
+      "emoji": "ビョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ビョ"
+      }
+    },
+    {
+      "id": "kata_pya",
+      "emoji": "ピャ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ピャ"
+      }
+    },
+    {
+      "id": "kata_pyu",
+      "emoji": "ピュ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ピュ"
+      }
+    },
+    {
+      "id": "kata_pyo",
+      "emoji": "ピョ",
+      "category": "alphabet.katakana.yoon",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "ピョ"
+      }
+    },
+    {
+      "id": "hangul_ga",
+      "emoji": "가",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "가"
+      }
+    },
+    {
+      "id": "hangul_geo",
+      "emoji": "거",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "거"
+      }
+    },
+    {
+      "id": "hangul_go",
+      "emoji": "고",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "고"
+      }
+    },
+    {
+      "id": "hangul_gu",
+      "emoji": "구",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "구"
+      }
+    },
+    {
+      "id": "hangul_geu",
+      "emoji": "그",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "그"
+      }
+    },
+    {
+      "id": "hangul_gi",
+      "emoji": "기",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "기"
+      }
+    },
+    {
+      "id": "hangul_na",
+      "emoji": "나",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "나"
+      }
+    },
+    {
+      "id": "hangul_neo",
+      "emoji": "너",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "너"
+      }
+    },
+    {
+      "id": "hangul_no",
+      "emoji": "노",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "노"
+      }
+    },
+    {
+      "id": "hangul_nu",
+      "emoji": "누",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "누"
+      }
+    },
+    {
+      "id": "hangul_neu",
+      "emoji": "느",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "느"
+      }
+    },
+    {
+      "id": "hangul_ni",
+      "emoji": "니",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "니"
+      }
+    },
+    {
+      "id": "hangul_da",
+      "emoji": "다",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "다"
+      }
+    },
+    {
+      "id": "hangul_deo",
+      "emoji": "더",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "더"
+      }
+    },
+    {
+      "id": "hangul_do",
+      "emoji": "도",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "도"
+      }
+    },
+    {
+      "id": "hangul_du",
+      "emoji": "두",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "두"
+      }
+    },
+    {
+      "id": "hangul_deu",
+      "emoji": "드",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "드"
+      }
+    },
+    {
+      "id": "hangul_di",
+      "emoji": "디",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "디"
+      }
+    },
+    {
+      "id": "hangul_ra",
+      "emoji": "라",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "라"
+      }
+    },
+    {
+      "id": "hangul_reo",
+      "emoji": "러",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "러"
+      }
+    },
+    {
+      "id": "hangul_ro",
+      "emoji": "로",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "로"
+      }
+    },
+    {
+      "id": "hangul_ru",
+      "emoji": "루",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "루"
+      }
+    },
+    {
+      "id": "hangul_reu",
+      "emoji": "르",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "르"
+      }
+    },
+    {
+      "id": "hangul_ri",
+      "emoji": "리",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "리"
+      }
+    },
+    {
+      "id": "hangul_ma",
+      "emoji": "마",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "마"
+      }
+    },
+    {
+      "id": "hangul_meo",
+      "emoji": "머",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "머"
+      }
+    },
+    {
+      "id": "hangul_mo",
+      "emoji": "모",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "모"
+      }
+    },
+    {
+      "id": "hangul_mu",
+      "emoji": "무",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "무"
+      }
+    },
+    {
+      "id": "hangul_meu",
+      "emoji": "므",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "므"
+      }
+    },
+    {
+      "id": "hangul_mi",
+      "emoji": "미",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "미"
+      }
+    },
+    {
+      "id": "hangul_ba",
+      "emoji": "바",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "바"
+      }
+    },
+    {
+      "id": "hangul_beo",
+      "emoji": "버",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "버"
+      }
+    },
+    {
+      "id": "hangul_bo",
+      "emoji": "보",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "보"
+      }
+    },
+    {
+      "id": "hangul_bu",
+      "emoji": "부",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "부"
+      }
+    },
+    {
+      "id": "hangul_beu",
+      "emoji": "브",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "브"
+      }
+    },
+    {
+      "id": "hangul_bi",
+      "emoji": "비",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "비"
+      }
+    },
+    {
+      "id": "hangul_sa",
+      "emoji": "사",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "사"
+      }
+    },
+    {
+      "id": "hangul_seo",
+      "emoji": "서",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "서"
+      }
+    },
+    {
+      "id": "hangul_so",
+      "emoji": "소",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "소"
+      }
+    },
+    {
+      "id": "hangul_su",
+      "emoji": "수",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "수"
+      }
+    },
+    {
+      "id": "hangul_seu",
+      "emoji": "스",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "스"
+      }
+    },
+    {
+      "id": "hangul_si",
+      "emoji": "시",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "시"
+      }
+    },
+    {
+      "id": "hangul_a",
+      "emoji": "아",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "아"
+      }
+    },
+    {
+      "id": "hangul_eo",
+      "emoji": "어",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "어"
+      }
+    },
+    {
+      "id": "hangul_o",
+      "emoji": "오",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "오"
+      }
+    },
+    {
+      "id": "hangul_u",
+      "emoji": "우",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "우"
+      }
+    },
+    {
+      "id": "hangul_eu",
+      "emoji": "으",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "으"
+      }
+    },
+    {
+      "id": "hangul_i",
+      "emoji": "이",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "이"
+      }
+    },
+    {
+      "id": "hangul_ja",
+      "emoji": "자",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "자"
+      }
+    },
+    {
+      "id": "hangul_jeo",
+      "emoji": "저",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "저"
+      }
+    },
+    {
+      "id": "hangul_jo",
+      "emoji": "조",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "조"
+      }
+    },
+    {
+      "id": "hangul_ju",
+      "emoji": "주",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "주"
+      }
+    },
+    {
+      "id": "hangul_jeu",
+      "emoji": "즈",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "즈"
+      }
+    },
+    {
+      "id": "hangul_ji",
+      "emoji": "지",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "지"
+      }
+    },
+    {
+      "id": "hangul_ha",
+      "emoji": "하",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "하"
+      }
+    },
+    {
+      "id": "hangul_heo",
+      "emoji": "허",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "허"
+      }
+    },
+    {
+      "id": "hangul_ho",
+      "emoji": "호",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "호"
+      }
+    },
+    {
+      "id": "hangul_hu",
+      "emoji": "후",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "후"
+      }
+    },
+    {
+      "id": "hangul_heu",
+      "emoji": "흐",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "흐"
+      }
+    },
+    {
+      "id": "hangul_hi",
+      "emoji": "히",
+      "category": "alphabet.hangul.basic",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "히"
+      }
+    },
+    {
+      "id": "hangul_ka",
+      "emoji": "카",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "카"
+      }
+    },
+    {
+      "id": "hangul_keo",
+      "emoji": "커",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "커"
+      }
+    },
+    {
+      "id": "hangul_ko",
+      "emoji": "코",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "코"
+      }
+    },
+    {
+      "id": "hangul_ku",
+      "emoji": "쿠",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "쿠"
+      }
+    },
+    {
+      "id": "hangul_ki",
+      "emoji": "키",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "키"
+      }
+    },
+    {
+      "id": "hangul_ta",
+      "emoji": "타",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "타"
+      }
+    },
+    {
+      "id": "hangul_teo",
+      "emoji": "터",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "터"
+      }
+    },
+    {
+      "id": "hangul_to",
+      "emoji": "토",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "토"
+      }
+    },
+    {
+      "id": "hangul_tu",
+      "emoji": "투",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "투"
+      }
+    },
+    {
+      "id": "hangul_ti",
+      "emoji": "티",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "티"
+      }
+    },
+    {
+      "id": "hangul_pa",
+      "emoji": "파",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "파"
+      }
+    },
+    {
+      "id": "hangul_peo",
+      "emoji": "퍼",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "퍼"
+      }
+    },
+    {
+      "id": "hangul_po",
+      "emoji": "포",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "포"
+      }
+    },
+    {
+      "id": "hangul_pu",
+      "emoji": "푸",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "푸"
+      }
+    },
+    {
+      "id": "hangul_pi",
+      "emoji": "피",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "피"
+      }
+    },
+    {
+      "id": "hangul_cha",
+      "emoji": "차",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "차"
+      }
+    },
+    {
+      "id": "hangul_cheo",
+      "emoji": "처",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "처"
+      }
+    },
+    {
+      "id": "hangul_cho",
+      "emoji": "초",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "초"
+      }
+    },
+    {
+      "id": "hangul_chu",
+      "emoji": "추",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "추"
+      }
+    },
+    {
+      "id": "hangul_chi",
+      "emoji": "치",
+      "category": "alphabet.hangul.aspirated",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "치"
+      }
+    },
+    {
+      "id": "hangul_ya",
+      "emoji": "야",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "야"
+      }
+    },
+    {
+      "id": "hangul_gya",
+      "emoji": "갸",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "갸"
+      }
+    },
+    {
+      "id": "hangul_nya",
+      "emoji": "냐",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "냐"
+      }
+    },
+    {
+      "id": "hangul_rya",
+      "emoji": "랴",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "랴"
+      }
+    },
+    {
+      "id": "hangul_mya",
+      "emoji": "먀",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "먀"
+      }
+    },
+    {
+      "id": "hangul_bya",
+      "emoji": "뱌",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "뱌"
+      }
+    },
+    {
+      "id": "hangul_yeo",
+      "emoji": "여",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "여"
+      }
+    },
+    {
+      "id": "hangul_gyeo",
+      "emoji": "겨",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "겨"
+      }
+    },
+    {
+      "id": "hangul_nyeo",
+      "emoji": "녀",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "녀"
+      }
+    },
+    {
+      "id": "hangul_ryeo",
+      "emoji": "려",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "려"
+      }
+    },
+    {
+      "id": "hangul_myeo",
+      "emoji": "며",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "며"
+      }
+    },
+    {
+      "id": "hangul_byeo",
+      "emoji": "벼",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "벼"
+      }
+    },
+    {
+      "id": "hangul_yo",
+      "emoji": "요",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "요"
+      }
+    },
+    {
+      "id": "hangul_gyo",
+      "emoji": "교",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "교"
+      }
+    },
+    {
+      "id": "hangul_nyo",
+      "emoji": "뇨",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "뇨"
+      }
+    },
+    {
+      "id": "hangul_ryo",
+      "emoji": "료",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "료"
+      }
+    },
+    {
+      "id": "hangul_myo",
+      "emoji": "묘",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "묘"
+      }
+    },
+    {
+      "id": "hangul_byo",
+      "emoji": "뵤",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "뵤"
+      }
+    },
+    {
+      "id": "hangul_yu",
+      "emoji": "유",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "유"
+      }
+    },
+    {
+      "id": "hangul_gyu",
+      "emoji": "규",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "규"
+      }
+    },
+    {
+      "id": "hangul_nyu",
+      "emoji": "뉴",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "뉴"
+      }
+    },
+    {
+      "id": "hangul_ryu",
+      "emoji": "류",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "류"
+      }
+    },
+    {
+      "id": "hangul_myu",
+      "emoji": "뮤",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "뮤"
+      }
+    },
+    {
+      "id": "hangul_byu",
+      "emoji": "뷰",
+      "category": "alphabet.hangul.palatalized",
+      "cefr": "A1",
+      "kind": "letter",
+      "visual": {
+        "kind": "emoji",
+        "asset": "뷰"
+      }
+    }
+  ]
+}

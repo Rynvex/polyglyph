@@ -1,0 +1,11 @@
+{
+  "id": "kitchen_a1",
+  "title": "Kitchen Basics",
+  "cefr": "A1",
+  "description": "Tools and items you find in the kitchen.",
+  "estimated_minutes": 3,
+  "conceptIds": [
+    "knife", "fork", "spoon", "plate", "cup", "bottle", "pot", "fridge",
+    "stove", "oven", "table", "chair", "salt", "pepper", "sugar", "butter"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "en.pharmacy_pickup.a2",
+  "language": "en",
+  "level": "A2",
+  "topic": "services",
+  "title": "Picking Up a Prescription",
+  "description": "At the pharmacy counter — give your details, ask about side effects, pay.",
+  "estimated_minutes": 3,
+  "tags": ["health", "service"],
+  "characters": {
+    "bot": { "name": "Pharmacist", "voice": "en-US-AriaNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Hi, picking up a prescription?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Yes, the name is Chang. C-H-A-N-G.", "hint_zh": "是的,姓 Chang,C-H-A-N-G。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Got it. Date of birth, please?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "March eighth, 1992.", "hint_zh": "1992 年 3 月 8 日。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Two items today. Take one tablet a day with food. Any questions?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Are there any common side effects I should watch for?", "hint_zh": "有什麼常見副作用我要注意?" }] },
+    { "id": "t7", "speaker": "bot", "text": "Sometimes a mild headache or upset stomach. If it lasts more than a few days, call us." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Got it. How much do I owe?", "hint_zh": "了解。我要付多少?" }] },
+    { "id": "t9", "speaker": "bot", "text": "Twelve fifty after insurance. Card or cash?" },
+    { "id": "t10", "speaker": "player", "templates": [{ "id": "t10.0", "text": "Card, please. Thanks for your help.", "hint_zh": "刷卡,謝謝你。" }] }
+  ]
+}

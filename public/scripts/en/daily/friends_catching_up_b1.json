@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "en.friends_catching_up.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "daily",
+  "title": "Catching Up with an Old Friend",
+  "description": "Run into someone you haven't seen in ages. Heavy on idioms and casual register — 'hey stranger', 'no kidding', 'long time no see'.",
+  "estimated_minutes": 5,
+  "tags": [
+    "social",
+    "casual",
+    "idioms",
+    "slang"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Sam",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Hey stranger! Long time no see. How've you been?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Sam! Wow, it's been ages. I'm doing pretty good, you?",
+          "hint_zh": "Sam!天啊,好久不見。我還不錯,你呢?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Can't complain. Same old, same old. Still working at the same place?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Nah, I jumped ship last year. Working remote now, way better.",
+          "hint_zh": "沒,我去年跳槽了。現在遠端工作,好太多了。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "No kidding! Good for you. I keep saying I'll do it but never get around to it."
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "You should pull the trigger, honestly. Best decision I ever made.",
+          "hint_zh": "說真的你該下定決心做。是我做過最好的決定。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Yeah, yeah, I hear you. Hey, want to grab a coffee real quick?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "I wish I could, but I'm running late. Rain check?",
+          "hint_zh": "好想去,但我快遲到了。下次補?"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Of course. Shoot me a text and we'll set something up."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Will do. Great running into you, take care!",
+          "hint_zh": "一定。很高興遇到你,保重!"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "You too, buddy. Catch you later!"
+    }
+  ]
+}

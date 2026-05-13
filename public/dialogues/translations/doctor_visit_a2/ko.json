@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "doctor_visit_a2",
+  "language": "ko",
+  "title": "병원 진료",
+  "description": "증상 설명하고 후속 진료 예약. 정중한 의료 대화.",
+  "characters": {
+    "bot": {
+      "name": "이 선생님",
+      "voice": "ko-KR-SunHiNeural"
+    },
+    "player": {
+      "name": "당신"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "안녕하세요. 들어와서 앉으세요. 오늘 어떻게 오셨어요?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "annyeonghaseyo mokyi iljujjae apeoyo",
+          "display": "annyeonghaseyo mokyi iljujjae apeoyo",
+          "hint_zh": "醫生好,我喉嚨痛已經大概一個禮拜了。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "그러시군요. 열, 기침, 삼키기 힘드신 거 있으세요?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "bameneun gichimi jom isseoyo yeoreun eopneun geo gatayo",
+          "display": "bameneun gichimi jom isseoyo yeoreun eopneun geo gatayo",
+          "hint_zh": "有點咳嗽,主要是晚上。應該沒發燒。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "네. 지금 드시는 약이 있나요?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "danjun gampyak yakman hayeoyo",
+          "display": "danjun gampyak yakman hayeoyo",
+          "hint_zh": "只有自己買的成藥感冒藥,其他都沒有。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "잠깐 볼게요. 입 크게 벌리고 '아' 해보세요."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "aaaaa",
+          "display": "aaaaa",
+          "hint_zh": "啊—"
+        }
+      ]
+    },
+    "t9": {
+      "text": "약한 염증이네요. 세균성은 아닐 거예요. 푹 쉬시고 따뜻한 물 많이 드시고 이 목 사탕도 드세요. 더 심해지면 오세요."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "ne ilseo swieoya halkkayo",
+          "display": "ne ilseo swieoya halkkayo",
+          "hint_zh": "了解。需要請假休息嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "가능하면 하루 이틀 쉬세요. 더 빨리 회복할 수 있어요."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "gamsahapnida seonsaengnim",
+          "display": "gamsahapnida seonsaengnim",
+          "hint_zh": "謝謝醫師,真的很感謝。"
+        }
+      ]
+    }
+  }
+}

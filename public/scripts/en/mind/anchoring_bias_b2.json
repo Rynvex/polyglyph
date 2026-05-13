@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "en.anchoring_bias.b2",
+  "language": "en",
+  "level": "B2",
+  "topic": "mind",
+  "title": "The Anchor Already Set the Frame",
+  "description": "Your team is debating a feature's effort. The first guess shaped the rest of the conversation. Name the anchor.",
+  "estimated_minutes": 5,
+  "tags": ["pm", "decision-making", "formal"],
+  "characters": {
+    "bot": { "name": "Manager", "voice": "en-US-GuyNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "So we agree it's a two-week effort, give or take. Let's plan around that." },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Hold on. The two-week number was the first guess in the room. We've been anchoring on it.", "hint_zh": "等等,「兩週」是會議裡第一個被丟出來的數字,我們一直被它錨定。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Anchoring how, exactly?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Whoever speaks first sets a reference. Every later estimate clusters around it.", "hint_zh": "第一個發言的人設了基準,後面的估算都會靠近那個值。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Okay, but two weeks still feels right." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Maybe. Try the reverse — independently, write down your own estimate before sharing.", "hint_zh": "也許吧。反過來試:大家獨立寫下自己的估算,再公開比較。" }] },
+    { "id": "t7", "speaker": "bot", "text": "That's just delaying the conversation." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "It de-anchors it. If everyone still says two weeks, great. If not, we have signal.", "hint_zh": "這是去錨定。如果大家還是寫兩週,那就確認;不一致的話就有訊號。" }] },
+    { "id": "t9", "speaker": "bot", "text": "Fine. Three minutes, write your number, then we share." },
+    { "id": "t10", "speaker": "player", "templates": [{ "id": "t10.0", "text": "Thanks. Worth the three minutes if we're spending two weeks on this.", "hint_zh": "謝。要花兩週做的事,先花三分鐘是值得的。" }] }
+  ]
+}

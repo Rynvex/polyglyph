@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ja.yakkyoku.a2",
+  "language": "ja",
+  "level": "A2",
+  "topic": "services",
+  "title": "薬局で",
+  "description": "Pick up medicine at a Japanese pharmacy. Type romaji; cells render hiragana.",
+  "estimated_minutes": 3,
+  "tags": ["health", "service"],
+  "characters": {
+    "bot": { "name": "薬剤師", "voice": "ja-JP-NanamiNeural" },
+    "player": { "name": "あなた" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "いらっしゃいませ。どうしましたか?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "あたまがいたいです", "display": "頭が痛いです。", "hint_zh": "atama ga itai desu — 我頭痛。" }] },
+    { "id": "t3", "speaker": "bot", "text": "熱はありますか?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "ねつはないです", "display": "熱はないです。", "hint_zh": "netsu wa nai desu — 沒有發燒。" }] },
+    { "id": "t5", "speaker": "bot", "text": "では、この薬を飲んでください。" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "ありがとうございます", "display": "ありがとうございます。", "hint_zh": "arigatou gozaimasu — 謝謝。" }] }
+  ]
+}

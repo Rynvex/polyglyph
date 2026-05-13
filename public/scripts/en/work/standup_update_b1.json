@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "en.standup_update.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "work",
+  "title": "Daily Standup Update",
+  "description": "30-second standup: what you did yesterday, what's next, what's blocking. Crisp and casual.",
+  "estimated_minutes": 3,
+  "tags": ["meeting", "casual", "engineering"],
+  "characters": {
+    "bot": { "name": "Tech Lead", "voice": "en-US-AriaNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "All right, your turn. What's the update?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Yesterday I finished the API integration for the new search endpoint.", "hint_zh": "昨天我把新搜尋 API 串接收工了。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Nice. Did the staging tests pass?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Mostly. Two flaky ones — I'll dig in this morning.", "hint_zh": "大致過,兩個間歇性失敗,我今早會看。" }] },
+    { "id": "t5", "speaker": "bot", "text": "What's on for today?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Pair with Sam on the caching layer, then start on the load test.", "hint_zh": "跟 Sam 一起做快取層,然後開始壓測。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Anything blocking you?" },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "I need staging credentials from infra. I'll ping them after standup.", "hint_zh": "我需要基礎架構組給 staging 的憑證,站會後我會去問。" }] },
+    { "id": "t9", "speaker": "bot", "text": "Cool. Let me know if it stalls more than a day." },
+    { "id": "t10", "speaker": "player", "templates": [{ "id": "t10.0", "text": "Will do. Passing to the next person.", "hint_zh": "好,換下一位。" }] }
+  ]
+}

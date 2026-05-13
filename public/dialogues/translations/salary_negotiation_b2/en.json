@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "salary_negotiation_b2",
+  "language": "en",
+  "title": "The Counter-Offer Conversation",
+  "description": "Push back politely on a low offer. Use specific data and a clear ask, not emotion.",
+  "characters": {
+    "bot": {
+      "name": "Recruiter",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Thanks for considering us. The team is excited. So — what do you think of the offer?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "I really appreciate it. The role and the team are a strong fit for me.",
+          "hint_zh": "非常感謝。職務跟團隊都很適合我。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "I'm hearing a 'but' coming."
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Yes, the base is below the market range I've seen for this level.",
+          "hint_zh": "是的,底薪比我看到這個層級的市場行情還低。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "We benchmarked across the bay area. What numbers are you looking at?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Levels.fyi shows the median around 180k base for a senior role at a comparable company.",
+          "hint_zh": "Levels.fyi 顯示同等公司、同等級的資深職位中位數約 18 萬底薪。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "That's the top of the range we modeled. What's your ask?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "175 base, plus an extra 20k in equity over four years.",
+          "hint_zh": "底薪 17.5 萬,加四年內多 2 萬美金股權。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Let me take that to the hiring committee. Anything else if I can move on the equity?"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "A signing bonus would help offset the relocation. I can be flexible on the split.",
+          "hint_zh": "簽約獎金可以幫我抵搬遷成本。組合可以彈性。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Understood. I'll get back to you by Thursday."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Thank you. I look forward to the conversation.",
+          "hint_zh": "謝謝你,我等你回覆。"
+        }
+      ]
+    }
+  }
+}

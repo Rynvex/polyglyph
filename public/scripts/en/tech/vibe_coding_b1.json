@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.vibe_coding.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "tech",
+  "title": "What Is Vibe Coding?",
+  "description": "A junior dev wants to know if 'vibe coding' is just hype. Walk through the three stages.",
+  "estimated_minutes": 4,
+  "tags": [
+    "engineering",
+    "ai-tools",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Junior",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Is 'vibe coding' just a fancy word for using ChatGPT to write code?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Bigger than that. It's an end-to-end flow from idea to shipped product.",
+          "hint_zh": "比那個大。是從想法到出貨的全流程。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "What are the stages?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Three. Find a real need, copy a good design system, then ship with AI helping the code.",
+          "hint_zh": "三個。找真需求、抄好的設計系統、再讓 AI 幫忙寫程式出貨。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Why design system before coding?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Because consistency is what makes a vibe-coded product feel polished, not stitched together.",
+          "hint_zh": "因為一致性才能讓 vibe-coded 產品看起來精緻,不像拼湊的。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Doesn't AI just hallucinate when you let it own the implementation?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "It will, if you don't anchor it. That's why stage one is structured discovery.",
+          "hint_zh": "你不錨定它就會。所以第一步是結構化的需求探索。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Sounds like a methodology, not a tool."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Exactly. Tools change every six months. The flow is what makes it work.",
+          "hint_zh": "正是。工具每半年換一次,真正讓它跑得起來的是流程。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Cool. Got a starter project I can try?"
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Pick one app you wish existed, then run all three stages on it.",
+          "hint_zh": "挑一個你希望存在的 app,把三個階段都跑一遍。"
+        }
+      ]
+    }
+  ]
+}

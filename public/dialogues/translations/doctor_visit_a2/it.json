@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "doctor_visit_a2",
+  "language": "it",
+  "title": "Visita dal medico",
+  "description": "Descrivi i sintomi e prenoti una visita di controllo. Italiano medico cortese.",
+  "characters": {
+    "bot": {
+      "name": "Dott.ssa Lee",
+      "voice": "it-IT-ElsaNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Buongiorno. Si accomodi pure. Cosa la porta qui oggi?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Salve dottoressa, ho mal di gola da circa una settimana.",
+          "hint_zh": "醫生好,我喉嚨痛已經大概一個禮拜了。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Capisco. Ha avuto febbre, tosse o difficolta' a deglutire?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Un po' di tosse, soprattutto la notte. Non credo di avere febbre.",
+          "hint_zh": "有點咳嗽,主要是晚上。應該沒發燒。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Bene. Sta prendendo qualche farmaco?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Solo qualche pastiglia da banco per il raffreddore.",
+          "hint_zh": "只有自己買的成藥感冒藥,其他都沒有。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Diamo un'occhiata. Apra bene la bocca e dica 'aaa'."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Aaa.",
+          "hint_zh": "啊—"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Lieve infiammazione. Non sembra batterica. Tanto riposo, liquidi caldi e queste caramelle per la gola. Se peggiora torni."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Va bene. Dovrei stare a casa dal lavoro?",
+          "hint_zh": "了解。需要請假休息嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Se puo', uno o due giorni. Si rimettera' piu' in fretta."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Grazie, dottoressa. Le sono molto grato.",
+          "hint_zh": "謝謝醫師,真的很感謝。"
+        }
+      ]
+    }
+  }
+}

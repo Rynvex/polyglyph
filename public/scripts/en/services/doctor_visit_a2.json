@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.doctor_visit.a2",
+  "language": "en",
+  "level": "A2",
+  "topic": "services",
+  "title": "At the Doctor's Office",
+  "description": "Describe symptoms and book a follow-up. Polite, semi-formal medical English.",
+  "estimated_minutes": 4,
+  "tags": [
+    "health",
+    "service",
+    "formal"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Dr. Lee",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Good morning. Please come in and have a seat. What brings you in today?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Hi doctor, I've had a sore throat for about a week now.",
+          "hint_zh": "醫生好,我喉嚨痛已經大約一個禮拜了。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "I see. Any fever, cough, or trouble swallowing?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "A bit of a cough, mostly at night. No fever as far as I know.",
+          "hint_zh": "有一點咳嗽,主要是晚上。我不覺得有發燒。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Alright. Are you taking any medication right now?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Just some over-the-counter cold tablets, nothing else.",
+          "hint_zh": "只有買成藥的感冒藥,其他都沒有。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Okay. Let me take a quick look. Open your mouth wide and say 'ah'."
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Aaah.",
+          "hint_zh": "啊—"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Mild inflammation. Not bacterial, I think. Plenty of rest, warm fluids, and these throat lozenges. Come back if it gets worse."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Got it. Should I take time off work?",
+          "hint_zh": "了解,我需要請假休息嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "A day or two if you can. You'll bounce back faster."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Thank you, doctor. I really appreciate it.",
+          "hint_zh": "謝謝醫生,真的很感謝你。"
+        }
+      ]
+    }
+  ]
+}

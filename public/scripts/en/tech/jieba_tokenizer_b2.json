@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "en.jieba_tokenizer.b2",
+  "language": "en",
+  "level": "B2",
+  "topic": "tech",
+  "title": "How Jieba Splits Chinese",
+  "description": "An NLP newcomer asks how Chinese tokenization actually works. Walk through jieba's three-layer design.",
+  "estimated_minutes": 5,
+  "tags": [
+    "nlp",
+    "ai",
+    "casual",
+    "explain"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Newcomer",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Why do Chinese NLP pipelines need a tokenizer at all? There are no spaces?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Exactly because there are no spaces. The model needs word boundaries first.",
+          "hint_zh": "正因為沒空格,模型需要先有詞界。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "And jieba is the standard tool?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "It's the most widely used open-source one. Three layers, well documented.",
+          "hint_zh": "最廣泛使用的開源工具。三層設計,文件齊全。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "What are the three layers?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "First, build a DAG from a prefix dictionary. Second, dynamic programming for the best path.",
+          "hint_zh": "第一,從前綴詞典建 DAG。第二,用動態規劃找最佳路徑。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "And the third?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "HMM with Viterbi for words not in the dictionary. New names, slang, proper nouns.",
+          "hint_zh": "用 HMM 加 Viterbi 處理詞典裡沒有的詞,像新名字、俚語、專有名詞。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Sounds heavy. Is it slow?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Surprisingly fast. Parallel mode gives roughly three times the throughput on multi-core.",
+          "hint_zh": "意外地快。並行模式在多核上吞吐量大約是三倍。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Anything to watch out for?"
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Domain words. You'll need a custom dictionary for medical, legal, or product terms.",
+          "hint_zh": "領域詞彙。醫療、法律、產品名都要自訂詞典。"
+        }
+      ]
+    }
+  ]
+}

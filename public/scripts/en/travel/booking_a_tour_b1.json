@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "en.booking_a_tour.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "travel",
+  "title": "Booking a Day Tour",
+  "description": "Ask the hotel concierge to book a half-day city tour. Negotiate timing and price.",
+  "estimated_minutes": 4,
+  "tags": ["hotel", "service"],
+  "characters": {
+    "bot": { "name": "Concierge", "voice": "en-US-AriaNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Welcome. How can I help you today?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "I'd like to book a city tour for tomorrow morning if possible.", "hint_zh": "我想預訂明天早上的城市觀光,如果還有的話。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Sure. We have a half-day walking tour at 9 AM and a bus tour at 10." },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "What's the difference, mostly the pace?", "hint_zh": "差別在哪?主要是步調嗎?" }] },
+    { "id": "t5", "speaker": "bot", "text": "The walking tour goes deeper into three neighborhoods. The bus tour covers more ground but feels rushed." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Walking sounds better. What about the price?", "hint_zh": "聽起來步行那團比較好,那價錢呢?" }] },
+    { "id": "t7", "speaker": "bot", "text": "Forty-five dollars per person, lunch is on your own." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Any discount for two of us?", "hint_zh": "兩個人有優惠嗎?" }] },
+    { "id": "t9", "speaker": "bot", "text": "I can knock off ten percent if you book today. So eighty-one for two." },
+    { "id": "t10", "speaker": "player", "templates": [{ "id": "t10.0", "text": "Deal. Can I pay at the end of my stay?", "hint_zh": "成交。可以退房時一起結嗎?" }] },
+    { "id": "t11", "speaker": "bot", "text": "Of course. I'll add it to your room. Meet me here at 8:45." },
+    { "id": "t12", "speaker": "player", "templates": [{ "id": "t12.0", "text": "Perfect. Thanks for setting it up.", "hint_zh": "太好了,謝謝你幫忙安排。" }] }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.rate_limiter_design.b2",
+  "language": "en",
+  "level": "B2",
+  "topic": "tech",
+  "title": "Choosing a Rate-Limiting Algorithm",
+  "description": "A teammate is implementing rate limiting. Help them weigh token bucket, leaky bucket, and sliding window.",
+  "estimated_minutes": 5,
+  "tags": [
+    "engineering",
+    "system-design",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Teammate",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "I'm adding rate limiting to the public API. Token bucket or leaky bucket?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Depends on your traffic shape. Do you want to allow short bursts or smooth them out?",
+          "hint_zh": "看流量型態。你想允許短時突發,還是把它平滑掉?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Bursts are fine, as long as we don't blow up downstream."
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Then token bucket fits. It refills at a steady rate but lets clients spend a stash up front.",
+          "hint_zh": "那 token bucket 比較合。它定速補充,但允許客戶端先把存量花掉。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "What about sliding window counter? I keep seeing it on system design notes."
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "It's a compromise. More accurate than fixed window, way cheaper than a sliding log.",
+          "hint_zh": "是折衷方案。比固定窗口準確,又比 sliding log 便宜很多。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "We're running this across three nodes. Any gotchas?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Yeah, race conditions on the counter. Easiest fix is a Redis Lua script for atomic updates.",
+          "hint_zh": "對,計數器會有 race condition。最簡單就是用 Redis Lua script 做原子更新。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "And where does it live in the request path?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Ideally at the API gateway, so backend services don't even see the dropped traffic.",
+          "hint_zh": "最好放在 API gateway,讓後端服務根本看不到被擋掉的流量。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Great. I'll start with token bucket and put the metrics in from day one."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Smart. Tuning without dashboards is just guessing.",
+          "hint_zh": "聰明。沒儀表板就調參數等於亂猜。"
+        }
+      ]
+    }
+  ]
+}

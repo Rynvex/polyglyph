@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ja.eki.a2",
+  "language": "ja",
+  "level": "A2",
+  "topic": "travel",
+  "title": "駅で",
+  "description": "Buy a ticket at a Japanese train station. Type romaji; cells render hiragana.",
+  "estimated_minutes": 3,
+  "tags": ["station", "service"],
+  "characters": {
+    "bot": { "name": "駅員", "voice": "ja-JP-NanamiNeural" },
+    "player": { "name": "あなた" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "いらっしゃいませ。どちらまでですか?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "とうきょうまでおねがいします", "display": "東京までお願いします。", "hint_zh": "toukyou made onegai shimasu — 請給我到東京的票。" }] },
+    { "id": "t3", "speaker": "bot", "text": "片道ですか、往復ですか?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "かたみちでおねがいします", "display": "片道でお願いします。", "hint_zh": "katamichi de onegai shimasu — 單程就好。" }] },
+    { "id": "t5", "speaker": "bot", "text": "二千八百円になります。" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "はいどうぞ", "display": "はい、どうぞ。", "hint_zh": "hai douzo — 好,給你。" }] }
+  ]
+}

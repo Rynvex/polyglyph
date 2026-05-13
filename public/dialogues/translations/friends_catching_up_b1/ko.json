@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "friends_catching_up_b1",
+  "language": "ko",
+  "title": "오랜만에 친구와 한담",
+  "description": "한참 못 본 친구를 길에서 우연히 만남. 캐주얼하고 관용 표현이 많음.",
+  "characters": {
+    "bot": {
+      "name": "샘",
+      "voice": "ko-KR-InJoonNeural"
+    },
+    "player": {
+      "name": "당신"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "야, 오랜만이다! 잘 지냈어?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "sam jinjja ollaeman ina jal jinaesseo neoneun",
+          "display": "sam jinjja ollaeman ina jal jinaesseo neoneun",
+          "hint_zh": "Sam!天啊,好久不見。我還不錯,你呢?"
+        }
+      ]
+    },
+    "t3": {
+      "text": "그저 그렇지. 똑같은 회사 다녀?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "ani jaknyeone iikgeumhae jigeum jaektaek geunmu jin jjac jonggeureon",
+          "display": "ani jaknyeone iikgeumhae jigeum jaektaek geunmu jin jjac jonggeureon",
+          "hint_zh": "沒,我去年跳槽了。現在遠端工作,好太多了。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "헐, 부럽다. 나도 한다 한다 하면서 안 움직여."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "geunyang jireuneun ge dap naega haebon choe goegyeolijeong iya",
+          "display": "geunyang jireuneun ge dap naega haebon choe goegyeolijeong iya",
+          "hint_zh": "說真的你該下定決心做。是我做過最好的決定。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "응 응, 알아. 야, 우리 커피 한잔 빠르게 어때?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "naedo gago sipeunde jigeum nuc esseo damen bwa",
+          "display": "naedo gago sipeunde jigeum nuc esseo damen bwa",
+          "hint_zh": "好想去,但我快遲到了。下次補?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "당연하지. 문자해, 시간 잡자."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "geurae mannaseo jal jinaeseo joasseo",
+          "display": "geurae mannaseo jal jinaeseo joasseo",
+          "hint_zh": "一定。很高興遇到你,保重!"
+        }
+      ]
+    },
+    "t11": {
+      "text": "너도 잘 지내. 또 보자!"
+    }
+  }
+}

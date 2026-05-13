@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "cap_theorem_explain_b2",
+  "language": "ko",
+  "title": "CAP 정리 5분 이해",
+  "description": "시니어가 비기술 PM에게 CAP 정리를 설명해 달라고 부탁. 전문용어 과부하 없이 트레이드오프를 전달.",
+  "characters": {
+    "bot": {
+      "name": "시니어",
+      "voice": "ko-KR-InJoonNeural"
+    },
+    "player": {
+      "name": "당신"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "새 PM이 내일 합류해. 그분 겁주지 않고 CAP 정리 설명할 수 있어?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "ne ganda nan beorjeon bunsan datebe sneun se ji ji bonjjong jung dhul man jikil su isso",
+          "display": "ne ganda nan beorjeon bunsan datebe sneun se ji ji bonjjong jung dhul man jikil su isso",
+          "hint_zh": "好,簡單版:分散式資料庫只能同時保住三個保證裡的兩個。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "어떤 셋?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "yibgwan seoeong gay ay ong seoeong tukseu rul jung ji bun yeong te i jeoeong neot wak bunwha rul ppi hal su eopsoonkka sirjero C wa Aji jee ny eo seon yeong taek",
+          "display": "yibgwan seoeong gay ay ong seoeong tukseu rul jung ji bun yeong te i jeoeong neot wak bunwha rul ppi hal su eopsoonkka sirjero C wa Aji jee ny eo seon yeong taek",
+          "hint_zh": "一致性、可用性、分區容錯。網路分區不可避免,所以實質是在 C 跟 A 之間二選一。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "알겠어. 각 면의 구체적 예시?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "eunhang jangbu CP teulryeun janagil bo i ji aneul tuh jul yeo do jeong ji sosyeoll fideu AP jugaen jeon bo eul jurueondaeb e ddo gyesok ggun haeyo",
+          "display": "eunhang jangbu CP teulryeun janagil bo i ji aneul tuh jul yeo do jeong ji sosyeoll fideu AP jugaen jeon bo eul jurueondaeb e ddo gyesok ggun haeyo",
+          "hint_zh": "銀行帳本選 CP,寧可停服務也不顯示錯誤餘額;社群動態選 AP,寧可顯示舊資料也要持續可用。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "결과적 일관성은 어디?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "siljjeo jeoge jung gan jeop jang dae bub bun yi sirsystem eun sun susuanin CP do AP do anigo nat jung e dong gi haeyo",
+          "display": "siljjeo jeoge jung gan jeop jang dae bub bun yi sirsystem eun sun susuanin CP do AP do anigo nat jung e dong gi haeyo",
+          "hint_zh": "務實的中間值,大多數現實系統不是純 CP 或純 AP,而是稍後同步補上。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "또 하나 — CAP의 C와 ACID의 C는 같아?"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "darunja gyeong ooyo CAP yi Cneun nodeul i hap eu hae ACID yi Cneun teu raen seu ekssyeon i DB reul yu hyo san taeero ka jung",
+          "display": "darunja gyeong ooyo CAP yi Cneun nodeul i hap eu hae ACID yi Cneun teu raen seu ekssyeon i DB reul yu hyo san taeero ka jung",
+          "hint_zh": "不一樣。CAP 的 C 講節點之間達成共識,ACID 的 C 講交易結束後資料庫仍處於有效狀態。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "완벽해. 그 정도 수준이면 좋겠어. 내일 전에 한 페이지 보내줘?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "geuraeyo han pe ji ane eo gajigo kipeun document neun lin keuro yon gyeol",
+          "display": "geuraeyo han pe ji ane eo gajigo kipeun document neun lin keuro yon gyeol",
+          "hint_zh": "沒問題,我會控制在一頁內,深入的文件用連結帶。"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "en.ordering_drinks.a1",
+  "language": "en",
+  "level": "A1",
+  "topic": "food",
+  "title": "Round at the Bar",
+  "description": "Order a couple of drinks and a snack at a casual bar.",
+  "estimated_minutes": 3,
+  "tags": [
+    "food",
+    "service",
+    "casual",
+    "evening"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Bartender",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Hey, what can I get started for you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Hi! Could I see the drinks menu, please?",
+          "hint_zh": "嗨,可以看一下飲料單嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Sure thing, here you go. The local IPA is pretty popular tonight."
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "I'll try the IPA. Can I also get a glass of water?",
+          "hint_zh": "我試試 IPA,可以再來一杯水嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Of course. Anything to snack on?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Yeah, the fries sound great. With ketchup if you have it.",
+          "hint_zh": "好啊,薯條聽起來不錯,有番茄醬的話麻煩附上。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Coming right up. Want to start a tab or pay as you go?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Let's start a tab, thanks.",
+          "hint_zh": "幫我開個酒帳,謝謝。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "All right, just leave me a card. I'll be back with your drinks shortly."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Awesome, thanks a lot.",
+          "hint_zh": "太好了,非常感謝。"
+        }
+      ]
+    }
+  ]
+}

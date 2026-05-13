@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "hotel_check_in_a2",
+  "language": "ko",
+  "title": "호텔 체크인",
+  "description": "호텔에 체크인하고 부대시설 문의.",
+  "characters": {
+    "bot": {
+      "name": "컨시어지",
+      "voice": "ko-KR-SunHiNeural"
+    },
+    "player": {
+      "name": "당신"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "안녕하세요, 그랜드 베이뷰에 오신 걸 환영합니다. 체크인이세요?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "ne ireumi li ro yeyak haesseoyo",
+          "display": "ne ireumi li ro yeyak haesseoyo",
+          "hint_zh": "是的,我用 Lee 這個名字訂了房。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "확인할게요. 여권 보여주실 수 있어요?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "ne yeogiyo",
+          "display": "ne yeogiyo",
+          "hint_zh": "沒問題,給你。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "감사합니다. 킹 디럭스 룸 삼박, 맞으시죠?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "ne dohun cheungeuro bakkul su isseulkkayo",
+          "display": "ne dohun cheungeuro bakkul su isseulkkayo",
+          "hint_zh": "沒錯。可以幫我安排比較高樓層的房間嗎?"
+        }
+      ]
+    },
+    "t7": {
+      "text": "확인해 볼게요. 네, 17층 오션뷰 룸으로 옮겨드릴 수 있어요."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "joneyo gomawoyo achimsigsa myeotsiyeyo",
+          "display": "joneyo gomawoyo achimsigsa myeotsiyeyo",
+          "hint_zh": "聽起來太棒了,謝謝。早餐幾點開始?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "아침식사는 여섯시 반부터 열시까지, 2층에 있습니다. 수영장은 옥상이에요."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "ne oneul jeonyege simseong jangiyongdwoel su isseoyo",
+          "display": "ne oneul jeonyege simseong jangiyongdwoel su isseoyo",
+          "hint_zh": "好的。今天晚上可以使用健身房嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "네, 헬스장은 24시간 운영입니다. 객실 카드로 자동 입장됩니다."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "majimak hana ro hosil wifineun muryoyeyo",
+          "display": "majimak hana ro hosil wifineun muryoyeyo",
+          "hint_zh": "太好了。最後一個問題--房間裡的網路是免費的嗎?"
+        }
+      ]
+    },
+    "t13": {
+      "text": "네, 네트워크 이름은 이 카드에, 비밀번호는 호실 번호입니다."
+    },
+    "t14": {
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "jinjjago mawoyo joeun bambonase yo",
+          "display": "jinjjago mawoyo joeun bambonase yo",
+          "hint_zh": "非常感謝,祝你今晚愉快!"
+        }
+      ]
+    }
+  }
+}

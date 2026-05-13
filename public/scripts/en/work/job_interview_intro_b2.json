@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "en.job_interview_intro.b2",
+  "language": "en",
+  "level": "B2",
+  "topic": "work",
+  "title": "Tell Me About Yourself",
+  "description": "Open round of a job interview - introduce yourself, walk through experience, and ask thoughtful questions.",
+  "estimated_minutes": 6,
+  "tags": [
+    "work",
+    "interview",
+    "professional"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Interviewer",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Thanks for joining today. To kick things off, can you tell me a bit about yourself?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Of course. I'm a software engineer with about six years of experience building backend systems for fintech and e-commerce companies.",
+          "hint_zh": "好的,我是軟體工程師,大約六年經驗,主要在金融科技與電商公司做後端系統。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Got it. What kind of problems do you enjoy working on the most?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "I enjoy untangling messy systems - taking something that's hard to reason about and making it boring and reliable.",
+          "hint_zh": "我喜歡處理混亂的系統,把難以理解的東西改造成穩定無聊但可靠的程式。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Could you walk me through a project where you did exactly that?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Sure. At my last job we had a payment service that occasionally double-charged customers under load.",
+          "hint_zh": "好的,我上一份工作的支付系統,在高負載時偶爾會重複扣款。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Tricky. How did you approach it?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "We added idempotency keys, traced every retry path, and built a daily reconciliation job that flagged drift.",
+          "hint_zh": "我們加了冪等鍵、追蹤每條重試路徑,並寫了每日對帳工作把差異標記出來。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Did the duplicate charges actually go away?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "They dropped to zero in production. The reconciliation job catches anything weird before customers notice.",
+          "hint_zh": "在 production 上降為零,有任何異常對帳工作會在客戶發現之前就抓到。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "That's the kind of work we're hoping to do here. What made you start looking for a new role?"
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Honestly, I'm looking for a smaller team where I can have more impact across the stack.",
+          "hint_zh": "老實說,我在找一個更小、能跨整個技術棧發揮影響力的團隊。"
+        }
+      ]
+    },
+    {
+      "id": "t13",
+      "speaker": "bot",
+      "text": "Makes sense. Do you have any questions for me at this point?"
+    },
+    {
+      "id": "t14",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Yes, what does the first ninety days look like for someone in this role?",
+          "hint_zh": "有的,這個職位的前九十天通常會是什麼樣子?"
+        }
+      ]
+    },
+    {
+      "id": "t15",
+      "speaker": "bot",
+      "text": "Onboarding pairs you with a mentor, then you'd ship a small change in week two and own a feature by month two."
+    },
+    {
+      "id": "t16",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t16.0",
+          "text": "That sounds like a great cadence. How does the team measure success after that?",
+          "hint_zh": "聽起來節奏很好。之後團隊是怎麼衡量成功的?"
+        }
+      ]
+    },
+    {
+      "id": "t17",
+      "speaker": "bot",
+      "text": "We focus on shipping cadence, on-call burden, and how often we ship without incident."
+    },
+    {
+      "id": "t18",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t18.0",
+          "text": "Those are the metrics I care about too. Thanks for the thoughtful answers.",
+          "hint_zh": "這些也正是我重視的指標,謝謝你細心的回覆。"
+        }
+      ]
+    }
+  ]
+}

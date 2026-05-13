@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "asking_directions_a1",
+  "language": "it",
+  "title": "Chiedere indicazioni",
+  "description": "Fermi un passante per strada e ti fai indicare la libreria.",
+  "characters": {
+    "bot": {
+      "name": "Passante",
+      "voice": "it-IT-DiegoNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "templates": [
+        {
+          "id": "t1.0",
+          "text": "Mi scusi, le posso chiedere una cosa veloce?",
+          "hint_zh": "不好意思,可以耽誤你一下嗎?"
+        }
+      ]
+    },
+    "t2": {
+      "text": "Certo, dimmi."
+    },
+    "t3": {
+      "templates": [
+        {
+          "id": "t3.0",
+          "text": "Sai come arrivare alla libreria centrale?",
+          "hint_zh": "你知道中央書店怎麼去嗎?"
+        }
+      ]
+    },
+    "t4": {
+      "text": "Si, non e' lontana. Vai dritto due isolati su questa strada e poi gira a sinistra al semaforo."
+    },
+    "t5": {
+      "templates": [
+        {
+          "id": "t5.0",
+          "text": "Due isolati e a sinistra, ok. E' su quella via?",
+          "hint_zh": "走兩個街區後左轉,知道了。在那條街上嗎?"
+        }
+      ]
+    },
+    "t6": {
+      "text": "Si, la vedi sulla destra dopo circa tre minuti. C'e' un'insegna rossa grande."
+    },
+    "t7": {
+      "templates": [
+        {
+          "id": "t7.0",
+          "text": "Perfetto. E' aperta la domenica?",
+          "hint_zh": "太好了,星期天有開嗎?"
+        }
+      ]
+    },
+    "t8": {
+      "text": "Credo di si, fino alle sei circa. Magari chiama prima per sicurezza."
+    },
+    "t9": {
+      "templates": [
+        {
+          "id": "t9.0",
+          "text": "Lo faro'. Grazie mille dell'aiuto!",
+          "hint_zh": "我會打去問,真的很感謝你!"
+        }
+      ]
+    },
+    "t10": {
+      "text": "Figurati, buona giornata!"
+    },
+    "t11": {
+      "templates": [
+        {
+          "id": "t11.0",
+          "text": "Anche a te, mi raccomando!",
+          "hint_zh": "你也是,保重!"
+        }
+      ]
+    }
+  }
+}

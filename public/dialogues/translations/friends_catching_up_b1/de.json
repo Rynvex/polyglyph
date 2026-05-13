@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "friends_catching_up_b1",
+  "language": "de",
+  "title": "Wiedersehen mit einem alten Freund",
+  "description": "Du laeufst zufaellig jemandem ueber den Weg, den du ewig nicht gesehen hast. Viel Umgangssprache.",
+  "characters": {
+    "bot": {
+      "name": "Sam",
+      "voice": "de-DE-ConradNeural"
+    },
+    "player": {
+      "name": "Du"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Na du Fremder! Lange nicht gesehen. Wie geht's dir?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Sam! Krass, eine Ewigkeit. Mir geht's ganz gut, und dir?",
+          "hint_zh": "Sam!天啊,好久不見。我還不錯,你呢?"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Kann nicht klagen. Alles wie immer. Bist du noch in der gleichen Firma?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Nee, hab letztes Jahr gewechselt. Bin jetzt komplett remote, viel besser.",
+          "hint_zh": "沒,我去年跳槽了。現在遠端工作,好太多了。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Was, echt? Cool. Ich sag mir das auch immer und mach's dann doch nicht."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Mach's einfach, im Ernst. Beste Entscheidung meines Lebens.",
+          "hint_zh": "說真的你該下定決心做。是我做過最好的決定。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Ja, ja, ich hoer dich. Lust auf einen schnellen Kaffee?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Wuerde ich gerne, aber ich bin spaet dran. Holen wir nach?",
+          "hint_zh": "好想去,但我快遲到了。下次補?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Klar doch. Schreib mir kurz, dann machen wir was aus."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Mach ich. Schoen, dich zu sehen, pass auf dich auf!",
+          "hint_zh": "一定。很高興遇到你,保重!"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Du auch, Mann. Bis bald!"
+    }
+  }
+}

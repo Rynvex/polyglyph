@@ -1,0 +1,2086 @@
+{
+  "schema_version": 1,
+  "language": "ja",
+  "translations": [
+    {
+      "conceptId": "apple",
+      "language": "ja",
+      "text": "ringo",
+      "romaji": "ringo",
+      "notes": "りんご"
+    },
+    {
+      "conceptId": "banana",
+      "language": "ja",
+      "text": "banana",
+      "romaji": "banana",
+      "notes": "バナナ"
+    },
+    {
+      "conceptId": "bread",
+      "language": "ja",
+      "text": "pan",
+      "romaji": "pan",
+      "notes": "パン"
+    },
+    {
+      "conceptId": "cheese",
+      "language": "ja",
+      "text": "chiizu",
+      "romaji": "chiizu",
+      "notes": "チーズ"
+    },
+    {
+      "conceptId": "egg",
+      "language": "ja",
+      "text": "tamago",
+      "romaji": "tamago",
+      "notes": "卵"
+    },
+    {
+      "conceptId": "fish",
+      "language": "ja",
+      "text": "sakana",
+      "romaji": "sakana",
+      "notes": "魚"
+    },
+    {
+      "conceptId": "chicken",
+      "language": "ja",
+      "text": "toriniku",
+      "romaji": "toriniku",
+      "notes": "鶏肉"
+    },
+    {
+      "conceptId": "rice",
+      "language": "ja",
+      "text": "gohan",
+      "romaji": "gohan",
+      "notes": "ご飯"
+    },
+    {
+      "conceptId": "soup",
+      "language": "ja",
+      "text": "suupu",
+      "romaji": "suupu",
+      "notes": "スープ"
+    },
+    {
+      "conceptId": "salad",
+      "language": "ja",
+      "text": "sarada",
+      "romaji": "sarada",
+      "notes": "サラダ"
+    },
+    {
+      "conceptId": "water",
+      "language": "ja",
+      "text": "mizu",
+      "romaji": "mizu",
+      "notes": "水"
+    },
+    {
+      "conceptId": "coffee",
+      "language": "ja",
+      "text": "koohii",
+      "romaji": "koohii",
+      "notes": "コーヒー"
+    },
+    {
+      "conceptId": "tea",
+      "language": "ja",
+      "text": "ocha",
+      "romaji": "ocha",
+      "notes": "お茶"
+    },
+    {
+      "conceptId": "milk",
+      "language": "ja",
+      "text": "miruku",
+      "romaji": "miruku",
+      "notes": "ミルク"
+    },
+    {
+      "conceptId": "juice",
+      "language": "ja",
+      "text": "juusu",
+      "romaji": "juusu",
+      "notes": "ジュース"
+    },
+    {
+      "conceptId": "wine",
+      "language": "ja",
+      "text": "wain",
+      "romaji": "wain",
+      "notes": "ワイン"
+    },
+    {
+      "conceptId": "knife",
+      "language": "ja",
+      "text": "naifu",
+      "romaji": "naifu",
+      "notes": "ナイフ"
+    },
+    {
+      "conceptId": "fork",
+      "language": "ja",
+      "text": "fooku",
+      "romaji": "fooku",
+      "notes": "フォーク"
+    },
+    {
+      "conceptId": "spoon",
+      "language": "ja",
+      "text": "supuun",
+      "romaji": "supuun",
+      "notes": "スプーン"
+    },
+    {
+      "conceptId": "plate",
+      "language": "ja",
+      "text": "osara",
+      "romaji": "osara",
+      "notes": "お皿"
+    },
+    {
+      "conceptId": "cup",
+      "language": "ja",
+      "text": "koppu",
+      "romaji": "koppu",
+      "notes": "コップ"
+    },
+    {
+      "conceptId": "bottle",
+      "language": "ja",
+      "text": "bin",
+      "romaji": "bin",
+      "notes": "瓶"
+    },
+    {
+      "conceptId": "pot",
+      "language": "ja",
+      "text": "nabe",
+      "romaji": "nabe",
+      "notes": "鍋"
+    },
+    {
+      "conceptId": "fridge",
+      "language": "ja",
+      "text": "reizouko",
+      "romaji": "reizouko",
+      "notes": "冷蔵庫"
+    },
+    {
+      "conceptId": "stove",
+      "language": "ja",
+      "text": "konro",
+      "romaji": "konro",
+      "notes": "コンロ"
+    },
+    {
+      "conceptId": "oven",
+      "language": "ja",
+      "text": "oobun",
+      "romaji": "oobun",
+      "notes": "オーブン"
+    },
+    {
+      "conceptId": "table",
+      "language": "ja",
+      "text": "teeburu",
+      "romaji": "teeburu",
+      "notes": "テーブル"
+    },
+    {
+      "conceptId": "chair",
+      "language": "ja",
+      "text": "isu",
+      "romaji": "isu",
+      "notes": "椅子"
+    },
+    {
+      "conceptId": "salt",
+      "language": "ja",
+      "text": "shio",
+      "romaji": "shio",
+      "notes": "塩"
+    },
+    {
+      "conceptId": "pepper",
+      "language": "ja",
+      "text": "koshou",
+      "romaji": "koshou",
+      "notes": "胡椒"
+    },
+    {
+      "conceptId": "sugar",
+      "language": "ja",
+      "text": "satou",
+      "romaji": "satou",
+      "notes": "砂糖"
+    },
+    {
+      "conceptId": "butter",
+      "language": "ja",
+      "text": "bataa",
+      "romaji": "bataa",
+      "notes": "バター"
+    },
+    {
+      "conceptId": "head",
+      "language": "ja",
+      "text": "atama",
+      "romaji": "atama",
+      "notes": "頭"
+    },
+    {
+      "conceptId": "eye",
+      "language": "ja",
+      "text": "me",
+      "romaji": "me",
+      "notes": "目"
+    },
+    {
+      "conceptId": "ear",
+      "language": "ja",
+      "text": "mimi",
+      "romaji": "mimi",
+      "notes": "耳"
+    },
+    {
+      "conceptId": "nose",
+      "language": "ja",
+      "text": "hana",
+      "romaji": "hana",
+      "notes": "鼻"
+    },
+    {
+      "conceptId": "mouth",
+      "language": "ja",
+      "text": "kuchi",
+      "romaji": "kuchi",
+      "notes": "口"
+    },
+    {
+      "conceptId": "tooth",
+      "language": "ja",
+      "text": "ha",
+      "romaji": "ha",
+      "notes": "歯"
+    },
+    {
+      "conceptId": "hand",
+      "language": "ja",
+      "text": "te",
+      "romaji": "te",
+      "notes": "手"
+    },
+    {
+      "conceptId": "arm",
+      "language": "ja",
+      "text": "ude",
+      "romaji": "ude",
+      "notes": "腕"
+    },
+    {
+      "conceptId": "leg",
+      "language": "ja",
+      "text": "ashi",
+      "romaji": "ashi",
+      "notes": "脚"
+    },
+    {
+      "conceptId": "foot",
+      "language": "ja",
+      "text": "ashi",
+      "romaji": "ashi",
+      "notes": "足"
+    },
+    {
+      "conceptId": "heart",
+      "language": "ja",
+      "text": "kokoro",
+      "romaji": "kokoro",
+      "notes": "心"
+    },
+    {
+      "conceptId": "hair",
+      "language": "ja",
+      "text": "kami",
+      "romaji": "kami",
+      "notes": "髪"
+    },
+    {
+      "conceptId": "finger",
+      "language": "ja",
+      "text": "yubi",
+      "romaji": "yubi",
+      "notes": "指"
+    },
+    {
+      "conceptId": "knee",
+      "language": "ja",
+      "text": "hiza",
+      "romaji": "hiza",
+      "notes": "膝"
+    },
+    {
+      "conceptId": "shoulder",
+      "language": "ja",
+      "text": "kata",
+      "romaji": "kata",
+      "notes": "肩"
+    },
+    {
+      "conceptId": "back",
+      "language": "ja",
+      "text": "senaka",
+      "romaji": "senaka",
+      "notes": "背中"
+    },
+    {
+      "conceptId": "one",
+      "language": "ja",
+      "text": "ichi",
+      "romaji": "ichi",
+      "notes": "一"
+    },
+    {
+      "conceptId": "two",
+      "language": "ja",
+      "text": "ni",
+      "romaji": "ni",
+      "notes": "二"
+    },
+    {
+      "conceptId": "three",
+      "language": "ja",
+      "text": "san",
+      "romaji": "san",
+      "notes": "三"
+    },
+    {
+      "conceptId": "four",
+      "language": "ja",
+      "text": "yon",
+      "romaji": "yon",
+      "notes": "四"
+    },
+    {
+      "conceptId": "five",
+      "language": "ja",
+      "text": "go",
+      "romaji": "go",
+      "notes": "五"
+    },
+    {
+      "conceptId": "six",
+      "language": "ja",
+      "text": "roku",
+      "romaji": "roku",
+      "notes": "六"
+    },
+    {
+      "conceptId": "seven",
+      "language": "ja",
+      "text": "nana",
+      "romaji": "nana",
+      "notes": "七"
+    },
+    {
+      "conceptId": "eight",
+      "language": "ja",
+      "text": "hachi",
+      "romaji": "hachi",
+      "notes": "八"
+    },
+    {
+      "conceptId": "nine",
+      "language": "ja",
+      "text": "kyuu",
+      "romaji": "kyuu",
+      "notes": "九"
+    },
+    {
+      "conceptId": "ten",
+      "language": "ja",
+      "text": "juu",
+      "romaji": "juu",
+      "notes": "十"
+    },
+    {
+      "conceptId": "twenty",
+      "language": "ja",
+      "text": "nijuu",
+      "romaji": "nijuu",
+      "notes": "二十"
+    },
+    {
+      "conceptId": "fifty",
+      "language": "ja",
+      "text": "gojuu",
+      "romaji": "gojuu",
+      "notes": "五十"
+    },
+    {
+      "conceptId": "hundred",
+      "language": "ja",
+      "text": "hyaku",
+      "romaji": "hyaku",
+      "notes": "百"
+    },
+    {
+      "conceptId": "thousand",
+      "language": "ja",
+      "text": "sen",
+      "romaji": "sen",
+      "notes": "千"
+    },
+    {
+      "conceptId": "first",
+      "language": "ja",
+      "text": "ichiban",
+      "romaji": "ichiban",
+      "notes": "一番"
+    },
+    {
+      "conceptId": "second",
+      "language": "ja",
+      "text": "niban",
+      "romaji": "niban",
+      "notes": "二番"
+    },
+    {
+      "conceptId": "key",
+      "language": "ja",
+      "text": "kagi",
+      "romaji": "kagi",
+      "notes": "鍵"
+    },
+    {
+      "conceptId": "phone",
+      "language": "ja",
+      "text": "denwa",
+      "romaji": "denwa",
+      "notes": "電話"
+    },
+    {
+      "conceptId": "book",
+      "language": "ja",
+      "text": "hon",
+      "romaji": "hon",
+      "notes": "本"
+    },
+    {
+      "conceptId": "pen",
+      "language": "ja",
+      "text": "pen",
+      "romaji": "pen",
+      "notes": "ペン"
+    },
+    {
+      "conceptId": "bag",
+      "language": "ja",
+      "text": "kaban",
+      "romaji": "kaban",
+      "notes": "鞄"
+    },
+    {
+      "conceptId": "umbrella",
+      "language": "ja",
+      "text": "kasa",
+      "romaji": "kasa",
+      "notes": "傘"
+    },
+    {
+      "conceptId": "watch",
+      "language": "ja",
+      "text": "tokei",
+      "romaji": "tokei",
+      "notes": "時計"
+    },
+    {
+      "conceptId": "wallet",
+      "language": "ja",
+      "text": "saifu",
+      "romaji": "saifu",
+      "notes": "財布"
+    },
+    {
+      "conceptId": "money",
+      "language": "ja",
+      "text": "okane",
+      "romaji": "okane",
+      "notes": "お金"
+    },
+    {
+      "conceptId": "ticket",
+      "language": "ja",
+      "text": "kippu",
+      "romaji": "kippu",
+      "notes": "切符"
+    },
+    {
+      "conceptId": "passport",
+      "language": "ja",
+      "text": "pasupooto",
+      "romaji": "pasupooto",
+      "notes": "パスポート"
+    },
+    {
+      "conceptId": "computer",
+      "language": "ja",
+      "text": "konpyuutaa",
+      "romaji": "konpyuutaa",
+      "notes": "コンピューター"
+    },
+    {
+      "conceptId": "camera",
+      "language": "ja",
+      "text": "kamera",
+      "romaji": "kamera",
+      "notes": "カメラ"
+    },
+    {
+      "conceptId": "door",
+      "language": "ja",
+      "text": "doa",
+      "romaji": "doa",
+      "notes": "ドア"
+    },
+    {
+      "conceptId": "window",
+      "language": "ja",
+      "text": "mado",
+      "romaji": "mado",
+      "notes": "窓"
+    },
+    {
+      "conceptId": "key_card",
+      "language": "ja",
+      "text": "kaado",
+      "romaji": "kaado",
+      "notes": "カード"
+    },
+    {
+      "conceptId": "airport",
+      "language": "ja",
+      "text": "kuukou",
+      "romaji": "kuukou",
+      "notes": "空港"
+    },
+    {
+      "conceptId": "hotel",
+      "language": "ja",
+      "text": "hoteru",
+      "romaji": "hoteru",
+      "notes": "ホテル"
+    },
+    {
+      "conceptId": "station",
+      "language": "ja",
+      "text": "eki",
+      "romaji": "eki",
+      "notes": "駅"
+    },
+    {
+      "conceptId": "city",
+      "language": "ja",
+      "text": "machi",
+      "romaji": "machi",
+      "notes": "町/街 — 大都市は「toshi 都市」。"
+    },
+    {
+      "conceptId": "country",
+      "language": "ja",
+      "text": "kuni",
+      "romaji": "kuni",
+      "notes": "国"
+    },
+    {
+      "conceptId": "beach",
+      "language": "ja",
+      "text": "umibe",
+      "romaji": "umibe",
+      "notes": "海辺。砂浜は「sunahama」、外来語の「biichi」も使う。"
+    },
+    {
+      "conceptId": "mountain",
+      "language": "ja",
+      "text": "yama",
+      "romaji": "yama",
+      "notes": "山"
+    },
+    {
+      "conceptId": "hospital",
+      "language": "ja",
+      "text": "byouin",
+      "romaji": "byouin",
+      "notes": "病院"
+    },
+    {
+      "conceptId": "park",
+      "language": "ja",
+      "text": "kouen",
+      "romaji": "kouen",
+      "notes": "公園"
+    },
+    {
+      "conceptId": "museum",
+      "language": "ja",
+      "text": "hakubutsukan",
+      "romaji": "hakubutsukan",
+      "notes": "博物館。美術館(bijutsukan)は art museum。"
+    },
+    {
+      "conceptId": "sun",
+      "language": "ja",
+      "text": "taiyou",
+      "romaji": "taiyou",
+      "notes": "太陽"
+    },
+    {
+      "conceptId": "rain",
+      "language": "ja",
+      "text": "ame",
+      "romaji": "ame",
+      "notes": "雨。同じ綴りで「ame=飴(candy)」もある — アクセント違い。"
+    },
+    {
+      "conceptId": "snow",
+      "language": "ja",
+      "text": "yuki",
+      "romaji": "yuki",
+      "notes": "雪"
+    },
+    {
+      "conceptId": "wind",
+      "language": "ja",
+      "text": "kaze",
+      "romaji": "kaze",
+      "notes": "風。「kaze=風邪」は cold/flu — 同綴語。"
+    },
+    {
+      "conceptId": "cloud",
+      "language": "ja",
+      "text": "kumo",
+      "romaji": "kumo",
+      "notes": "雲。「kumo=蜘蛛」は spider — 同綴語。"
+    },
+    {
+      "conceptId": "storm",
+      "language": "ja",
+      "text": "arashi",
+      "romaji": "arashi",
+      "notes": "嵐"
+    },
+    {
+      "conceptId": "fog",
+      "language": "ja",
+      "text": "kiri",
+      "romaji": "kiri",
+      "notes": "霧"
+    },
+    {
+      "conceptId": "rainbow",
+      "language": "ja",
+      "text": "niji",
+      "romaji": "niji",
+      "notes": "虹"
+    },
+    {
+      "conceptId": "lightning",
+      "language": "ja",
+      "text": "kaminari",
+      "romaji": "kaminari",
+      "notes": "雷。閃光は「inazuma 稲妻」。"
+    },
+    {
+      "conceptId": "moon",
+      "language": "ja",
+      "text": "tsuki",
+      "romaji": "tsuki",
+      "notes": "月"
+    },
+    {
+      "conceptId": "mother",
+      "language": "ja",
+      "text": "okaasan",
+      "romaji": "okaasan",
+      "register": "casual",
+      "notes": "お母さん — 他人の母にも自分の母にも使う口語。"
+    },
+    {
+      "conceptId": "mother",
+      "language": "ja",
+      "text": "haha",
+      "romaji": "haha",
+      "register": "formal",
+      "notes": "母 — 自分の母を他人に紹介する時の謙譲形。"
+    },
+    {
+      "conceptId": "father",
+      "language": "ja",
+      "text": "otousan",
+      "romaji": "otousan",
+      "register": "casual",
+      "notes": "お父さん。"
+    },
+    {
+      "conceptId": "father",
+      "language": "ja",
+      "text": "chichi",
+      "romaji": "chichi",
+      "register": "formal",
+      "notes": "父 — 謙譲形。"
+    },
+    {
+      "conceptId": "sister",
+      "language": "ja",
+      "text": "shimai",
+      "romaji": "shimai",
+      "notes": "姉妹(総称)。年上=oneesan 姉さん、年下=imouto 妹。"
+    },
+    {
+      "conceptId": "brother",
+      "language": "ja",
+      "text": "kyoudai",
+      "romaji": "kyoudai",
+      "notes": "兄弟(総称)。年上=oniisan 兄さん、年下=otouto 弟。"
+    },
+    {
+      "conceptId": "friend",
+      "language": "ja",
+      "text": "tomodachi",
+      "romaji": "tomodachi",
+      "notes": "友達"
+    },
+    {
+      "conceptId": "friend",
+      "language": "ja",
+      "text": "dachi",
+      "romaji": "dachi",
+      "register": "slang",
+      "notes": "ダチ — 男性的・若者言葉の砕けた言い方。"
+    },
+    {
+      "conceptId": "baby",
+      "language": "ja",
+      "text": "akachan",
+      "romaji": "akachan",
+      "notes": "赤ちゃん"
+    },
+    {
+      "conceptId": "child",
+      "language": "ja",
+      "text": "kodomo",
+      "romaji": "kodomo",
+      "notes": "子供/子ども"
+    },
+    {
+      "conceptId": "family",
+      "language": "ja",
+      "text": "kazoku",
+      "romaji": "kazoku",
+      "notes": "家族"
+    },
+    {
+      "conceptId": "grandfather",
+      "language": "ja",
+      "text": "ojiisan",
+      "romaji": "ojiisan",
+      "register": "casual",
+      "notes": "お爺さん。"
+    },
+    {
+      "conceptId": "grandfather",
+      "language": "ja",
+      "text": "sofu",
+      "romaji": "sofu",
+      "register": "formal",
+      "notes": "祖父 — 謙譲形。"
+    },
+    {
+      "conceptId": "grandmother",
+      "language": "ja",
+      "text": "obaasan",
+      "romaji": "obaasan",
+      "register": "casual",
+      "notes": "お婆さん。"
+    },
+    {
+      "conceptId": "grandmother",
+      "language": "ja",
+      "text": "sobo",
+      "romaji": "sobo",
+      "register": "formal",
+      "notes": "祖母 — 謙譲形。"
+    },
+    {
+      "conceptId": "happy",
+      "language": "ja",
+      "text": "ureshii",
+      "romaji": "ureshii",
+      "notes": "嬉しい"
+    },
+    {
+      "conceptId": "happy",
+      "language": "ja",
+      "text": "happii",
+      "romaji": "happii",
+      "register": "casual",
+      "notes": "ハッピー — 英語借用語、口語。"
+    },
+    {
+      "conceptId": "sad",
+      "language": "ja",
+      "text": "kanashii",
+      "romaji": "kanashii",
+      "notes": "悲しい"
+    },
+    {
+      "conceptId": "angry",
+      "language": "ja",
+      "text": "okotta",
+      "romaji": "okotta",
+      "notes": "怒った — 口語の自然な過去/状態形。"
+    },
+    {
+      "conceptId": "tired",
+      "language": "ja",
+      "text": "tsukareta",
+      "romaji": "tsukareta",
+      "notes": "疲れた"
+    },
+    {
+      "conceptId": "scared",
+      "language": "ja",
+      "text": "kowai",
+      "romaji": "kowai",
+      "notes": "怖い"
+    },
+    {
+      "conceptId": "surprised",
+      "language": "ja",
+      "text": "odoroita",
+      "romaji": "odoroita",
+      "notes": "驚いた"
+    },
+    {
+      "conceptId": "calm",
+      "language": "ja",
+      "text": "ochitsuita",
+      "romaji": "ochitsuita",
+      "notes": "落ち着いた"
+    },
+    {
+      "conceptId": "excited",
+      "language": "ja",
+      "text": "wakuwaku",
+      "romaji": "wakuwaku",
+      "notes": "ワクワク — 擬態語。"
+    },
+    {
+      "conceptId": "bored",
+      "language": "ja",
+      "text": "taikutsu",
+      "romaji": "taikutsu",
+      "notes": "退屈"
+    },
+    {
+      "conceptId": "nervous",
+      "language": "ja",
+      "text": "kinchou",
+      "romaji": "kinchou",
+      "notes": "緊張 — 「緊張してる」が普通の発話形。"
+    },
+    {
+      "conceptId": "day",
+      "language": "ja",
+      "text": "hi",
+      "romaji": "hi",
+      "notes": "日。「ichinichi 一日」は a day(時間単位)。"
+    },
+    {
+      "conceptId": "night",
+      "language": "ja",
+      "text": "yoru",
+      "romaji": "yoru",
+      "notes": "夜"
+    },
+    {
+      "conceptId": "morning",
+      "language": "ja",
+      "text": "asa",
+      "romaji": "asa",
+      "notes": "朝"
+    },
+    {
+      "conceptId": "evening",
+      "language": "ja",
+      "text": "yuugata",
+      "romaji": "yuugata",
+      "notes": "夕方。「ban 晩」もある。"
+    },
+    {
+      "conceptId": "today",
+      "language": "ja",
+      "text": "kyou",
+      "romaji": "kyou",
+      "notes": "今日"
+    },
+    {
+      "conceptId": "tomorrow",
+      "language": "ja",
+      "text": "ashita",
+      "romaji": "ashita",
+      "notes": "明日。formal は「asu」「myounichi」。"
+    },
+    {
+      "conceptId": "yesterday",
+      "language": "ja",
+      "text": "kinou",
+      "romaji": "kinou",
+      "notes": "昨日"
+    },
+    {
+      "conceptId": "hour",
+      "language": "ja",
+      "text": "jikan",
+      "romaji": "jikan",
+      "notes": "時間 — 「time」一般語と同綴。"
+    },
+    {
+      "conceptId": "minute",
+      "language": "ja",
+      "text": "fun",
+      "romaji": "fun",
+      "notes": "分。数詞前で pun に変化(3pun, 1pun…)。"
+    },
+    {
+      "conceptId": "week",
+      "language": "ja",
+      "text": "shuukan",
+      "romaji": "shuukan",
+      "notes": "週間 — duration。「konshuu 今週 = this week」。"
+    },
+    {
+      "conceptId": "car",
+      "language": "ja",
+      "text": "kuruma",
+      "romaji": "kuruma",
+      "notes": "車"
+    },
+    {
+      "conceptId": "bus",
+      "language": "ja",
+      "text": "basu",
+      "romaji": "basu",
+      "notes": "バス"
+    },
+    {
+      "conceptId": "train",
+      "language": "ja",
+      "text": "densha",
+      "romaji": "densha",
+      "notes": "電車。長距離は「kisha 汽車」、新幹線は「shinkansen」。"
+    },
+    {
+      "conceptId": "plane",
+      "language": "ja",
+      "text": "hikouki",
+      "romaji": "hikouki",
+      "notes": "飛行機"
+    },
+    {
+      "conceptId": "bike",
+      "language": "ja",
+      "text": "jitensha",
+      "romaji": "jitensha",
+      "notes": "自転車"
+    },
+    {
+      "conceptId": "bike",
+      "language": "ja",
+      "text": "chari",
+      "romaji": "chari",
+      "register": "slang",
+      "notes": "チャリ — 砕けた言い方。「charinko」とも。"
+    },
+    {
+      "conceptId": "taxi",
+      "language": "ja",
+      "text": "takushii",
+      "romaji": "takushii",
+      "notes": "タクシー"
+    },
+    {
+      "conceptId": "boat",
+      "language": "ja",
+      "text": "fune",
+      "romaji": "fune",
+      "notes": "船"
+    },
+    {
+      "conceptId": "road",
+      "language": "ja",
+      "text": "michi",
+      "romaji": "michi",
+      "notes": "道。広い道路は「douro 道路」。"
+    },
+    {
+      "conceptId": "motorcycle",
+      "language": "ja",
+      "text": "baiku",
+      "romaji": "baiku",
+      "notes": "バイク"
+    },
+    {
+      "conceptId": "subway",
+      "language": "ja",
+      "text": "chikatetsu",
+      "romaji": "chikatetsu",
+      "notes": "地下鉄"
+    },
+    {
+      "conceptId": "hira_a",
+      "language": "ja",
+      "text": "a"
+    },
+    {
+      "conceptId": "hira_i",
+      "language": "ja",
+      "text": "i"
+    },
+    {
+      "conceptId": "hira_u",
+      "language": "ja",
+      "text": "u"
+    },
+    {
+      "conceptId": "hira_e",
+      "language": "ja",
+      "text": "e"
+    },
+    {
+      "conceptId": "hira_o",
+      "language": "ja",
+      "text": "o"
+    },
+    {
+      "conceptId": "hira_ka",
+      "language": "ja",
+      "text": "ka"
+    },
+    {
+      "conceptId": "hira_ki",
+      "language": "ja",
+      "text": "ki"
+    },
+    {
+      "conceptId": "hira_ku",
+      "language": "ja",
+      "text": "ku"
+    },
+    {
+      "conceptId": "hira_ke",
+      "language": "ja",
+      "text": "ke"
+    },
+    {
+      "conceptId": "hira_ko",
+      "language": "ja",
+      "text": "ko"
+    },
+    {
+      "conceptId": "hira_sa",
+      "language": "ja",
+      "text": "sa"
+    },
+    {
+      "conceptId": "hira_shi",
+      "language": "ja",
+      "text": "shi"
+    },
+    {
+      "conceptId": "hira_su",
+      "language": "ja",
+      "text": "su"
+    },
+    {
+      "conceptId": "hira_se",
+      "language": "ja",
+      "text": "se"
+    },
+    {
+      "conceptId": "hira_so",
+      "language": "ja",
+      "text": "so"
+    },
+    {
+      "conceptId": "hira_ta",
+      "language": "ja",
+      "text": "ta"
+    },
+    {
+      "conceptId": "hira_chi",
+      "language": "ja",
+      "text": "chi"
+    },
+    {
+      "conceptId": "hira_tsu",
+      "language": "ja",
+      "text": "tsu"
+    },
+    {
+      "conceptId": "hira_te",
+      "language": "ja",
+      "text": "te"
+    },
+    {
+      "conceptId": "hira_to",
+      "language": "ja",
+      "text": "to"
+    },
+    {
+      "conceptId": "hira_na",
+      "language": "ja",
+      "text": "na"
+    },
+    {
+      "conceptId": "hira_ni",
+      "language": "ja",
+      "text": "ni"
+    },
+    {
+      "conceptId": "hira_nu",
+      "language": "ja",
+      "text": "nu"
+    },
+    {
+      "conceptId": "hira_ne",
+      "language": "ja",
+      "text": "ne"
+    },
+    {
+      "conceptId": "hira_no",
+      "language": "ja",
+      "text": "no"
+    },
+    {
+      "conceptId": "hira_ha",
+      "language": "ja",
+      "text": "ha"
+    },
+    {
+      "conceptId": "hira_hi",
+      "language": "ja",
+      "text": "hi"
+    },
+    {
+      "conceptId": "hira_fu",
+      "language": "ja",
+      "text": "fu"
+    },
+    {
+      "conceptId": "hira_he",
+      "language": "ja",
+      "text": "he"
+    },
+    {
+      "conceptId": "hira_ho",
+      "language": "ja",
+      "text": "ho"
+    },
+    {
+      "conceptId": "hira_ma",
+      "language": "ja",
+      "text": "ma"
+    },
+    {
+      "conceptId": "hira_mi",
+      "language": "ja",
+      "text": "mi"
+    },
+    {
+      "conceptId": "hira_mu",
+      "language": "ja",
+      "text": "mu"
+    },
+    {
+      "conceptId": "hira_me",
+      "language": "ja",
+      "text": "me"
+    },
+    {
+      "conceptId": "hira_mo",
+      "language": "ja",
+      "text": "mo"
+    },
+    {
+      "conceptId": "hira_ya",
+      "language": "ja",
+      "text": "ya"
+    },
+    {
+      "conceptId": "hira_yu",
+      "language": "ja",
+      "text": "yu"
+    },
+    {
+      "conceptId": "hira_yo",
+      "language": "ja",
+      "text": "yo"
+    },
+    {
+      "conceptId": "hira_ra",
+      "language": "ja",
+      "text": "ra"
+    },
+    {
+      "conceptId": "hira_ri",
+      "language": "ja",
+      "text": "ri"
+    },
+    {
+      "conceptId": "hira_ru",
+      "language": "ja",
+      "text": "ru"
+    },
+    {
+      "conceptId": "hira_re",
+      "language": "ja",
+      "text": "re"
+    },
+    {
+      "conceptId": "hira_ro",
+      "language": "ja",
+      "text": "ro"
+    },
+    {
+      "conceptId": "hira_wa",
+      "language": "ja",
+      "text": "wa"
+    },
+    {
+      "conceptId": "hira_wo",
+      "language": "ja",
+      "text": "wo"
+    },
+    {
+      "conceptId": "hira_n",
+      "language": "ja",
+      "text": "n"
+    },
+    {
+      "conceptId": "hira_ga",
+      "language": "ja",
+      "text": "ga"
+    },
+    {
+      "conceptId": "hira_gi",
+      "language": "ja",
+      "text": "gi"
+    },
+    {
+      "conceptId": "hira_gu",
+      "language": "ja",
+      "text": "gu"
+    },
+    {
+      "conceptId": "hira_ge",
+      "language": "ja",
+      "text": "ge"
+    },
+    {
+      "conceptId": "hira_go",
+      "language": "ja",
+      "text": "go"
+    },
+    {
+      "conceptId": "hira_za",
+      "language": "ja",
+      "text": "za"
+    },
+    {
+      "conceptId": "hira_ji",
+      "language": "ja",
+      "text": "ji"
+    },
+    {
+      "conceptId": "hira_zu",
+      "language": "ja",
+      "text": "zu"
+    },
+    {
+      "conceptId": "hira_ze",
+      "language": "ja",
+      "text": "ze"
+    },
+    {
+      "conceptId": "hira_zo",
+      "language": "ja",
+      "text": "zo"
+    },
+    {
+      "conceptId": "hira_da",
+      "language": "ja",
+      "text": "da"
+    },
+    {
+      "conceptId": "hira_di",
+      "language": "ja",
+      "text": "ji"
+    },
+    {
+      "conceptId": "hira_du",
+      "language": "ja",
+      "text": "zu"
+    },
+    {
+      "conceptId": "hira_de",
+      "language": "ja",
+      "text": "de"
+    },
+    {
+      "conceptId": "hira_do",
+      "language": "ja",
+      "text": "do"
+    },
+    {
+      "conceptId": "hira_ba",
+      "language": "ja",
+      "text": "ba"
+    },
+    {
+      "conceptId": "hira_bi",
+      "language": "ja",
+      "text": "bi"
+    },
+    {
+      "conceptId": "hira_bu",
+      "language": "ja",
+      "text": "bu"
+    },
+    {
+      "conceptId": "hira_be",
+      "language": "ja",
+      "text": "be"
+    },
+    {
+      "conceptId": "hira_bo",
+      "language": "ja",
+      "text": "bo"
+    },
+    {
+      "conceptId": "hira_pa",
+      "language": "ja",
+      "text": "pa"
+    },
+    {
+      "conceptId": "hira_pi",
+      "language": "ja",
+      "text": "pi"
+    },
+    {
+      "conceptId": "hira_pu",
+      "language": "ja",
+      "text": "pu"
+    },
+    {
+      "conceptId": "hira_pe",
+      "language": "ja",
+      "text": "pe"
+    },
+    {
+      "conceptId": "hira_po",
+      "language": "ja",
+      "text": "po"
+    },
+    {
+      "conceptId": "hira_kya",
+      "language": "ja",
+      "text": "kya"
+    },
+    {
+      "conceptId": "hira_kyu",
+      "language": "ja",
+      "text": "kyu"
+    },
+    {
+      "conceptId": "hira_kyo",
+      "language": "ja",
+      "text": "kyo"
+    },
+    {
+      "conceptId": "hira_sha",
+      "language": "ja",
+      "text": "sha"
+    },
+    {
+      "conceptId": "hira_shu",
+      "language": "ja",
+      "text": "shu"
+    },
+    {
+      "conceptId": "hira_sho",
+      "language": "ja",
+      "text": "sho"
+    },
+    {
+      "conceptId": "hira_cha",
+      "language": "ja",
+      "text": "cha"
+    },
+    {
+      "conceptId": "hira_chu",
+      "language": "ja",
+      "text": "chu"
+    },
+    {
+      "conceptId": "hira_cho",
+      "language": "ja",
+      "text": "cho"
+    },
+    {
+      "conceptId": "hira_nya",
+      "language": "ja",
+      "text": "nya"
+    },
+    {
+      "conceptId": "hira_nyu",
+      "language": "ja",
+      "text": "nyu"
+    },
+    {
+      "conceptId": "hira_nyo",
+      "language": "ja",
+      "text": "nyo"
+    },
+    {
+      "conceptId": "hira_hya",
+      "language": "ja",
+      "text": "hya"
+    },
+    {
+      "conceptId": "hira_hyu",
+      "language": "ja",
+      "text": "hyu"
+    },
+    {
+      "conceptId": "hira_hyo",
+      "language": "ja",
+      "text": "hyo"
+    },
+    {
+      "conceptId": "hira_mya",
+      "language": "ja",
+      "text": "mya"
+    },
+    {
+      "conceptId": "hira_myu",
+      "language": "ja",
+      "text": "myu"
+    },
+    {
+      "conceptId": "hira_myo",
+      "language": "ja",
+      "text": "myo"
+    },
+    {
+      "conceptId": "hira_rya",
+      "language": "ja",
+      "text": "rya"
+    },
+    {
+      "conceptId": "hira_ryu",
+      "language": "ja",
+      "text": "ryu"
+    },
+    {
+      "conceptId": "hira_ryo",
+      "language": "ja",
+      "text": "ryo"
+    },
+    {
+      "conceptId": "hira_gya",
+      "language": "ja",
+      "text": "gya"
+    },
+    {
+      "conceptId": "hira_gyu",
+      "language": "ja",
+      "text": "gyu"
+    },
+    {
+      "conceptId": "hira_gyo",
+      "language": "ja",
+      "text": "gyo"
+    },
+    {
+      "conceptId": "hira_ja",
+      "language": "ja",
+      "text": "ja"
+    },
+    {
+      "conceptId": "hira_ju",
+      "language": "ja",
+      "text": "ju"
+    },
+    {
+      "conceptId": "hira_jo",
+      "language": "ja",
+      "text": "jo"
+    },
+    {
+      "conceptId": "hira_bya",
+      "language": "ja",
+      "text": "bya"
+    },
+    {
+      "conceptId": "hira_byu",
+      "language": "ja",
+      "text": "byu"
+    },
+    {
+      "conceptId": "hira_byo",
+      "language": "ja",
+      "text": "byo"
+    },
+    {
+      "conceptId": "hira_pya",
+      "language": "ja",
+      "text": "pya"
+    },
+    {
+      "conceptId": "hira_pyu",
+      "language": "ja",
+      "text": "pyu"
+    },
+    {
+      "conceptId": "hira_pyo",
+      "language": "ja",
+      "text": "pyo"
+    },
+    {
+      "conceptId": "kata_a",
+      "language": "ja",
+      "text": "a"
+    },
+    {
+      "conceptId": "kata_i",
+      "language": "ja",
+      "text": "i"
+    },
+    {
+      "conceptId": "kata_u",
+      "language": "ja",
+      "text": "u"
+    },
+    {
+      "conceptId": "kata_e",
+      "language": "ja",
+      "text": "e"
+    },
+    {
+      "conceptId": "kata_o",
+      "language": "ja",
+      "text": "o"
+    },
+    {
+      "conceptId": "kata_ka",
+      "language": "ja",
+      "text": "ka"
+    },
+    {
+      "conceptId": "kata_ki",
+      "language": "ja",
+      "text": "ki"
+    },
+    {
+      "conceptId": "kata_ku",
+      "language": "ja",
+      "text": "ku"
+    },
+    {
+      "conceptId": "kata_ke",
+      "language": "ja",
+      "text": "ke"
+    },
+    {
+      "conceptId": "kata_ko",
+      "language": "ja",
+      "text": "ko"
+    },
+    {
+      "conceptId": "kata_sa",
+      "language": "ja",
+      "text": "sa"
+    },
+    {
+      "conceptId": "kata_shi",
+      "language": "ja",
+      "text": "shi"
+    },
+    {
+      "conceptId": "kata_su",
+      "language": "ja",
+      "text": "su"
+    },
+    {
+      "conceptId": "kata_se",
+      "language": "ja",
+      "text": "se"
+    },
+    {
+      "conceptId": "kata_so",
+      "language": "ja",
+      "text": "so"
+    },
+    {
+      "conceptId": "kata_ta",
+      "language": "ja",
+      "text": "ta"
+    },
+    {
+      "conceptId": "kata_chi",
+      "language": "ja",
+      "text": "chi"
+    },
+    {
+      "conceptId": "kata_tsu",
+      "language": "ja",
+      "text": "tsu"
+    },
+    {
+      "conceptId": "kata_te",
+      "language": "ja",
+      "text": "te"
+    },
+    {
+      "conceptId": "kata_to",
+      "language": "ja",
+      "text": "to"
+    },
+    {
+      "conceptId": "kata_na",
+      "language": "ja",
+      "text": "na"
+    },
+    {
+      "conceptId": "kata_ni",
+      "language": "ja",
+      "text": "ni"
+    },
+    {
+      "conceptId": "kata_nu",
+      "language": "ja",
+      "text": "nu"
+    },
+    {
+      "conceptId": "kata_ne",
+      "language": "ja",
+      "text": "ne"
+    },
+    {
+      "conceptId": "kata_no",
+      "language": "ja",
+      "text": "no"
+    },
+    {
+      "conceptId": "kata_ha",
+      "language": "ja",
+      "text": "ha"
+    },
+    {
+      "conceptId": "kata_hi",
+      "language": "ja",
+      "text": "hi"
+    },
+    {
+      "conceptId": "kata_fu",
+      "language": "ja",
+      "text": "fu"
+    },
+    {
+      "conceptId": "kata_he",
+      "language": "ja",
+      "text": "he"
+    },
+    {
+      "conceptId": "kata_ho",
+      "language": "ja",
+      "text": "ho"
+    },
+    {
+      "conceptId": "kata_ma",
+      "language": "ja",
+      "text": "ma"
+    },
+    {
+      "conceptId": "kata_mi",
+      "language": "ja",
+      "text": "mi"
+    },
+    {
+      "conceptId": "kata_mu",
+      "language": "ja",
+      "text": "mu"
+    },
+    {
+      "conceptId": "kata_me",
+      "language": "ja",
+      "text": "me"
+    },
+    {
+      "conceptId": "kata_mo",
+      "language": "ja",
+      "text": "mo"
+    },
+    {
+      "conceptId": "kata_ya",
+      "language": "ja",
+      "text": "ya"
+    },
+    {
+      "conceptId": "kata_yu",
+      "language": "ja",
+      "text": "yu"
+    },
+    {
+      "conceptId": "kata_yo",
+      "language": "ja",
+      "text": "yo"
+    },
+    {
+      "conceptId": "kata_ra",
+      "language": "ja",
+      "text": "ra"
+    },
+    {
+      "conceptId": "kata_ri",
+      "language": "ja",
+      "text": "ri"
+    },
+    {
+      "conceptId": "kata_ru",
+      "language": "ja",
+      "text": "ru"
+    },
+    {
+      "conceptId": "kata_re",
+      "language": "ja",
+      "text": "re"
+    },
+    {
+      "conceptId": "kata_ro",
+      "language": "ja",
+      "text": "ro"
+    },
+    {
+      "conceptId": "kata_wa",
+      "language": "ja",
+      "text": "wa"
+    },
+    {
+      "conceptId": "kata_wo",
+      "language": "ja",
+      "text": "wo"
+    },
+    {
+      "conceptId": "kata_n",
+      "language": "ja",
+      "text": "n"
+    },
+    {
+      "conceptId": "kata_ga",
+      "language": "ja",
+      "text": "ga"
+    },
+    {
+      "conceptId": "kata_gi",
+      "language": "ja",
+      "text": "gi"
+    },
+    {
+      "conceptId": "kata_gu",
+      "language": "ja",
+      "text": "gu"
+    },
+    {
+      "conceptId": "kata_ge",
+      "language": "ja",
+      "text": "ge"
+    },
+    {
+      "conceptId": "kata_go",
+      "language": "ja",
+      "text": "go"
+    },
+    {
+      "conceptId": "kata_za",
+      "language": "ja",
+      "text": "za"
+    },
+    {
+      "conceptId": "kata_ji",
+      "language": "ja",
+      "text": "ji"
+    },
+    {
+      "conceptId": "kata_zu",
+      "language": "ja",
+      "text": "zu"
+    },
+    {
+      "conceptId": "kata_ze",
+      "language": "ja",
+      "text": "ze"
+    },
+    {
+      "conceptId": "kata_zo",
+      "language": "ja",
+      "text": "zo"
+    },
+    {
+      "conceptId": "kata_da",
+      "language": "ja",
+      "text": "da"
+    },
+    {
+      "conceptId": "kata_di",
+      "language": "ja",
+      "text": "ji"
+    },
+    {
+      "conceptId": "kata_du",
+      "language": "ja",
+      "text": "zu"
+    },
+    {
+      "conceptId": "kata_de",
+      "language": "ja",
+      "text": "de"
+    },
+    {
+      "conceptId": "kata_do",
+      "language": "ja",
+      "text": "do"
+    },
+    {
+      "conceptId": "kata_ba",
+      "language": "ja",
+      "text": "ba"
+    },
+    {
+      "conceptId": "kata_bi",
+      "language": "ja",
+      "text": "bi"
+    },
+    {
+      "conceptId": "kata_bu",
+      "language": "ja",
+      "text": "bu"
+    },
+    {
+      "conceptId": "kata_be",
+      "language": "ja",
+      "text": "be"
+    },
+    {
+      "conceptId": "kata_bo",
+      "language": "ja",
+      "text": "bo"
+    },
+    {
+      "conceptId": "kata_pa",
+      "language": "ja",
+      "text": "pa"
+    },
+    {
+      "conceptId": "kata_pi",
+      "language": "ja",
+      "text": "pi"
+    },
+    {
+      "conceptId": "kata_pu",
+      "language": "ja",
+      "text": "pu"
+    },
+    {
+      "conceptId": "kata_pe",
+      "language": "ja",
+      "text": "pe"
+    },
+    {
+      "conceptId": "kata_po",
+      "language": "ja",
+      "text": "po"
+    },
+    {
+      "conceptId": "kata_kya",
+      "language": "ja",
+      "text": "kya"
+    },
+    {
+      "conceptId": "kata_kyu",
+      "language": "ja",
+      "text": "kyu"
+    },
+    {
+      "conceptId": "kata_kyo",
+      "language": "ja",
+      "text": "kyo"
+    },
+    {
+      "conceptId": "kata_sha",
+      "language": "ja",
+      "text": "sha"
+    },
+    {
+      "conceptId": "kata_shu",
+      "language": "ja",
+      "text": "shu"
+    },
+    {
+      "conceptId": "kata_sho",
+      "language": "ja",
+      "text": "sho"
+    },
+    {
+      "conceptId": "kata_cha",
+      "language": "ja",
+      "text": "cha"
+    },
+    {
+      "conceptId": "kata_chu",
+      "language": "ja",
+      "text": "chu"
+    },
+    {
+      "conceptId": "kata_cho",
+      "language": "ja",
+      "text": "cho"
+    },
+    {
+      "conceptId": "kata_nya",
+      "language": "ja",
+      "text": "nya"
+    },
+    {
+      "conceptId": "kata_nyu",
+      "language": "ja",
+      "text": "nyu"
+    },
+    {
+      "conceptId": "kata_nyo",
+      "language": "ja",
+      "text": "nyo"
+    },
+    {
+      "conceptId": "kata_hya",
+      "language": "ja",
+      "text": "hya"
+    },
+    {
+      "conceptId": "kata_hyu",
+      "language": "ja",
+      "text": "hyu"
+    },
+    {
+      "conceptId": "kata_hyo",
+      "language": "ja",
+      "text": "hyo"
+    },
+    {
+      "conceptId": "kata_mya",
+      "language": "ja",
+      "text": "mya"
+    },
+    {
+      "conceptId": "kata_myu",
+      "language": "ja",
+      "text": "myu"
+    },
+    {
+      "conceptId": "kata_myo",
+      "language": "ja",
+      "text": "myo"
+    },
+    {
+      "conceptId": "kata_rya",
+      "language": "ja",
+      "text": "rya"
+    },
+    {
+      "conceptId": "kata_ryu",
+      "language": "ja",
+      "text": "ryu"
+    },
+    {
+      "conceptId": "kata_ryo",
+      "language": "ja",
+      "text": "ryo"
+    },
+    {
+      "conceptId": "kata_gya",
+      "language": "ja",
+      "text": "gya"
+    },
+    {
+      "conceptId": "kata_gyu",
+      "language": "ja",
+      "text": "gyu"
+    },
+    {
+      "conceptId": "kata_gyo",
+      "language": "ja",
+      "text": "gyo"
+    },
+    {
+      "conceptId": "kata_ja",
+      "language": "ja",
+      "text": "ja"
+    },
+    {
+      "conceptId": "kata_ju",
+      "language": "ja",
+      "text": "ju"
+    },
+    {
+      "conceptId": "kata_jo",
+      "language": "ja",
+      "text": "jo"
+    },
+    {
+      "conceptId": "kata_bya",
+      "language": "ja",
+      "text": "bya"
+    },
+    {
+      "conceptId": "kata_byu",
+      "language": "ja",
+      "text": "byu"
+    },
+    {
+      "conceptId": "kata_byo",
+      "language": "ja",
+      "text": "byo"
+    },
+    {
+      "conceptId": "kata_pya",
+      "language": "ja",
+      "text": "pya"
+    },
+    {
+      "conceptId": "kata_pyu",
+      "language": "ja",
+      "text": "pyu"
+    },
+    {
+      "conceptId": "kata_pyo",
+      "language": "ja",
+      "text": "pyo"
+    }
+  ]
+}

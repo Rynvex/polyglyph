@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "de.standup.b1",
+  "language": "de",
+  "level": "B1",
+  "topic": "work",
+  "title": "Daily Standup",
+  "description": "Quick standup status update with your team lead.",
+  "estimated_minutes": 4,
+  "tags": ["meeting", "casual"],
+  "characters": {
+    "bot": { "name": "Team Lead", "voice": "de-DE-KatjaNeural" },
+    "player": { "name": "Du" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Wie laeuft das Projekt?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Es laeuft gut, ich bin fast fertig.", "hint_zh": "進度不錯,差不多要完成了。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Brauchst du Hilfe?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Ich brauche die Kundendaten.", "hint_zh": "我需要客戶的資料。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Schicke ich dir heute Nachmittag." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Super, vielen Dank.", "hint_zh": "太好了,非常感謝。" }] }
+  ]
+}

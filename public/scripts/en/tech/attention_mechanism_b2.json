@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "en.attention_mechanism.b2",
+  "language": "en",
+  "level": "B2",
+  "topic": "tech",
+  "title": "Why Attention Beat RNNs",
+  "description": "An ML curious PM asks how Transformers work and why they replaced RNNs.",
+  "estimated_minutes": 5,
+  "tags": [
+    "ai",
+    "ml",
+    "casual",
+    "explain-to-pm"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Curious PM",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Everyone keeps saying Transformers won. Won what, exactly?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Sequence modeling. They replaced RNNs and LSTMs as the default for text, audio, and now even images.",
+          "hint_zh": "序列建模。它們取代了 RNN 跟 LSTM 成為文字、音訊、甚至影像的預設架構。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "What did RNNs do wrong?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "They process one step at a time, so you can't parallelize across the sequence. And long-range info gets lost on the way.",
+          "hint_zh": "它們一次處理一步,沒辦法在序列方向平行;長距離訊息在傳遞中會逐漸流失。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "And attention fixes both?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Yes. Every position can look at every other position directly. That's full parallelism plus direct long-range links.",
+          "hint_zh": "對。每個位置都能直接看其他所有位置,既可平行,長距離又有直接通道。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Is there a downside?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Compute scales quadratically with sequence length. That's why context windows are still expensive.",
+          "hint_zh": "計算量隨序列長度平方成長,所以長 context 還是貴。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "And multi-head attention? Same idea or different?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Same idea, run in parallel across different subspaces. Each head can focus on a different relationship.",
+          "hint_zh": "同樣的想法,在不同子空間平行跑。每個 head 可以關注不同的關係。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Got it. So when I read a vendor pitch claiming 'attention-based', it's basically table stakes now."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Pretty much. The interesting question is what they do on top.",
+          "hint_zh": "差不多。真正值得問的是他們在這上面做了什麼。"
+        }
+      ]
+    }
+  ]
+}

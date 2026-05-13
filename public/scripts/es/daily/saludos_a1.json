@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "es.saludos.a1",
+  "language": "es",
+  "level": "A1",
+  "topic": "daily",
+  "title": "Saludos básicos",
+  "description": "Greet a neighbor on the way to work. Hola, buenos días, hasta luego.",
+  "estimated_minutes": 2,
+  "tags": ["greetings", "casual"],
+  "characters": {
+    "bot": { "name": "Vecino", "voice": "es-ES-ElviraNeural" },
+    "player": { "name": "Tú" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Hola, buenos dias. Como estas?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Bien, gracias. Y tu?", "hint_zh": "我很好,謝謝。你呢?" }] },
+    { "id": "t3", "speaker": "bot", "text": "Muy bien. Vas al trabajo?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Si, voy al trabajo ahora.", "hint_zh": "對,我現在要去上班。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Buen dia. Hasta luego!" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Hasta luego, adios!", "hint_zh": "再見,掰!" }] }
+  ]
+}

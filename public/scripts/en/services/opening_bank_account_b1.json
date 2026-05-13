@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "en.opening_bank_account.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "services",
+  "title": "Opening a Checking Account",
+  "description": "First visit to the bank as a new resident. Pick the right account type, ask the right questions.",
+  "estimated_minutes": 4,
+  "tags": ["bank", "service", "formal"],
+  "characters": {
+    "bot": { "name": "Banker", "voice": "en-US-GuyNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Good afternoon. How can I help you?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "I'd like to open a checking account. I'm new to the country.", "hint_zh": "我想開個支票帳戶,我剛來這個國家。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Welcome! Do you have your passport and proof of address?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Yes, my passport, my visa, and a recent utility bill.", "hint_zh": "有,護照、簽證,還有最近的水電費帳單。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Perfect. Are you looking for any specific features?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "I want no monthly fee and free international transfers if possible.", "hint_zh": "希望不收月費,如果有免手續費的國際轉帳更好。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Our basic account waives fees if you keep at least 1500 dollars. Wires are not free, but online transfers are." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "What's the difference between online and wire transfers?", "hint_zh": "網路轉帳跟電匯有什麼差?" }] },
+    { "id": "t9", "speaker": "bot", "text": "Online is for accounts at partner banks — same day, free. Wires are for anywhere else, with a fee." },
+    { "id": "t10", "speaker": "player", "templates": [{ "id": "t10.0", "text": "Got it. Let's go with the basic account.", "hint_zh": "了解,那我選基本帳戶就好。" }] },
+    { "id": "t11", "speaker": "bot", "text": "Great. I'll start the paperwork. It takes about fifteen minutes." },
+    { "id": "t12", "speaker": "player", "templates": [{ "id": "t12.0", "text": "Thanks. I appreciate your patience.", "hint_zh": "謝謝你的耐心。" }] }
+  ]
+}

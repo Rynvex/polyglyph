@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "cap_theorem_explain_b2",
+  "language": "it",
+  "title": "CAP in cinque minuti",
+  "description": "Un senior ti chiede di spiegare il teorema CAP a una PM non tecnica. Mostra i trade-off senza sovraccaricare di gergo.",
+  "characters": {
+    "bot": {
+      "name": "Senior",
+      "voice": "it-IT-DiegoNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "La nuova PM arriva domani. Riesci a spiegarle il teorema CAP senza spaventarla?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Sicuro. Versione semplice: in un DB distribuito puoi avere solo due garanzie su tre.",
+          "hint_zh": "好,簡單版:分散式資料庫只能同時保住三個保證裡的兩個。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Quali tre?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Coerenza, disponibilita' e tolleranza ai partizionamenti. Le partizioni di rete sono inevitabili, quindi scegli davvero tra C e A.",
+          "hint_zh": "一致性、可用性、分區容錯。網路分區不可避免,所以實質是在 C 跟 A 之間二選一。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Capito. Dammi un esempio concreto per ogni lato."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Un mastro bancario sceglie CP: si ferma piuttosto che mostrare saldi sbagliati. Un feed social sceglie AP: resta su anche con dati vecchi.",
+          "hint_zh": "銀行帳本選 CP,寧可停服務也不顯示錯誤餘額;社群動態選 AP,寧可顯示舊資料也要持續可用。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "E la consistenza eventuale dove sta?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "E' la via di mezzo pratica. Molti sistemi reali non sono ne' CP puri ne' AP puri, si sincronizzano dopo un ritardo.",
+          "hint_zh": "務實的中間值,大多數現實系統不是純 CP 或純 AP,而是稍後同步補上。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Un'ultima cosa — la C di CAP e la C di ACID sono uguali?"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Cose diverse. La C di CAP riguarda i nodi che si accordano. La C di ACID riguarda la transazione che lascia il DB in uno stato valido.",
+          "hint_zh": "不一樣。CAP 的 C 講節點之間達成共識,ACID 的 C 講交易結束後資料庫仍處於有效狀態。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Perfetto, esattamente il livello che volevo. Le mandi una pagina prima di domani?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Si, sotto la pagina e linko le risorse approfondite.",
+          "hint_zh": "沒問題,我會控制在一頁內,深入的文件用連結帶。"
+        }
+      ]
+    }
+  }
+}

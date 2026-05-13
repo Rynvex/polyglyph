@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "de.flughafen.a2",
+  "language": "de",
+  "level": "A2",
+  "topic": "travel",
+  "title": "Am Flughafen",
+  "description": "Check in at a German airport. (ASCII fallback for ß/ö/ü.)",
+  "estimated_minutes": 3,
+  "tags": ["airport", "service"],
+  "characters": {
+    "bot": { "name": "Mitarbeiter", "voice": "de-DE-ConradNeural" },
+    "player": { "name": "Du" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Guten Tag. Reisepass und Ticket, bitte." },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Hier, bitte schoen.", "hint_zh": "在這,謝謝。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Wie viele Koffer geben Sie auf?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Nur einen Koffer.", "hint_zh": "只有一個行李箱。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Fenster oder Gang?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Fenster, bitte.", "hint_zh": "靠窗,謝謝。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Hier ist Ihre Bordkarte. Gute Reise!" },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Vielen Dank, auf Wiedersehen.", "hint_zh": "非常謝謝,再見。" }] }
+  ]
+}

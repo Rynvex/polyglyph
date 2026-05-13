@@ -1,0 +1,11 @@
+{
+  "id": "common_objects_a1",
+  "title": "Common Objects",
+  "cefr": "A1",
+  "description": "Things you carry and use daily.",
+  "estimated_minutes": 3,
+  "conceptIds": [
+    "key", "phone", "book", "pen", "bag", "umbrella", "watch", "wallet",
+    "money", "ticket", "passport", "computer", "camera", "door", "window", "key_card"
+  ]
+}

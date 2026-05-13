@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "en.restaurant_dinner.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "food",
+  "title": "Dinner with the Server",
+  "description": "Order a full dinner - drinks, appetizer, main, and split the bill at the end.",
+  "estimated_minutes": 5,
+  "tags": [
+    "food",
+    "service",
+    "evening"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Server",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Good evening, welcome in. Can I start you off with something to drink?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Yes, could we have a bottle of sparkling water and a glass of red wine?",
+          "hint_zh": "好的,可以給我們一瓶氣泡水跟一杯紅酒嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Sure, any preference for the red? We have a lovely Malbec by the glass tonight."
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "The Malbec sounds great. I'll go with that.",
+          "hint_zh": "Malbec 聽起來不錯,我點那個。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Great choice. Have you had a chance to look at the menu, or should I give you a few more minutes?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "We're ready, actually. Could we share the burrata to start?",
+          "hint_zh": "我們其實已經想好了,前菜想分一份布拉塔起司。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Excellent, the burrata is one of our favorites. And for mains?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "I'll have the salmon, and could you tell me what's in the risotto today?",
+          "hint_zh": "我要鮭魚,可以說一下今天的燉飯有什麼食材嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Tonight's risotto is wild mushroom with truffle oil and parmesan, finished with chives."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "That sounds delicious. We'll take that for the second main.",
+          "hint_zh": "聽起來很棒,我們第二個主菜要那個。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Wonderful. Any allergies I should let the kitchen know about?"
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "No allergies, but my friend doesn't eat shellfish if you can pass that on.",
+          "hint_zh": "沒有過敏,但麻煩告知我朋友不吃帶殼海鮮。"
+        }
+      ]
+    },
+    {
+      "id": "t13",
+      "speaker": "bot",
+      "text": "I'll let them know. I'll be back with your drinks shortly."
+    },
+    {
+      "id": "t14",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Great, thank you. Could we also get the bill split when we're done?",
+          "hint_zh": "好的,謝謝。等等吃完可以幫我們分開結帳嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t15",
+      "speaker": "bot",
+      "text": "Of course, just let me know how you want it divided when you're ready."
+    },
+    {
+      "id": "t16",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t16.0",
+          "text": "Perfect. Thanks so much for your help.",
+          "hint_zh": "太好了,真的謝謝你。"
+        }
+      ]
+    }
+  ]
+}

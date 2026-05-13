@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "de.apotheke.a2",
+  "language": "de",
+  "level": "A2",
+  "topic": "services",
+  "title": "In der Apotheke",
+  "description": "Pick up a prescription at a German pharmacy.",
+  "estimated_minutes": 3,
+  "tags": ["health", "service"],
+  "characters": {
+    "bot": { "name": "Apotheker", "voice": "de-DE-ConradNeural" },
+    "player": { "name": "Du" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Guten Tag. Was kann ich fuer Sie tun?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Ich moechte mein Rezept abholen.", "hint_zh": "我想領處方藥。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Ihr Name, bitte?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Chang, C-H-A-N-G.", "hint_zh": "Chang。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Hier ist es. Eine Tablette alle zwoelf Stunden." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Gibt es Nebenwirkungen?", "hint_zh": "有副作用嗎?" }] },
+    { "id": "t7", "speaker": "bot", "text": "Manchmal Muedigkeit. Nicht schlimm." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Alles klar, danke schoen.", "hint_zh": "了解,謝謝。" }] }
+  ]
+}

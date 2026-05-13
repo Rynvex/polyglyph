@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "transportation_a1",
+  "title": "Getting Around",
+  "cefr": "A1",
+  "description": "Car, bus, train, plane — everything that moves you.",
+  "estimated_minutes": 4,
+  "conceptIds": [
+    "car",
+    "bus",
+    "train",
+    "plane",
+    "bike",
+    "taxi",
+    "boat",
+    "road",
+    "motorcycle",
+    "subway"
+  ]
+}

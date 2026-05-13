@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "salary_negotiation_b2",
+  "language": "es",
+  "title": "La conversacion de la contraoferta",
+  "description": "Rebate con educacion una oferta baja. Usa datos concretos y una peticion clara, no emociones.",
+  "characters": {
+    "bot": {
+      "name": "Reclutador",
+      "voice": "es-ES-AlvaroNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Gracias por considerarnos. El equipo esta entusiasmado. Que te parece la oferta?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Te lo agradezco mucho. El puesto y el equipo encajan muy bien conmigo.",
+          "hint_zh": "非常感謝。職務跟團隊都很適合我。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Suena a que viene un 'pero'."
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Si, el sueldo base esta por debajo del rango de mercado para este nivel.",
+          "hint_zh": "是的,底薪比我看到這個層級的市場行情還低。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Hicimos benchmark en la bahia. Que numeros estas viendo?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Levels.fyi muestra una mediana de unos 180k de base para un puesto senior en empresa similar.",
+          "hint_zh": "Levels.fyi 顯示同等公司、同等級的資深職位中位數約 18 萬底薪。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Eso es el techo de nuestro rango. Cual es tu peticion concreta?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "175 de base, mas 20k extra de equity en cuatro anos.",
+          "hint_zh": "底薪 17.5 萬,加四年內多 2 萬美金股權。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Lo llevo al comite de contratacion. Si puedo moverme en el equity, hay algo mas?"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Un bono de firma me ayudaria a cubrir la mudanza. Soy flexible con el reparto.",
+          "hint_zh": "簽約獎金可以幫我抵搬遷成本。組合可以彈性。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Entendido, te respondo antes del jueves."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Gracias, quedo a la espera.",
+          "hint_zh": "謝謝你,我等你回覆。"
+        }
+      ]
+    }
+  }
+}

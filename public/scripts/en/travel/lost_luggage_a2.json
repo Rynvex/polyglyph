@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "en.lost_luggage.a2",
+  "language": "en",
+  "level": "A2",
+  "topic": "travel",
+  "title": "My Bag Didn't Make It",
+  "description": "Report a missing checked bag at the airport service desk.",
+  "estimated_minutes": 4,
+  "tags": ["airport", "service", "formal"],
+  "characters": {
+    "bot": { "name": "Agent", "voice": "en-US-AriaNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Hi, how can I help you?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "My checked bag wasn't on the carousel. I waited about thirty minutes.", "hint_zh": "我託運的行李沒出來,我等了大約三十分鐘。" }] },
+    { "id": "t3", "speaker": "bot", "text": "I'm sorry to hear that. Can I see your baggage tag?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Sure, here it is. The flight was UA 213 from San Francisco.", "hint_zh": "好,在這。班機是舊金山飛來的 UA 213。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Got it. Can you describe the bag?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "It's a black hard-shell suitcase, medium size, with a red ribbon on the handle.", "hint_zh": "黑色硬殼行李箱,中型,把手綁了紅色緞帶。" }] },
+    { "id": "t7", "speaker": "bot", "text": "We'll trace it. Where can we deliver it once we find it?" },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Marriott Downtown, room 802. I'm there until Thursday.", "hint_zh": "Marriott Downtown 802 號房,我住到禮拜四。" }] },
+    { "id": "t9", "speaker": "bot", "text": "Perfect. Here's a reference number — you can track it online." },
+    { "id": "t10", "speaker": "player", "templates": [{ "id": "t10.0", "text": "Thanks for your help. Hope it shows up soon.", "hint_zh": "謝謝你幫忙,希望快點找到。" }] }
+  ]
+}

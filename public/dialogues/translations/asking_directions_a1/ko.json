@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "asking_directions_a1",
+  "language": "ko",
+  "title": "길 물어보기",
+  "description": "거리에서 모르는 사람을 잠깐 멈춰 서점으로 가는 길을 물음.",
+  "characters": {
+    "bot": {
+      "name": "행인",
+      "voice": "ko-KR-SunHiNeural"
+    },
+    "player": {
+      "name": "당신"
+    }
+  },
+  "turns": {
+    "t1": {
+      "templates": [
+        {
+          "id": "t1.0",
+          "text": "sirye habnida jamkkan jilmun haedo dwoelkkayo",
+          "display": "sirye habnida jamkkan jilmun haedo dwoelkkayo",
+          "hint_zh": "不好意思,可以耽誤你一下嗎?"
+        }
+      ]
+    },
+    "t2": {
+      "text": "네, 무슨 일이세요?"
+    },
+    "t3": {
+      "templates": [
+        {
+          "id": "t3.0",
+          "text": "jungang seojeom oneuro ga neun gil aseyo",
+          "display": "jungang seojeom oneuro ga neun gil aseyo",
+          "hint_zh": "你知道中央書店怎麼去嗎?"
+        }
+      ]
+    },
+    "t4": {
+      "text": "네, 멀지 않아요. 이 길로 두 블록 가다가 신호등에서 좌회전하세요."
+    },
+    "t5": {
+      "templates": [
+        {
+          "id": "t5.0",
+          "text": "du beulrok gago jwa hoejeon iyo geu gile isseoyo",
+          "display": "du beulrok gago jwa hoejeon iyo geu gile isseoyo",
+          "hint_zh": "走兩個街區後左轉,知道了。在那條街上嗎?"
+        }
+      ]
+    },
+    "t6": {
+      "text": "네, 한 삼 분 정도 걸으면 오른쪽에 큰 빨간 간판이 보일 거예요."
+    },
+    "t7": {
+      "templates": [
+        {
+          "id": "t7.0",
+          "text": "joneyo iryoile yeong eopaeyo",
+          "display": "joneyo iryoile yeong eopaeyo",
+          "hint_zh": "太好了,星期天有開嗎?"
+        }
+      ]
+    },
+    "t8": {
+      "text": "그럴 거예요, 저녁 여섯시까지요. 혹시 모르니 미리 전화해 보세요."
+    },
+    "t9": {
+      "templates": [
+        {
+          "id": "t9.0",
+          "text": "ne jeonhwahae bolgeyo jeongmal gomawoyo",
+          "display": "ne jeonhwahae bolgeyo jeongmal gomawoyo",
+          "hint_zh": "我會打去問,真的很感謝你!"
+        }
+      ]
+    },
+    "t10": {
+      "text": "괜찮아요, 좋은 하루 보내세요."
+    },
+    "t11": {
+      "templates": [
+        {
+          "id": "t11.0",
+          "text": "dangsindo joeun haru bonaeseyo",
+          "display": "dangsindo joeun haru bonaeseyo",
+          "hint_zh": "你也是,保重!"
+        }
+      ]
+    }
+  }
+}

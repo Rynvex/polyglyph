@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "en.second_brain.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "tech",
+  "title": "Building a Second Brain for Your Agent",
+  "description": "Pitch a coworker on Obsidian + Claude Code as a personal knowledge base. Casual register.",
+  "estimated_minutes": 4,
+  "tags": [
+    "productivity",
+    "ai-tools",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Coworker",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "You keep mentioning Obsidian. Why not just Notion or Google Docs?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Because Obsidian files are local Markdown. Any AI agent can read them directly.",
+          "hint_zh": "因為 Obsidian 是本地 Markdown 檔。任何 AI agent 都能直接讀。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "And Notion can't?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Only through their API, with their limits. Plus your data lives on their servers.",
+          "hint_zh": "只能透過他們的 API,還有限制。資料也存在他們伺服器上。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "What does the AI actually do with the notes?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Reads, links, tags, summarizes. The boring filing work I never want to do.",
+          "hint_zh": "讀、連結、加標籤、做摘要。我懶得做的歸檔雜務。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "What if I switch from Claude to a different agent next year?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "That's the whole point. The notes don't move. Only the agent changes.",
+          "hint_zh": "重點就在這。筆記不動,只換 agent。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Okay, sold. Where do I start?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Make a vault, add a CLAUDE.md telling the agent what each folder is for. Then just take notes.",
+          "hint_zh": "開個 vault,放一個 CLAUDE.md 告訴 agent 每個資料夾的用途。然後就開始記。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "coffee_shop_order_a1",
+  "language": "en",
+  "title": "A Coffee, Please",
+  "description": "Ordering a coffee at a cafe. Simple A1 exchange with a barista — greeting, ordering, size, and paying.",
+  "characters": {
+    "bot": { "name": "Sam", "voice": "en-US-AriaNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": {
+    "t1": { "text": "Hi there! What can I get for you today?" },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Hi. Can I have a coffee, please?",
+          "hint_zh": "你好，我可以點一杯咖啡嗎？"
+        }
+      ]
+    },
+    "t3": { "text": "Sure! What size would you like? Small, medium, or large?" },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "A medium, please.",
+          "hint_zh": "中杯，謝謝。"
+        }
+      ]
+    },
+    "t5": { "text": "Got it. Would you like anything else?" },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "No, that's all. Thank you.",
+          "hint_zh": "不用了，就這樣。謝謝。"
+        }
+      ]
+    },
+    "t7": { "text": "That'll be three fifty. Here's your coffee. Enjoy!" },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Thanks. Have a nice day!",
+          "hint_zh": "謝謝，祝你有美好的一天！"
+        }
+      ]
+    }
+  }
+}

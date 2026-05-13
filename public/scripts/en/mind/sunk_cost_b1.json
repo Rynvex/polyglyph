@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.sunk_cost.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "mind",
+  "title": "Should We Pull the Plug?",
+  "description": "A teammate is reluctant to kill a project that already cost six months. Help them see the sunk-cost trap.",
+  "estimated_minutes": 4,
+  "tags": [
+    "pm",
+    "decision-making",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Teammate",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "We've spent six months on this. We can't just kill it now."
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "I get it. But that money is already gone, no matter what we choose next.",
+          "hint_zh": "我懂。但那筆錢無論我們現在怎麼選,都回不來了。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "So you're saying ignore the cost?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "For the decision, yes. The only question is whether the next month is worth it.",
+          "hint_zh": "在決策上,對。唯一該問的是接下來那個月值不值得。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "But if we ship something, it's at least a return on the investment."
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Only if the shipped thing has real users. Otherwise we're just doubling down on a loss.",
+          "hint_zh": "前提是出貨的東西真的有人用。不然只是加碼追虧損。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "What would change your mind?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "If five users today say they'd pay for the v1 feature set, we keep going.",
+          "hint_zh": "如果今天有五個用戶願意為 v1 功能付費,我們就繼續。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "And if not?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Then we shut it down on Friday and move the team. Six months is a lesson, not a contract.",
+          "hint_zh": "週五關掉,團隊轉移。六個月是學費,不是合約。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Painful but fair. Let me run the user check today."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Thanks. Whatever you find, we'll act on it.",
+          "hint_zh": "謝。不管你查到什麼,我們就照那個走。"
+        }
+      ]
+    }
+  ]
+}

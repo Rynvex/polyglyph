@@ -1,0 +1,11 @@
+{
+  "id": "food_a1",
+  "title": "Food & Drinks",
+  "cefr": "A1",
+  "description": "Common foods and drinks you eat every day.",
+  "estimated_minutes": 3,
+  "conceptIds": [
+    "apple", "banana", "bread", "cheese", "egg", "fish", "chicken", "rice",
+    "soup", "salad", "water", "coffee", "tea", "milk", "juice", "wine"
+  ]
+}

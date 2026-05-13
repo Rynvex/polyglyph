@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "friends_catching_up_b1",
+  "language": "es",
+  "title": "Reencuentro con un viejo amigo",
+  "description": "Te encuentras con alguien que llevas siglos sin ver. Lleno de coloquialismos y expresiones.",
+  "characters": {
+    "bot": {
+      "name": "Sam",
+      "voice": "es-ES-AlvaroNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Anda, mira a quien tenemos aqui! Cuanto tiempo, como te va?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Sam! Madre mia, una eternidad. Yo bien, y tu?",
+          "hint_zh": "Sam!天啊,好久不見。我還不錯,你呢?"
+        }
+      ]
+    },
+    "t3": {
+      "text": "No me puedo quejar. Todo igual. Sigues en la misma empresa?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Que va, cambie el ano pasado. Ahora curro en remoto, mucho mejor.",
+          "hint_zh": "沒,我去年跳槽了。現在遠端工作,好太多了。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "No me digas! Que bien. Yo siempre digo que voy a hacerlo y nunca tiro."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "En serio, dale el paso. Es la mejor decision que he tomado.",
+          "hint_zh": "說真的你該下定決心做。是我做過最好的決定。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Ya, ya, te oigo. Oye, te tomas un cafe rapido?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Me encantaria, pero llego tarde. Lo dejamos para otro dia?",
+          "hint_zh": "好想去,但我快遲到了。下次補?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Claro tio. Mandame un mensaje y nos liamos."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Hecho. Que alegria verte, cuidate!",
+          "hint_zh": "一定。很高興遇到你,保重!"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Tu tambien, hasta otra!"
+    }
+  }
+}

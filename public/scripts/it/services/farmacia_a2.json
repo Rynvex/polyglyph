@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "it.farmacia.a2",
+  "language": "it",
+  "level": "A2",
+  "topic": "services",
+  "title": "In farmacia",
+  "description": "Pick up a prescription at an Italian pharmacy.",
+  "estimated_minutes": 3,
+  "tags": ["health", "service"],
+  "characters": {
+    "bot": { "name": "Farmacista", "voice": "it-IT-IsabellaNeural" },
+    "player": { "name": "Tu" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Buongiorno, in cosa posso aiutarla?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Vorrei ritirare la mia ricetta.", "hint_zh": "我想領處方藥。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Il suo nome, per favore." },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Chang, C-H-A-N-G.", "hint_zh": "Chang。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Eccola. Una compressa ogni dodici ore." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Ci sono effetti collaterali?", "hint_zh": "有副作用嗎?" }] },
+    { "id": "t7", "speaker": "bot", "text": "A volte un po' di sonnolenza." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Va bene, grazie.", "hint_zh": "好,謝謝。" }] }
+  ]
+}

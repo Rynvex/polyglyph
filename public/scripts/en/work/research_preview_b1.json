@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.research_preview.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "work",
+  "title": "Should We Ship It as a Research Preview?",
+  "description": "Pitching the research-preview launch strategy to a cautious manager. Half-formal, half-casual.",
+  "estimated_minutes": 4,
+  "tags": [
+    "pm",
+    "product",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Manager",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "We're not ready for a full launch. Should we just delay?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "What if we ship it as a research preview instead?",
+          "hint_zh": "我們改成 research preview 出貨怎麼樣?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Meaning what, exactly?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "We label it as experimental and warn users it might change or be removed.",
+          "hint_zh": "我們標示它是實驗性質,提醒用戶可能變更或下架。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "And that lowers our risk?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "It lowers the commitment. We can iterate weekly instead of polishing for months.",
+          "hint_zh": "降低承諾的壓力。我們可以每週迭代,不用打磨好幾個月。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Won't users complain when we change things?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "If we're upfront about it, expectations match. Anthropic ships almost everything this way.",
+          "hint_zh": "只要我們事前說清楚,期待就會對齊。Anthropic 幾乎所有東西都這樣出。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "What about pricing and SLAs?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Free or beta-tier only, no SLA promise. We graduate it once metrics stabilize.",
+          "hint_zh": "免費或 beta 級,先不承諾 SLA。等指標穩定再升正式版。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Okay, draft a one-page proposal and we'll bring it to leadership."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "On it. I'll have something by Friday.",
+          "hint_zh": "好,週五前生出來。"
+        }
+      ]
+    }
+  ]
+}

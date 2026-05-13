@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "en.pareto_principle.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "mind",
+  "title": "The 80/20 Rule",
+  "description": "A coworker is overwhelmed by their backlog. Apply Pareto: which 20% drives the result?",
+  "estimated_minutes": 4,
+  "tags": ["pm", "decision-making", "casual"],
+  "characters": {
+    "bot": { "name": "Coworker", "voice": "en-US-AriaNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "I've got fifty things on my list this week. I don't know where to start." },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Welcome to the 80/20 problem. Twenty percent of those tasks will create most of the value.", "hint_zh": "你遇到 80/20 問題了。那五十項裡,大約兩成會產出絕大多數價值。" }] },
+    { "id": "t3", "speaker": "bot", "text": "How do I know which twenty percent?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Ask: if I only finished one thing this week, what would matter most?", "hint_zh": "問自己:如果這週只能做一件,最重要的會是哪個?" }] },
+    { "id": "t5", "speaker": "bot", "text": "Probably the customer demo prep." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Then that's number one. Now do the same for the second and third spots.", "hint_zh": "那就是第一名。接著用同樣方式排第二、第三。" }] },
+    { "id": "t7", "speaker": "bot", "text": "What about everything else?" },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Park them. Most won't matter, and you can revisit next week.", "hint_zh": "暫放。大多數不會有影響,下週再回頭看。" }] },
+    { "id": "t9", "speaker": "bot", "text": "It feels wrong to ignore eighty percent of my list." },
+    { "id": "t10", "speaker": "player", "templates": [{ "id": "t10.0", "text": "It feels wrong because we love motion. The result is what counts.", "hint_zh": "感覺怪是因為我們愛忙的感覺,但要看的是結果。" }] }
+  ]
+}

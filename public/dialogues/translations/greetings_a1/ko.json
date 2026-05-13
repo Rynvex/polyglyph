@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "greetings_a1",
+  "language": "ko",
+  "title": "처음 인사",
+  "description": "편한 모임에서 처음 만난 사람과 가볍게 인사 나누기.",
+  "characters": {
+    "bot": {
+      "name": "샘",
+      "voice": "ko-KR-InJoonNeural"
+    },
+    "player": {
+      "name": "당신"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "안녕하세요, 우리 처음 뵙는 거 같은데요. 저는 샘이에요."
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "bangapseupnida samssi jeoneun alegseuyeyo",
+          "display": "bangapseupnida samssi jeoneun alegseuyeyo",
+          "hint_zh": "幸會,Sam。我叫 Alex。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "저도 반가워요. 오늘 저녁 어때요?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "joayo gomawoyo dangsineun eottaeyo",
+          "display": "joayo gomawoyo dangsineun eottaeyo",
+          "hint_zh": "我還不錯,謝謝。你呢?"
+        }
+      ]
+    },
+    "t5": {
+      "text": "괜찮아요. 좀 피곤하지만 오니까 좋네요. 무슨 일 하세요?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "sinaeeseo soft wear engineer ro irhago isseoyo",
+          "display": "sinaeeseo soft wear engineer ro irhago isseoyo",
+          "hint_zh": "我在市區當軟體工程師。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "오, 멋지네요. 저는 디자이너라서 아마 같은 프로젝트에서 자주 부딪힐 거예요."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "haha geureolgeoyeyo gohyangi eodieyo",
+          "display": "haha geureolgeoyeyo gohyangi eodieyo",
+          "hint_zh": "哈,的確。你本來是哪裡人?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "원래는 부산인데 이년 전에 서울로 이사 왔어요."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "joneyo seouri matgo isseoyo",
+          "display": "joneyo seouri matgo isseoyo",
+          "hint_zh": "喔不錯,你目前喜歡這裡嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "네, 대체로요! 먹을 게 진짜 좋네요. 음료 좀 가져올게요. 이따 또 봐요."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "ne joayo itta bwayo",
+          "display": "ne joayo itta bwayo",
+          "hint_zh": "好啊沒問題,等等再聊!"
+        }
+      ]
+    }
+  }
+}

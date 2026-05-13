@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "zh-tw.yaoju.a2",
+  "language": "zh-tw",
+  "level": "A2",
+  "topic": "services",
+  "title": "在藥局",
+  "description": "Pick up medicine at a Taiwanese pharmacy.",
+  "estimated_minutes": 3,
+  "tags": ["health", "service"],
+  "characters": {
+    "bot": { "name": "藥師", "voice": "zh-TW-HsiaoChenNeural" },
+    "player": { "name": "你" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "您好,哪裡不舒服?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "wo tou tong", "display": "我頭痛。", "hint_zh": "我頭痛(wo tou tong)。" }] },
+    { "id": "t3", "speaker": "bot", "text": "有發燒嗎?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "mei you", "display": "沒有。", "hint_zh": "沒有(mei you)。" }] },
+    { "id": "t5", "speaker": "bot", "text": "這個藥每六小時吃一次。" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "hao de xie xie", "display": "好的,謝謝。", "hint_zh": "好的,謝謝(hao de xie xie)。" }] }
+  ]
+}

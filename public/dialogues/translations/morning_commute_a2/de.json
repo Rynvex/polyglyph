@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "morning_commute_a2",
+  "language": "de",
+  "title": "Im Stau",
+  "description": "Aus dem Auto bei einer Kollegin anrufen und Bescheid sagen, dass du zu spaet kommst. Locker, mit leichten Wendungen.",
+  "characters": {
+    "bot": {
+      "name": "Maya",
+      "voice": "de-DE-KatjaNeural"
+    },
+    "player": {
+      "name": "Du"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Hey, wo bleibst du? Das Meeting faengt gleich an."
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Sorry, ich steh im Stau. Hier geht gar nichts.",
+          "hint_zh": "抱歉,我塞在路上。整條完全不動。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Oh nein. Wie lang noch?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Vielleicht noch zwanzig Minuten? Das Navi rechnet staendig neu.",
+          "hint_zh": "再二十分鐘吧?導航一直在變。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Jeden Montag derselbe Albtraum. Ich sag den anderen Bescheid."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Danke. Kannst du den Anfang fuer mich uebernehmen?",
+          "hint_zh": "謝啦。前半段你可以先幫我頂嗎?"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Klar, kein Problem. Komm an, wenn du kannst."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Du rettest mir den Morgen. Ich schulde dir was.",
+          "hint_zh": "你救了我。下次還你人情。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Naechsten Kaffee zahlst du. Fahr vorsichtig!"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Abgemacht. Bis gleich.",
+          "hint_zh": "成交,等下見。"
+        }
+      ]
+    }
+  }
+}

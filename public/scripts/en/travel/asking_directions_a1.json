@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "en.asking_directions.a1",
+  "language": "en",
+  "level": "A1",
+  "topic": "travel",
+  "title": "Asking for Directions",
+  "description": "Stop a stranger on the street and find your way to a bookstore.",
+  "estimated_minutes": 3,
+  "tags": [
+    "travel",
+    "navigation",
+    "stranger"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Local",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t1.0",
+          "text": "Excuse me, can I ask you a quick question?",
+          "hint_zh": "不好意思,可以耽誤你一下嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "speaker": "bot",
+      "text": "Sure, what's up?"
+    },
+    {
+      "id": "t3",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t3.0",
+          "text": "Do you know how to get to the central bookstore?",
+          "hint_zh": "你知道中央書店怎麼去嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "speaker": "bot",
+      "text": "Oh yeah, it's not far. Walk two blocks down this street, then turn left at the traffic light."
+    },
+    {
+      "id": "t5",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t5.0",
+          "text": "Two blocks down, then left. Got it. Is it on that street?",
+          "hint_zh": "走兩個街區後左轉,知道了。在那條街上嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "speaker": "bot",
+      "text": "Yeah, you'll see it on the right after about three minutes. There's a big red sign."
+    },
+    {
+      "id": "t7",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t7.0",
+          "text": "Perfect. Is it open on Sundays?",
+          "hint_zh": "太好了,星期天有開嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t8",
+      "speaker": "bot",
+      "text": "I think so, until about six in the evening. Maybe call ahead just in case."
+    },
+    {
+      "id": "t9",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t9.0",
+          "text": "I'll do that. Thanks so much for your help!",
+          "hint_zh": "我會打去問,真的很感謝你!"
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "speaker": "bot",
+      "text": "No problem, have a good one!"
+    },
+    {
+      "id": "t11",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t11.0",
+          "text": "You too, take care!",
+          "hint_zh": "你也是,保重!"
+        }
+      ]
+    }
+  ]
+}

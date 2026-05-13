@@ -1,0 +1,70 @@
+# Claude Code local settings (per-machine)
+.claude/
+
+# Polyglyph staging area (user-configurable; see scripts/promote-generated.ts)
+staging/
+
+# Cron / runtime logs (created by run-promote-cron.sh)
+logs/
+
+*$py.class
+# assets/audio/tts/
+/build
+build/
+.coverage
+/coverage
+data/progress/
+# debug
+# dependencies
+dist/
+.DS_Store
+*.egg-info/
+.env*
+# env files (can opt-in for committing if needed)
+# Generated TTS(可選 — 大檔可以不入 git,改用 tools/tts_pregen.py 重生)
+htmlcov/
+# IDE
+.idea/
+*.log
+# Logs
+# misc
+.mypy_cache/
+/.next/
+next-env.d.ts
+# next.js
+/node_modules
+npm-debug.log*
+# OS
+/out/
+*.pem
+# Player progress / save data
+.pnp.*
+/.pnp
+.pnpm-debug.log*
+# production
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Python
+.Python
+.ruff_cache/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+*.so
+*.swp
+# testing
+Thumbs.db
+*.tsbuildinfo
+# typescript
+# uv
+uv.lock
+.venv/
+# vercel
+.vercel
+.vscode/
+.yarn/*
+yarn-debug.log*
+yarn-error.log*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions

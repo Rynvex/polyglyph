@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "friends_catching_up_b1",
+  "language": "en",
+  "title": "Catching Up with an Old Friend",
+  "description": "Run into someone you haven't seen in ages. Heavy on idioms and casual register — 'hey stranger', 'no kidding', 'long time no see'.",
+  "characters": {
+    "bot": {
+      "name": "Sam",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Hey stranger! Long time no see. How've you been?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Sam! Wow, it's been ages. I'm doing pretty good, you?",
+          "hint_zh": "Sam!天啊,好久不見。我還不錯,你呢?"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Can't complain. Same old, same old. Still working at the same place?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Nah, I jumped ship last year. Working remote now, way better.",
+          "hint_zh": "沒,我去年跳槽了。現在遠端工作,好太多了。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "No kidding! Good for you. I keep saying I'll do it but never get around to it."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "You should pull the trigger, honestly. Best decision I ever made.",
+          "hint_zh": "說真的你該下定決心做。是我做過最好的決定。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Yeah, yeah, I hear you. Hey, want to grab a coffee real quick?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "I wish I could, but I'm running late. Rain check?",
+          "hint_zh": "好想去,但我快遲到了。下次補?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Of course. Shoot me a text and we'll set something up."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Will do. Great running into you, take care!",
+          "hint_zh": "一定。很高興遇到你,保重!"
+        }
+      ]
+    },
+    "t11": {
+      "text": "You too, buddy. Catch you later!"
+    }
+  }
+}

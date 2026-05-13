@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "morning_commute_a2",
+  "language": "it",
+  "title": "Bloccato nel traffico",
+  "description": "Chiami una collega dall'auto per dirle che arrivi tardi. Registro informale con qualche modo di dire.",
+  "characters": {
+    "bot": {
+      "name": "Maya",
+      "voice": "it-IT-ElsaNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Ehi, dove sei? La riunione sta per iniziare."
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Scusami tanto, sono bloccato nel traffico. Non si muove niente.",
+          "hint_zh": "抱歉,我塞在路上。整條完全不動。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Mannaggia. Quanto pensi di metterci?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Forse altri venti minuti? Il navigatore continua a cambiare idea.",
+          "hint_zh": "再二十分鐘吧?導航一直在變。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Ogni lunedi e' un incubo. Avviso io gli altri."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Grazie. Puoi coprire la prima parte al posto mio?",
+          "hint_zh": "謝啦。前半段你可以先幫我頂嗎?"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Si, tranquillo. Arriva appena puoi."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Mi salvi la giornata. Te ne devo una.",
+          "hint_zh": "你救了我。下次還你人情。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "La prossima volta paghi tu il caffe'. Guida prudente!"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Affare fatto. A dopo.",
+          "hint_zh": "成交,等下見。"
+        }
+      ]
+    }
+  }
+}

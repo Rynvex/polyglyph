@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "salary_negotiation_b2",
+  "language": "de",
+  "title": "Das Gegenangebot",
+  "description": "Hoeflich auf ein niedriges Angebot reagieren. Konkrete Daten, klare Bitte, keine Emotion.",
+  "characters": {
+    "bot": {
+      "name": "Recruiter",
+      "voice": "de-DE-ConradNeural"
+    },
+    "player": {
+      "name": "Du"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Danke, dass Sie uns in Betracht ziehen. Das Team ist begeistert. Was sagen Sie zum Angebot?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Danke sehr. Die Rolle und das Team passen sehr gut zu mir.",
+          "hint_zh": "非常感謝。職務跟團隊都很適合我。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Ich hoere ein 'aber' kommen."
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Ja, das Grundgehalt liegt unter der Marktspanne, die ich fuer dieses Level sehe.",
+          "hint_zh": "是的,底薪比我看到這個層級的市場行情還低。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Wir haben in der Bay Area gebenchmarkt. Welche Zahlen schauen Sie an?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Levels.fyi zeigt einen Median um 180k Base fuer eine Senior-Rolle in einem vergleichbaren Unternehmen.",
+          "hint_zh": "Levels.fyi 顯示同等公司、同等級的資深職位中位數約 18 萬底薪。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Das ist die Obergrenze unseres Modells. Was ist Ihre konkrete Forderung?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "175 Base und 20k zusaetzliches Equity ueber vier Jahre.",
+          "hint_zh": "底薪 17.5 萬,加四年內多 2 萬美金股權。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Ich bringe das ins Hiring-Komitee. Falls ich beim Equity Bewegung habe, noch etwas?"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Ein Sign-On-Bonus wuerde den Umzug auffangen. Beim Mix bin ich flexibel.",
+          "hint_zh": "簽約獎金可以幫我抵搬遷成本。組合可以彈性。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Verstanden, ich melde mich bis Donnerstag."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Danke, ich freue mich auf das Gespraech.",
+          "hint_zh": "謝謝你,我等你回覆。"
+        }
+      ]
+    }
+  }
+}

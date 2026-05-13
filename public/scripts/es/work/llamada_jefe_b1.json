@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "es.llamada_jefe.b1",
+  "language": "es",
+  "level": "B1",
+  "topic": "work",
+  "title": "Llamada con el jefe",
+  "description": "Quick check-in call with your manager — give a status update and a blocker.",
+  "estimated_minutes": 4,
+  "tags": ["work", "casual"],
+  "characters": {
+    "bot": { "name": "Jefe", "voice": "es-ES-AlvaroNeural" },
+    "player": { "name": "Tú" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Hola, como va el proyecto?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Va bien, casi termino la primera fase.", "hint_zh": "進展不錯,第一階段快結束了。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Hay algun problema?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Necesito revisar los datos del cliente.", "hint_zh": "我需要再看一下客戶提供的資料。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Cuando crees que estara listo?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "El viernes sin falta.", "hint_zh": "週五一定。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Perfecto. Cualquier cosa, llamame." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Gracias, hasta el viernes.", "hint_zh": "謝謝,週五見。" }] }
+  ]
+}

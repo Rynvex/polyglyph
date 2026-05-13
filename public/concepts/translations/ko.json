@@ -1,0 +1,1366 @@
+{
+  "schema_version": 1,
+  "language": "ko",
+  "translations": [
+    {
+      "conceptId": "hangul_ga",
+      "language": "ko",
+      "text": "ga"
+    },
+    {
+      "conceptId": "hangul_geo",
+      "language": "ko",
+      "text": "geo"
+    },
+    {
+      "conceptId": "hangul_go",
+      "language": "ko",
+      "text": "go"
+    },
+    {
+      "conceptId": "hangul_gu",
+      "language": "ko",
+      "text": "gu"
+    },
+    {
+      "conceptId": "hangul_geu",
+      "language": "ko",
+      "text": "geu"
+    },
+    {
+      "conceptId": "hangul_gi",
+      "language": "ko",
+      "text": "gi"
+    },
+    {
+      "conceptId": "hangul_na",
+      "language": "ko",
+      "text": "na"
+    },
+    {
+      "conceptId": "hangul_neo",
+      "language": "ko",
+      "text": "neo"
+    },
+    {
+      "conceptId": "hangul_no",
+      "language": "ko",
+      "text": "no"
+    },
+    {
+      "conceptId": "hangul_nu",
+      "language": "ko",
+      "text": "nu"
+    },
+    {
+      "conceptId": "hangul_neu",
+      "language": "ko",
+      "text": "neu"
+    },
+    {
+      "conceptId": "hangul_ni",
+      "language": "ko",
+      "text": "ni"
+    },
+    {
+      "conceptId": "hangul_da",
+      "language": "ko",
+      "text": "da"
+    },
+    {
+      "conceptId": "hangul_deo",
+      "language": "ko",
+      "text": "deo"
+    },
+    {
+      "conceptId": "hangul_do",
+      "language": "ko",
+      "text": "do"
+    },
+    {
+      "conceptId": "hangul_du",
+      "language": "ko",
+      "text": "du"
+    },
+    {
+      "conceptId": "hangul_deu",
+      "language": "ko",
+      "text": "deu"
+    },
+    {
+      "conceptId": "hangul_di",
+      "language": "ko",
+      "text": "di"
+    },
+    {
+      "conceptId": "hangul_ra",
+      "language": "ko",
+      "text": "ra"
+    },
+    {
+      "conceptId": "hangul_reo",
+      "language": "ko",
+      "text": "reo"
+    },
+    {
+      "conceptId": "hangul_ro",
+      "language": "ko",
+      "text": "ro"
+    },
+    {
+      "conceptId": "hangul_ru",
+      "language": "ko",
+      "text": "ru"
+    },
+    {
+      "conceptId": "hangul_reu",
+      "language": "ko",
+      "text": "reu"
+    },
+    {
+      "conceptId": "hangul_ri",
+      "language": "ko",
+      "text": "ri"
+    },
+    {
+      "conceptId": "hangul_ma",
+      "language": "ko",
+      "text": "ma"
+    },
+    {
+      "conceptId": "hangul_meo",
+      "language": "ko",
+      "text": "meo"
+    },
+    {
+      "conceptId": "hangul_mo",
+      "language": "ko",
+      "text": "mo"
+    },
+    {
+      "conceptId": "hangul_mu",
+      "language": "ko",
+      "text": "mu"
+    },
+    {
+      "conceptId": "hangul_meu",
+      "language": "ko",
+      "text": "meu"
+    },
+    {
+      "conceptId": "hangul_mi",
+      "language": "ko",
+      "text": "mi"
+    },
+    {
+      "conceptId": "hangul_ba",
+      "language": "ko",
+      "text": "ba"
+    },
+    {
+      "conceptId": "hangul_beo",
+      "language": "ko",
+      "text": "beo"
+    },
+    {
+      "conceptId": "hangul_bo",
+      "language": "ko",
+      "text": "bo"
+    },
+    {
+      "conceptId": "hangul_bu",
+      "language": "ko",
+      "text": "bu"
+    },
+    {
+      "conceptId": "hangul_beu",
+      "language": "ko",
+      "text": "beu"
+    },
+    {
+      "conceptId": "hangul_bi",
+      "language": "ko",
+      "text": "bi"
+    },
+    {
+      "conceptId": "hangul_sa",
+      "language": "ko",
+      "text": "sa"
+    },
+    {
+      "conceptId": "hangul_seo",
+      "language": "ko",
+      "text": "seo"
+    },
+    {
+      "conceptId": "hangul_so",
+      "language": "ko",
+      "text": "so"
+    },
+    {
+      "conceptId": "hangul_su",
+      "language": "ko",
+      "text": "su"
+    },
+    {
+      "conceptId": "hangul_seu",
+      "language": "ko",
+      "text": "seu"
+    },
+    {
+      "conceptId": "hangul_si",
+      "language": "ko",
+      "text": "si"
+    },
+    {
+      "conceptId": "hangul_a",
+      "language": "ko",
+      "text": "a"
+    },
+    {
+      "conceptId": "hangul_eo",
+      "language": "ko",
+      "text": "eo"
+    },
+    {
+      "conceptId": "hangul_o",
+      "language": "ko",
+      "text": "o"
+    },
+    {
+      "conceptId": "hangul_u",
+      "language": "ko",
+      "text": "u"
+    },
+    {
+      "conceptId": "hangul_eu",
+      "language": "ko",
+      "text": "eu"
+    },
+    {
+      "conceptId": "hangul_i",
+      "language": "ko",
+      "text": "i"
+    },
+    {
+      "conceptId": "hangul_ja",
+      "language": "ko",
+      "text": "ja"
+    },
+    {
+      "conceptId": "hangul_jeo",
+      "language": "ko",
+      "text": "jeo"
+    },
+    {
+      "conceptId": "hangul_jo",
+      "language": "ko",
+      "text": "jo"
+    },
+    {
+      "conceptId": "hangul_ju",
+      "language": "ko",
+      "text": "ju"
+    },
+    {
+      "conceptId": "hangul_jeu",
+      "language": "ko",
+      "text": "jeu"
+    },
+    {
+      "conceptId": "hangul_ji",
+      "language": "ko",
+      "text": "ji"
+    },
+    {
+      "conceptId": "hangul_ha",
+      "language": "ko",
+      "text": "ha"
+    },
+    {
+      "conceptId": "hangul_heo",
+      "language": "ko",
+      "text": "heo"
+    },
+    {
+      "conceptId": "hangul_ho",
+      "language": "ko",
+      "text": "ho"
+    },
+    {
+      "conceptId": "hangul_hu",
+      "language": "ko",
+      "text": "hu"
+    },
+    {
+      "conceptId": "hangul_heu",
+      "language": "ko",
+      "text": "heu"
+    },
+    {
+      "conceptId": "hangul_hi",
+      "language": "ko",
+      "text": "hi"
+    },
+    {
+      "conceptId": "hangul_ka",
+      "language": "ko",
+      "text": "ka"
+    },
+    {
+      "conceptId": "hangul_keo",
+      "language": "ko",
+      "text": "keo"
+    },
+    {
+      "conceptId": "hangul_ko",
+      "language": "ko",
+      "text": "ko"
+    },
+    {
+      "conceptId": "hangul_ku",
+      "language": "ko",
+      "text": "ku"
+    },
+    {
+      "conceptId": "hangul_ki",
+      "language": "ko",
+      "text": "ki"
+    },
+    {
+      "conceptId": "hangul_ta",
+      "language": "ko",
+      "text": "ta"
+    },
+    {
+      "conceptId": "hangul_teo",
+      "language": "ko",
+      "text": "teo"
+    },
+    {
+      "conceptId": "hangul_to",
+      "language": "ko",
+      "text": "to"
+    },
+    {
+      "conceptId": "hangul_tu",
+      "language": "ko",
+      "text": "tu"
+    },
+    {
+      "conceptId": "hangul_ti",
+      "language": "ko",
+      "text": "ti"
+    },
+    {
+      "conceptId": "hangul_pa",
+      "language": "ko",
+      "text": "pa"
+    },
+    {
+      "conceptId": "hangul_peo",
+      "language": "ko",
+      "text": "peo"
+    },
+    {
+      "conceptId": "hangul_po",
+      "language": "ko",
+      "text": "po"
+    },
+    {
+      "conceptId": "hangul_pu",
+      "language": "ko",
+      "text": "pu"
+    },
+    {
+      "conceptId": "hangul_pi",
+      "language": "ko",
+      "text": "pi"
+    },
+    {
+      "conceptId": "hangul_cha",
+      "language": "ko",
+      "text": "cha"
+    },
+    {
+      "conceptId": "hangul_cheo",
+      "language": "ko",
+      "text": "cheo"
+    },
+    {
+      "conceptId": "hangul_cho",
+      "language": "ko",
+      "text": "cho"
+    },
+    {
+      "conceptId": "hangul_chu",
+      "language": "ko",
+      "text": "chu"
+    },
+    {
+      "conceptId": "hangul_chi",
+      "language": "ko",
+      "text": "chi"
+    },
+    {
+      "conceptId": "hangul_ya",
+      "language": "ko",
+      "text": "ya"
+    },
+    {
+      "conceptId": "hangul_gya",
+      "language": "ko",
+      "text": "gya"
+    },
+    {
+      "conceptId": "hangul_nya",
+      "language": "ko",
+      "text": "nya"
+    },
+    {
+      "conceptId": "hangul_rya",
+      "language": "ko",
+      "text": "rya"
+    },
+    {
+      "conceptId": "hangul_mya",
+      "language": "ko",
+      "text": "mya"
+    },
+    {
+      "conceptId": "hangul_bya",
+      "language": "ko",
+      "text": "bya"
+    },
+    {
+      "conceptId": "hangul_yeo",
+      "language": "ko",
+      "text": "yeo"
+    },
+    {
+      "conceptId": "hangul_gyeo",
+      "language": "ko",
+      "text": "gyeo"
+    },
+    {
+      "conceptId": "hangul_nyeo",
+      "language": "ko",
+      "text": "nyeo"
+    },
+    {
+      "conceptId": "hangul_ryeo",
+      "language": "ko",
+      "text": "ryeo"
+    },
+    {
+      "conceptId": "hangul_myeo",
+      "language": "ko",
+      "text": "myeo"
+    },
+    {
+      "conceptId": "hangul_byeo",
+      "language": "ko",
+      "text": "byeo"
+    },
+    {
+      "conceptId": "hangul_yo",
+      "language": "ko",
+      "text": "yo"
+    },
+    {
+      "conceptId": "hangul_gyo",
+      "language": "ko",
+      "text": "gyo"
+    },
+    {
+      "conceptId": "hangul_nyo",
+      "language": "ko",
+      "text": "nyo"
+    },
+    {
+      "conceptId": "hangul_ryo",
+      "language": "ko",
+      "text": "ryo"
+    },
+    {
+      "conceptId": "hangul_myo",
+      "language": "ko",
+      "text": "myo"
+    },
+    {
+      "conceptId": "hangul_byo",
+      "language": "ko",
+      "text": "byo"
+    },
+    {
+      "conceptId": "hangul_yu",
+      "language": "ko",
+      "text": "yu"
+    },
+    {
+      "conceptId": "hangul_gyu",
+      "language": "ko",
+      "text": "gyu"
+    },
+    {
+      "conceptId": "hangul_nyu",
+      "language": "ko",
+      "text": "nyu"
+    },
+    {
+      "conceptId": "hangul_ryu",
+      "language": "ko",
+      "text": "ryu"
+    },
+    {
+      "conceptId": "hangul_myu",
+      "language": "ko",
+      "text": "myu"
+    },
+    {
+      "conceptId": "hangul_byu",
+      "language": "ko",
+      "text": "byu"
+    },
+    {
+      "conceptId": "apple",
+      "language": "ko",
+      "text": "sagwa",
+      "notes": "사과"
+    },
+    {
+      "conceptId": "banana",
+      "language": "ko",
+      "text": "banana",
+      "notes": "바나나"
+    },
+    {
+      "conceptId": "bread",
+      "language": "ko",
+      "text": "ppang",
+      "notes": "빵"
+    },
+    {
+      "conceptId": "cheese",
+      "language": "ko",
+      "text": "chijeu",
+      "notes": "치즈"
+    },
+    {
+      "conceptId": "egg",
+      "language": "ko",
+      "text": "gyeran",
+      "notes": "계란"
+    },
+    {
+      "conceptId": "fish",
+      "language": "ko",
+      "text": "saengseon",
+      "notes": "생선"
+    },
+    {
+      "conceptId": "chicken",
+      "language": "ko",
+      "text": "dakgogi",
+      "notes": "닭고기"
+    },
+    {
+      "conceptId": "rice",
+      "language": "ko",
+      "text": "bap",
+      "notes": "밥"
+    },
+    {
+      "conceptId": "soup",
+      "language": "ko",
+      "text": "guk",
+      "notes": "국"
+    },
+    {
+      "conceptId": "salad",
+      "language": "ko",
+      "text": "saelleodeu",
+      "notes": "샐러드"
+    },
+    {
+      "conceptId": "water",
+      "language": "ko",
+      "text": "mul",
+      "notes": "물"
+    },
+    {
+      "conceptId": "coffee",
+      "language": "ko",
+      "text": "keopi",
+      "notes": "커피"
+    },
+    {
+      "conceptId": "tea",
+      "language": "ko",
+      "text": "cha",
+      "notes": "차"
+    },
+    {
+      "conceptId": "milk",
+      "language": "ko",
+      "text": "uyu",
+      "notes": "우유"
+    },
+    {
+      "conceptId": "juice",
+      "language": "ko",
+      "text": "juseu",
+      "notes": "주스"
+    },
+    {
+      "conceptId": "wine",
+      "language": "ko",
+      "text": "wain",
+      "notes": "와인"
+    },
+    {
+      "conceptId": "knife",
+      "language": "ko",
+      "text": "kal",
+      "notes": "칼"
+    },
+    {
+      "conceptId": "fork",
+      "language": "ko",
+      "text": "pokeu",
+      "notes": "포크"
+    },
+    {
+      "conceptId": "spoon",
+      "language": "ko",
+      "text": "sutgarak",
+      "notes": "숟가락"
+    },
+    {
+      "conceptId": "plate",
+      "language": "ko",
+      "text": "jeopsi",
+      "notes": "접시"
+    },
+    {
+      "conceptId": "cup",
+      "language": "ko",
+      "text": "keop",
+      "notes": "컵"
+    },
+    {
+      "conceptId": "bottle",
+      "language": "ko",
+      "text": "byeong",
+      "notes": "병"
+    },
+    {
+      "conceptId": "pot",
+      "language": "ko",
+      "text": "naembi",
+      "notes": "냄비"
+    },
+    {
+      "conceptId": "fridge",
+      "language": "ko",
+      "text": "naengjanggo",
+      "notes": "냉장고"
+    },
+    {
+      "conceptId": "stove",
+      "language": "ko",
+      "text": "gaseureinji",
+      "notes": "가스레인지"
+    },
+    {
+      "conceptId": "oven",
+      "language": "ko",
+      "text": "obeun",
+      "notes": "오븐"
+    },
+    {
+      "conceptId": "table",
+      "language": "ko",
+      "text": "siktak",
+      "notes": "식탁"
+    },
+    {
+      "conceptId": "chair",
+      "language": "ko",
+      "text": "uija",
+      "notes": "의자"
+    },
+    {
+      "conceptId": "salt",
+      "language": "ko",
+      "text": "sogeum",
+      "notes": "소금"
+    },
+    {
+      "conceptId": "pepper",
+      "language": "ko",
+      "text": "huchu",
+      "notes": "후추"
+    },
+    {
+      "conceptId": "sugar",
+      "language": "ko",
+      "text": "seoltang",
+      "notes": "설탕"
+    },
+    {
+      "conceptId": "butter",
+      "language": "ko",
+      "text": "beoteo",
+      "notes": "버터"
+    },
+    {
+      "conceptId": "head",
+      "language": "ko",
+      "text": "meori",
+      "notes": "머리"
+    },
+    {
+      "conceptId": "eye",
+      "language": "ko",
+      "text": "nun",
+      "notes": "눈"
+    },
+    {
+      "conceptId": "ear",
+      "language": "ko",
+      "text": "gwi",
+      "notes": "귀"
+    },
+    {
+      "conceptId": "nose",
+      "language": "ko",
+      "text": "ko",
+      "notes": "코"
+    },
+    {
+      "conceptId": "mouth",
+      "language": "ko",
+      "text": "ip",
+      "notes": "입"
+    },
+    {
+      "conceptId": "tooth",
+      "language": "ko",
+      "text": "chia",
+      "notes": "치아"
+    },
+    {
+      "conceptId": "hand",
+      "language": "ko",
+      "text": "son",
+      "notes": "손"
+    },
+    {
+      "conceptId": "arm",
+      "language": "ko",
+      "text": "pal",
+      "notes": "팔"
+    },
+    {
+      "conceptId": "leg",
+      "language": "ko",
+      "text": "dari",
+      "notes": "다리"
+    },
+    {
+      "conceptId": "foot",
+      "language": "ko",
+      "text": "bal",
+      "notes": "발"
+    },
+    {
+      "conceptId": "heart",
+      "language": "ko",
+      "text": "simjang",
+      "notes": "심장"
+    },
+    {
+      "conceptId": "hair",
+      "language": "ko",
+      "text": "meorikarak",
+      "notes": "머리카락"
+    },
+    {
+      "conceptId": "finger",
+      "language": "ko",
+      "text": "songarak",
+      "notes": "손가락"
+    },
+    {
+      "conceptId": "knee",
+      "language": "ko",
+      "text": "mureup",
+      "notes": "무릎"
+    },
+    {
+      "conceptId": "shoulder",
+      "language": "ko",
+      "text": "eokkae",
+      "notes": "어깨"
+    },
+    {
+      "conceptId": "back",
+      "language": "ko",
+      "text": "deung",
+      "notes": "등"
+    },
+    {
+      "conceptId": "one",
+      "language": "ko",
+      "text": "hana",
+      "notes": "하나"
+    },
+    {
+      "conceptId": "two",
+      "language": "ko",
+      "text": "dul",
+      "notes": "둘"
+    },
+    {
+      "conceptId": "three",
+      "language": "ko",
+      "text": "set",
+      "notes": "셋"
+    },
+    {
+      "conceptId": "four",
+      "language": "ko",
+      "text": "net",
+      "notes": "넷"
+    },
+    {
+      "conceptId": "five",
+      "language": "ko",
+      "text": "daseot",
+      "notes": "다섯"
+    },
+    {
+      "conceptId": "six",
+      "language": "ko",
+      "text": "yeoseot",
+      "notes": "여섯"
+    },
+    {
+      "conceptId": "seven",
+      "language": "ko",
+      "text": "ilgop",
+      "notes": "일곱"
+    },
+    {
+      "conceptId": "eight",
+      "language": "ko",
+      "text": "yeodeol",
+      "notes": "여덟"
+    },
+    {
+      "conceptId": "nine",
+      "language": "ko",
+      "text": "ahop",
+      "notes": "아홉"
+    },
+    {
+      "conceptId": "ten",
+      "language": "ko",
+      "text": "yeol",
+      "notes": "열"
+    },
+    {
+      "conceptId": "twenty",
+      "language": "ko",
+      "text": "seumul",
+      "notes": "스물"
+    },
+    {
+      "conceptId": "fifty",
+      "language": "ko",
+      "text": "swin",
+      "notes": "쉰"
+    },
+    {
+      "conceptId": "hundred",
+      "language": "ko",
+      "text": "baek",
+      "notes": "백"
+    },
+    {
+      "conceptId": "thousand",
+      "language": "ko",
+      "text": "cheon",
+      "notes": "천"
+    },
+    {
+      "conceptId": "first",
+      "language": "ko",
+      "text": "cheotjjae",
+      "notes": "첫째"
+    },
+    {
+      "conceptId": "second",
+      "language": "ko",
+      "text": "duljjae",
+      "notes": "둘째"
+    },
+    {
+      "conceptId": "key",
+      "language": "ko",
+      "text": "yeolsoe",
+      "notes": "열쇠"
+    },
+    {
+      "conceptId": "phone",
+      "language": "ko",
+      "text": "jeonhwa",
+      "notes": "전화"
+    },
+    {
+      "conceptId": "book",
+      "language": "ko",
+      "text": "chaek",
+      "notes": "책"
+    },
+    {
+      "conceptId": "pen",
+      "language": "ko",
+      "text": "pen",
+      "notes": "펜"
+    },
+    {
+      "conceptId": "bag",
+      "language": "ko",
+      "text": "gabang",
+      "notes": "가방"
+    },
+    {
+      "conceptId": "umbrella",
+      "language": "ko",
+      "text": "usan",
+      "notes": "우산"
+    },
+    {
+      "conceptId": "watch",
+      "language": "ko",
+      "text": "sigye",
+      "notes": "시계"
+    },
+    {
+      "conceptId": "wallet",
+      "language": "ko",
+      "text": "jigap",
+      "notes": "지갑"
+    },
+    {
+      "conceptId": "money",
+      "language": "ko",
+      "text": "don",
+      "notes": "돈"
+    },
+    {
+      "conceptId": "ticket",
+      "language": "ko",
+      "text": "pyo",
+      "notes": "표"
+    },
+    {
+      "conceptId": "passport",
+      "language": "ko",
+      "text": "yeogwon",
+      "notes": "여권"
+    },
+    {
+      "conceptId": "computer",
+      "language": "ko",
+      "text": "keompyuteo",
+      "notes": "컴퓨터"
+    },
+    {
+      "conceptId": "camera",
+      "language": "ko",
+      "text": "kamera",
+      "notes": "카메라"
+    },
+    {
+      "conceptId": "door",
+      "language": "ko",
+      "text": "mun",
+      "notes": "문"
+    },
+    {
+      "conceptId": "window",
+      "language": "ko",
+      "text": "changmun",
+      "notes": "창문"
+    },
+    {
+      "conceptId": "key_card",
+      "language": "ko",
+      "text": "kikadeu",
+      "notes": "키카드"
+    },
+    {
+      "conceptId": "airport",
+      "language": "ko",
+      "text": "gonghang",
+      "notes": "공항"
+    },
+    {
+      "conceptId": "hotel",
+      "language": "ko",
+      "text": "hotel",
+      "notes": "호텔"
+    },
+    {
+      "conceptId": "station",
+      "language": "ko",
+      "text": "yeok",
+      "notes": "역"
+    },
+    {
+      "conceptId": "city",
+      "language": "ko",
+      "text": "dosi",
+      "notes": "도시"
+    },
+    {
+      "conceptId": "country",
+      "language": "ko",
+      "text": "nara",
+      "notes": "나라"
+    },
+    {
+      "conceptId": "beach",
+      "language": "ko",
+      "text": "haebyeon",
+      "notes": "해변"
+    },
+    {
+      "conceptId": "mountain",
+      "language": "ko",
+      "text": "san",
+      "notes": "산"
+    },
+    {
+      "conceptId": "hospital",
+      "language": "ko",
+      "text": "byeongwon",
+      "notes": "병원"
+    },
+    {
+      "conceptId": "park",
+      "language": "ko",
+      "text": "gongwon",
+      "notes": "공원"
+    },
+    {
+      "conceptId": "museum",
+      "language": "ko",
+      "text": "bakmulgwan",
+      "notes": "박물관"
+    },
+    {
+      "conceptId": "sun",
+      "language": "ko",
+      "text": "hae",
+      "notes": "해"
+    },
+    {
+      "conceptId": "rain",
+      "language": "ko",
+      "text": "bi",
+      "notes": "비"
+    },
+    {
+      "conceptId": "snow",
+      "language": "ko",
+      "text": "nun",
+      "notes": "눈"
+    },
+    {
+      "conceptId": "wind",
+      "language": "ko",
+      "text": "baram",
+      "notes": "바람"
+    },
+    {
+      "conceptId": "cloud",
+      "language": "ko",
+      "text": "gureum",
+      "notes": "구름"
+    },
+    {
+      "conceptId": "storm",
+      "language": "ko",
+      "text": "pokpung",
+      "notes": "폭풍"
+    },
+    {
+      "conceptId": "fog",
+      "language": "ko",
+      "text": "angae",
+      "notes": "안개"
+    },
+    {
+      "conceptId": "rainbow",
+      "language": "ko",
+      "text": "mujigae",
+      "notes": "무지개"
+    },
+    {
+      "conceptId": "lightning",
+      "language": "ko",
+      "text": "beongae",
+      "notes": "번개"
+    },
+    {
+      "conceptId": "moon",
+      "language": "ko",
+      "text": "dal",
+      "notes": "달"
+    },
+    {
+      "conceptId": "mother",
+      "language": "ko",
+      "text": "eomeoni",
+      "notes": "어머니"
+    },
+    {
+      "conceptId": "father",
+      "language": "ko",
+      "text": "abeoji",
+      "notes": "아버지"
+    },
+    {
+      "conceptId": "sister",
+      "language": "ko",
+      "text": "jamae",
+      "notes": "자매"
+    },
+    {
+      "conceptId": "brother",
+      "language": "ko",
+      "text": "hyeongje",
+      "notes": "형제"
+    },
+    {
+      "conceptId": "friend",
+      "language": "ko",
+      "text": "chingu",
+      "notes": "친구"
+    },
+    {
+      "conceptId": "baby",
+      "language": "ko",
+      "text": "agi",
+      "notes": "아기"
+    },
+    {
+      "conceptId": "child",
+      "language": "ko",
+      "text": "ai",
+      "notes": "아이"
+    },
+    {
+      "conceptId": "family",
+      "language": "ko",
+      "text": "gajok",
+      "notes": "가족"
+    },
+    {
+      "conceptId": "grandfather",
+      "language": "ko",
+      "text": "harabeoji",
+      "notes": "할아버지"
+    },
+    {
+      "conceptId": "grandmother",
+      "language": "ko",
+      "text": "halmeoni",
+      "notes": "할머니"
+    },
+    {
+      "conceptId": "happy",
+      "language": "ko",
+      "text": "haengbokhada",
+      "notes": "행복하다"
+    },
+    {
+      "conceptId": "sad",
+      "language": "ko",
+      "text": "seulpeuda",
+      "notes": "슬프다"
+    },
+    {
+      "conceptId": "angry",
+      "language": "ko",
+      "text": "hwanada",
+      "notes": "화나다"
+    },
+    {
+      "conceptId": "tired",
+      "language": "ko",
+      "text": "pigonhada",
+      "notes": "피곤하다"
+    },
+    {
+      "conceptId": "scared",
+      "language": "ko",
+      "text": "museopda",
+      "notes": "무섭다"
+    },
+    {
+      "conceptId": "surprised",
+      "language": "ko",
+      "text": "nollada",
+      "notes": "놀라다"
+    },
+    {
+      "conceptId": "calm",
+      "language": "ko",
+      "text": "chabunhada",
+      "notes": "차분하다"
+    },
+    {
+      "conceptId": "excited",
+      "language": "ko",
+      "text": "sinnada",
+      "notes": "신나다"
+    },
+    {
+      "conceptId": "bored",
+      "language": "ko",
+      "text": "jiruhada",
+      "notes": "지루하다"
+    },
+    {
+      "conceptId": "nervous",
+      "language": "ko",
+      "text": "ginjanghada",
+      "notes": "긴장하다"
+    },
+    {
+      "conceptId": "day",
+      "language": "ko",
+      "text": "nal",
+      "notes": "날"
+    },
+    {
+      "conceptId": "night",
+      "language": "ko",
+      "text": "bam",
+      "notes": "밤"
+    },
+    {
+      "conceptId": "morning",
+      "language": "ko",
+      "text": "achim",
+      "notes": "아침"
+    },
+    {
+      "conceptId": "evening",
+      "language": "ko",
+      "text": "jeonyeok",
+      "notes": "저녁"
+    },
+    {
+      "conceptId": "today",
+      "language": "ko",
+      "text": "oneul",
+      "notes": "오늘"
+    },
+    {
+      "conceptId": "tomorrow",
+      "language": "ko",
+      "text": "naeil",
+      "notes": "내일"
+    },
+    {
+      "conceptId": "yesterday",
+      "language": "ko",
+      "text": "eoje",
+      "notes": "어제"
+    },
+    {
+      "conceptId": "hour",
+      "language": "ko",
+      "text": "sigan",
+      "notes": "시간"
+    },
+    {
+      "conceptId": "minute",
+      "language": "ko",
+      "text": "bun",
+      "notes": "분"
+    },
+    {
+      "conceptId": "week",
+      "language": "ko",
+      "text": "ju",
+      "notes": "주"
+    },
+    {
+      "conceptId": "car",
+      "language": "ko",
+      "text": "jadongcha",
+      "notes": "자동차"
+    },
+    {
+      "conceptId": "bus",
+      "language": "ko",
+      "text": "beoseu",
+      "notes": "버스"
+    },
+    {
+      "conceptId": "train",
+      "language": "ko",
+      "text": "gicha",
+      "notes": "기차"
+    },
+    {
+      "conceptId": "plane",
+      "language": "ko",
+      "text": "bihaenggi",
+      "notes": "비행기"
+    },
+    {
+      "conceptId": "bike",
+      "language": "ko",
+      "text": "jajeongeo",
+      "notes": "자전거"
+    },
+    {
+      "conceptId": "taxi",
+      "language": "ko",
+      "text": "taeksi",
+      "notes": "택시"
+    },
+    {
+      "conceptId": "boat",
+      "language": "ko",
+      "text": "bae",
+      "notes": "배"
+    },
+    {
+      "conceptId": "road",
+      "language": "ko",
+      "text": "gil",
+      "notes": "길"
+    },
+    {
+      "conceptId": "motorcycle",
+      "language": "ko",
+      "text": "otobai",
+      "notes": "오토바이"
+    },
+    {
+      "conceptId": "subway",
+      "language": "ko",
+      "text": "jihacheol",
+      "notes": "지하철"
+    }
+  ]
+}

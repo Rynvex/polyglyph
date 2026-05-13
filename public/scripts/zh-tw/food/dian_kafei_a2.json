@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "zh-tw.dian_kafei.a2",
+  "language": "zh-tw",
+  "level": "A2",
+  "topic": "food",
+  "title": "點咖啡 (dian kafei)",
+  "description": "Order coffee at a Taiwanese café. Player types toneless pinyin.",
+  "estimated_minutes": 3,
+  "tags": ["cafe", "service"],
+  "characters": {
+    "bot": { "name": "店員", "voice": "zh-TW-YunJheNeural" },
+    "player": { "name": "你" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "歡迎光臨!請問要點什麼?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "yi bei na tie xie xie", "display": "一杯拿鐵,謝謝", "hint_zh": "請給我一杯拿鐵,謝謝(一杯拿鐵,謝謝)。" }] },
+    { "id": "t3", "speaker": "bot", "text": "中杯還是大杯?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "zhong bei jiu hao", "display": "中杯就好", "hint_zh": "中杯就好(中杯就好)。" }] },
+    { "id": "t5", "speaker": "bot", "text": "內用還是外帶?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "nei yong xie xie", "display": "內用,謝謝", "hint_zh": "內用,謝謝(內用,謝謝)。" }] },
+    { "id": "t7", "speaker": "bot", "text": "總共八十五元。" },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "hao de gei ni", "display": "好的,給你", "hint_zh": "好的,給你(好的,給你)。" }] }
+  ]
+}

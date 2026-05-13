@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "salary_negotiation_b2",
+  "language": "ko",
+  "title": "카운터 오퍼 대화",
+  "description": "낮은 오퍼에 정중하게 반박. 구체 데이터와 명확한 요청, 감정 빼고.",
+  "characters": {
+    "bot": {
+      "name": "리크루터",
+      "voice": "ko-KR-InJoonNeural"
+    },
+    "player": {
+      "name": "당신"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "고려해 주셔서 감사합니다. 팀도 기대하고 있어요. 오퍼는 어떻게 보세요?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "jeongmal gamsahapnida pojigi rang timi jal majayo",
+          "display": "jeongmal gamsahapnida pojigi rang timi jal majayo",
+          "hint_zh": "非常感謝。職務跟團隊都很適合我。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "뒤에 '하지만'이 올 것 같네요."
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "ne giobon nyeon bonggi seul jay daei sirjang nyeong gye po nuh nopayyo",
+          "display": "ne giobon nyeon bonggi seul jay daei sirjang nyeong gye po nuh nopayyo",
+          "hint_zh": "是的,底薪比我看到這個層級的市場行情還低。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "베이 에리어 기준으로 조사했어요. 어떤 숫자 보고 계세요?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "levels.fyi e jeo daedeok hesuk panchak hwa rejjang i 180k USD jung wei isseoyo",
+          "display": "levels.fyi e jeo daedeok hesuk panchak hwa rejjang i 180k USD jung wei isseoyo",
+          "hint_zh": "Levels.fyi 顯示同等公司、同等級的資深職位中位數約 18 萬底薪。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "그게 우리가 모델링한 상한이에요. 요청 금액은요?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "175k base e sa nyeon dongan beubseu 20k equity isseo myeon joa yo",
+          "display": "175k base e sa nyeon dongan beubseu 20k equity isseo myeon joa yo",
+          "hint_zh": "底薪 17.5 萬,加四年內多 2 萬美金股權。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "채용 위원회에 가져가 볼게요. 에쿼티 쪽에서 움직일 수 있으면 또 다른 거 있어요?"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "saining bonuseu issoi myeon iju bi yong gam dang doe yo bigyong yulin yu yeon hae",
+          "display": "saining bonuseu issoi myeon iju bi yong gam dang doe yo bigyong yulin yu yeon hae",
+          "hint_zh": "簽約獎金可以幫我抵搬遷成本。組合可以彈性。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "알겠습니다, 목요일까지 회신드릴게요."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "gomawoyo dapjang gidari go isseo yo",
+          "display": "gomawoyo dapjang gidari go isseo yo",
+          "hint_zh": "謝謝你,我等你回覆。"
+        }
+      ]
+    }
+  }
+}

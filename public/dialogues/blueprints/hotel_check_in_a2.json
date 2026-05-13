@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "hotel_check_in_a2",
+  "level": "A2",
+  "topic": "travel",
+  "estimated_minutes": 4,
+  "tags": [
+    "travel",
+    "hotel",
+    "service"
+  ],
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t13",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t14",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    }
+  ]
+}

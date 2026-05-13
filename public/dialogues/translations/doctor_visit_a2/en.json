@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "doctor_visit_a2",
+  "language": "en",
+  "title": "At the Doctor's Office",
+  "description": "Describe symptoms and book a follow-up. Polite, semi-formal medical English.",
+  "characters": {
+    "bot": {
+      "name": "Dr. Lee",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Good morning. Please come in and have a seat. What brings you in today?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Hi doctor, I've had a sore throat for about a week now.",
+          "hint_zh": "醫生好,我喉嚨痛已經大約一個禮拜了。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "I see. Any fever, cough, or trouble swallowing?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "A bit of a cough, mostly at night. No fever as far as I know.",
+          "hint_zh": "有一點咳嗽,主要是晚上。我不覺得有發燒。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Alright. Are you taking any medication right now?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Just some over-the-counter cold tablets, nothing else.",
+          "hint_zh": "只有買成藥的感冒藥,其他都沒有。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Okay. Let me take a quick look. Open your mouth wide and say 'ah'."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Aaah.",
+          "hint_zh": "啊—"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Mild inflammation. Not bacterial, I think. Plenty of rest, warm fluids, and these throat lozenges. Come back if it gets worse."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Got it. Should I take time off work?",
+          "hint_zh": "了解,我需要請假休息嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "A day or two if you can. You'll bounce back faster."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Thank you, doctor. I really appreciate it.",
+          "hint_zh": "謝謝醫生,真的很感謝你。"
+        }
+      ]
+    }
+  }
+}

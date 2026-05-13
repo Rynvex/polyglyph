@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "en.cnn_for_pm.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "tech",
+  "title": "CNNs for Image Tasks",
+  "description": "A non-technical client asks why CNNs work so well on images. Explain in plain language.",
+  "estimated_minutes": 4,
+  "tags": [
+    "ai",
+    "ml",
+    "explain-to-customer",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Client",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "I keep hearing CNN. What is it, in plain words?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Convolutional Neural Network. It's the kind of model people use for images.",
+          "hint_zh": "卷積神經網路。是處理影像最常見的那種模型。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Why is it specifically good for images?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "It looks at small patches first, then combines them. Like noticing edges, then shapes, then objects.",
+          "hint_zh": "它先看小區塊,再組合起來。先邊緣、再形狀、再物件。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Why not a regular network?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "A regular one would have too many weights and lose the local structure of the image.",
+          "hint_zh": "一般網路權重會太多,而且會丟掉影像的局部結構。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "What about Transformers? I heard they're taking over?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Vision Transformers do compete now. CNNs still win when data is small or compute is limited.",
+          "hint_zh": "Vision Transformer 確實能競爭了。資料少或算力有限時,CNN 仍占優勢。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "So for our project, which would you pick?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "I'd start with a CNN. We can move to a Transformer later if quality plateaus.",
+          "hint_zh": "我會先用 CNN。之後品質卡住再換 Transformer。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "it.riunione.b1",
+  "language": "it",
+  "level": "B1",
+  "topic": "work",
+  "title": "In riunione",
+  "description": "Quick standup at the office: status, blockers, next steps.",
+  "estimated_minutes": 4,
+  "tags": ["meeting", "casual"],
+  "characters": {
+    "bot": { "name": "Capo", "voice": "it-IT-DiegoNeural" },
+    "player": { "name": "Tu" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Allora, come va il progetto?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Va bene, sono quasi a meta strada.", "hint_zh": "進度不錯,差不多到一半了。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Hai bisogno di qualcosa?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Mi servono i dati del cliente.", "hint_zh": "我需要客戶的資料。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Te li mando oggi pomeriggio." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Perfetto, grazie mille.", "hint_zh": "太好了,非常感謝。" }] }
+  ]
+}

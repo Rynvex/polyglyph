@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "es.farmacia.a2",
+  "language": "es",
+  "level": "A2",
+  "topic": "services",
+  "title": "En la farmacia",
+  "description": "Pick up a prescription and ask about side effects.",
+  "estimated_minutes": 3,
+  "tags": ["health", "service"],
+  "characters": {
+    "bot": { "name": "Farmaceutica", "voice": "es-ES-ElviraNeural" },
+    "player": { "name": "Tú" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Buenos dias, en que puedo ayudar?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Vengo a recoger una receta.", "hint_zh": "我來領處方藥。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Su nombre, por favor." },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Chang, C-H-A-N-G.", "hint_zh": "Chang,C-H-A-N-G。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Aqui tiene. Una pastilla cada doce horas." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Tiene efectos secundarios?", "hint_zh": "有副作用嗎?" }] },
+    { "id": "t7", "speaker": "bot", "text": "A veces da sueno. Nada grave." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Vale, muchas gracias.", "hint_zh": "好,非常感謝。" }] }
+  ]
+}

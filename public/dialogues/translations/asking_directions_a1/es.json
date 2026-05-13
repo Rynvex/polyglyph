@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "asking_directions_a1",
+  "language": "es",
+  "title": "Preguntar como llegar",
+  "description": "Para a un desconocido en la calle y averigua como llegar a una libreria.",
+  "characters": {
+    "bot": {
+      "name": "Local",
+      "voice": "es-ES-AlvaroNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "templates": [
+        {
+          "id": "t1.0",
+          "text": "Perdona, te puedo hacer una preguntilla?",
+          "hint_zh": "不好意思,可以耽誤你一下嗎?"
+        }
+      ]
+    },
+    "t2": {
+      "text": "Claro, dime."
+    },
+    "t3": {
+      "templates": [
+        {
+          "id": "t3.0",
+          "text": "Sabes como llegar a la libreria central?",
+          "hint_zh": "你知道中央書店怎麼去嗎?"
+        }
+      ]
+    },
+    "t4": {
+      "text": "Si, no esta lejos. Sigue dos manzanas por esta calle y gira a la izquierda en el semaforo."
+    },
+    "t5": {
+      "templates": [
+        {
+          "id": "t5.0",
+          "text": "Dos manzanas y a la izquierda, vale. Esta en esa calle?",
+          "hint_zh": "走兩個街區後左轉,知道了。在那條街上嗎?"
+        }
+      ]
+    },
+    "t6": {
+      "text": "Si, la veras a la derecha despues de unos tres minutos. Tiene un cartel rojo grande."
+    },
+    "t7": {
+      "templates": [
+        {
+          "id": "t7.0",
+          "text": "Perfecto. Abre los domingos?",
+          "hint_zh": "太好了,星期天有開嗎?"
+        }
+      ]
+    },
+    "t8": {
+      "text": "Creo que si, hasta sobre las seis. Por si acaso, llama antes."
+    },
+    "t9": {
+      "templates": [
+        {
+          "id": "t9.0",
+          "text": "Lo hare, muchisimas gracias por la ayuda!",
+          "hint_zh": "我會打去問,真的很感謝你!"
+        }
+      ]
+    },
+    "t10": {
+      "text": "De nada, que te vaya bien!"
+    },
+    "t11": {
+      "templates": [
+        {
+          "id": "t11.0",
+          "text": "Igualmente, cuidate!",
+          "hint_zh": "你也是,保重!"
+        }
+      ]
+    }
+  }
+}

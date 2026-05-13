@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "en.backprop_explain.b2",
+  "language": "en",
+  "level": "B2",
+  "topic": "tech",
+  "title": "Backprop in Plain English",
+  "description": "A junior engineer just finished a Coursera ML course and asks why backprop matters. Keep it intuitive.",
+  "estimated_minutes": 4,
+  "tags": [
+    "ai",
+    "ml",
+    "casual",
+    "explain"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Junior",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "I just finished the gradient descent module. What's the deal with backprop, exactly?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Think of it as the trick that makes training huge networks even possible.",
+          "hint_zh": "把它想成讓大型網路訓練變得可行的關鍵技巧。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Without it we couldn't train deep models?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Not at scale. Naive chain rule would blow up exponentially. Backprop walks layer by layer and reuses results.",
+          "hint_zh": "規模一上去就不行。樸素鏈式法則會指數爆炸,反向傳播是逐層走、複用中間結果。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "So it's just the chain rule, applied smartly?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Exactly. It's a special case of reverse-mode automatic differentiation.",
+          "hint_zh": "正是。它是反向模式自動微分的一個特例。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "What about the vanishing gradient thing I keep hearing about?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Real problem. When gradients shrink layer by layer, early layers stop learning. ReLU and skip connections were the main fixes.",
+          "hint_zh": "是真問題。梯度逐層縮小,前面幾層就學不動。ReLU 跟殘差連接是主要解法。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Got it. Anything else worth knowing as a beginner?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "You almost never write backprop yourself. PyTorch and JAX do it for you. But knowing the shape helps debug weird training behavior.",
+          "hint_zh": "你幾乎不會自己寫反向傳播,PyTorch 跟 JAX 都會代勞。但懂概念輪廓對排查訓練怪象很有用。"
+        }
+      ]
+    }
+  ]
+}

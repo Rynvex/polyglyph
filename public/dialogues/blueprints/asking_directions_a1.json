@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "asking_directions_a1",
+  "level": "A1",
+  "topic": "travel",
+  "estimated_minutes": 3,
+  "tags": [
+    "travel",
+    "navigation",
+    "stranger"
+  ],
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t2",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t3",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t4",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t5",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t6",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t7",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t8",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t9",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    },
+    {
+      "id": "t10",
+      "speaker": "bot",
+      "has_templates": false
+    },
+    {
+      "id": "t11",
+      "speaker": "player",
+      "has_templates": true,
+      "template_count": 1
+    }
+  ]
+}

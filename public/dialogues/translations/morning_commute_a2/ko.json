@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "morning_commute_a2",
+  "language": "ko",
+  "title": "차 막혀서 못 가요",
+  "description": "차 안에서 동료한테 늦는다고 전화. 캐주얼한 톤, 가벼운 관용 표현 포함.",
+  "characters": {
+    "bot": {
+      "name": "마야",
+      "voice": "ko-KR-SunHiNeural"
+    },
+    "player": {
+      "name": "당신"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "야, 지금 어디야? 회의 곧 시작해."
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "jinjja mianhae geuni jeonhyeo an umjigyeo",
+          "display": "jinjja mianhae geuni jeonhyeo an umjigyeo",
+          "hint_zh": "抱歉,我塞在路上。整條完全不動。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "헐. 얼마나 걸릴 것 같아?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "amado ibsipbun jeongdo navi gye gyeesok bakkwoeyo",
+          "display": "amado ibsipbun jeongdo navi gye gyeesok bakkwoeyo",
+          "hint_zh": "再二十分鐘吧?導航一直在變。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "월요일 아침은 항상 이래. 다들한테 말해놓을게."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "gomawo apbubuneul daesinhae jul su isseo",
+          "display": "gomawo apbubuneul daesinhae jul su isseo",
+          "hint_zh": "謝啦。前半段你可以先幫我頂嗎?"
+        }
+      ]
+    },
+    "t7": {
+      "text": "응, 걱정마. 도착하는 대로 와."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "neo jeongmal sallyeoijwosseo damen naega gapeulge",
+          "display": "neo jeongmal sallyeoijwosseo damen naega gapeulge",
+          "hint_zh": "你救了我。下次還你人情。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "다음번 커피는 네가 사. 운전 조심해!"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "kollok itta bwa",
+          "display": "kollok itta bwa",
+          "hint_zh": "成交,等下見。"
+        }
+      ]
+    }
+  }
+}

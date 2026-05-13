@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "family_a1",
+  "title": "Family & People",
+  "cefr": "A1",
+  "description": "The people closest to you: parents, siblings, grandparents, friends.",
+  "estimated_minutes": 4,
+  "conceptIds": [
+    "mother",
+    "father",
+    "sister",
+    "brother",
+    "friend",
+    "baby",
+    "child",
+    "family",
+    "grandfather",
+    "grandmother"
+  ]
+}

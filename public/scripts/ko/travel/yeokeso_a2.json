@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ko.yeokeso.a2",
+  "language": "ko",
+  "level": "A2",
+  "topic": "travel",
+  "title": "역에서",
+  "description": "Buy a ticket at a Korean train station. Type Revised Romanization; cells render Hangul.",
+  "estimated_minutes": 3,
+  "tags": ["station", "service"],
+  "characters": {
+    "bot": { "name": "직원", "voice": "ko-KR-SunHiNeural" },
+    "player": { "name": "당신" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "어디까지 가세요?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "서울까지요", "display": "서울까지요.", "hint_zh": "seoulkkajiyo — 到首爾。" }] },
+    { "id": "t3", "speaker": "bot", "text": "편도예요, 왕복이에요?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "편도요", "display": "편도요.", "hint_zh": "pyeondoyo — 單程。" }] },
+    { "id": "t5", "speaker": "bot", "text": "사만 오천원입니다." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "감사합니다", "display": "감사합니다.", "hint_zh": "gamsahapnida — 謝謝。" }] }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "it.al_bar.a2",
+  "language": "it",
+  "level": "A2",
+  "topic": "food",
+  "title": "Al bar",
+  "description": "Order an espresso and a cornetto at an Italian bar.",
+  "estimated_minutes": 3,
+  "tags": ["cafe", "service"],
+  "characters": {
+    "bot": { "name": "Barista", "voice": "it-IT-DiegoNeural" },
+    "player": { "name": "Tu" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Buongiorno! Cosa prende?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Un espresso, per favore.", "hint_zh": "我要一杯濃縮咖啡,謝謝。" }] },
+    { "id": "t3", "speaker": "bot", "text": "Qualcosa da mangiare? Ho cornetti caldi." },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Si, anche un cornetto.", "hint_zh": "好,我也要一個可頌。" }] },
+    { "id": "t5", "speaker": "bot", "text": "Lo prende qui o porta via?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Lo prendo qui, grazie.", "hint_zh": "我在這裡用,謝謝。" }] },
+    { "id": "t7", "speaker": "bot", "text": "Sono tre euro e cinquanta." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Ecco a lei. Grazie mille.", "hint_zh": "這是錢,非常謝謝。" }] }
+  ]
+}

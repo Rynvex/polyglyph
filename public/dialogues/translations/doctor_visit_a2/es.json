@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "doctor_visit_a2",
+  "language": "es",
+  "title": "En la consulta del medico",
+  "description": "Describe sintomas y reserva una cita de seguimiento. Espanol semi-formal medico.",
+  "characters": {
+    "bot": {
+      "name": "Dra. Lee",
+      "voice": "es-ES-ElviraNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Buenos dias. Pase y sientese. Que le trae hoy?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Hola doctora, llevo casi una semana con dolor de garganta.",
+          "hint_zh": "醫生好,我喉嚨痛已經大概一個禮拜了。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Entiendo. Fiebre, tos o problemas para tragar?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Algo de tos, sobre todo de noche. Fiebre creo que no.",
+          "hint_zh": "有點咳嗽,主要是晚上。應該沒發燒。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Bien. Esta tomando alguna medicacion ahora?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Solo unas pastillas para el resfriado de farmacia, nada mas.",
+          "hint_zh": "只有自己買的成藥感冒藥,其他都沒有。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Vale. Voy a echar un vistazo. Abra la boca y diga 'aaa'."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Aaa.",
+          "hint_zh": "啊—"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Inflamacion leve. No parece bacteriana. Mucho descanso, liquidos calientes y estas pastillas para la garganta. Vuelva si empeora."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Entendido. Deberia coger baja del trabajo?",
+          "hint_zh": "了解。需要請假休息嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Si puede, un dia o dos. Se recuperara mas rapido."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Gracias, doctora. Se lo agradezco mucho.",
+          "hint_zh": "謝謝醫師,真的很感謝。"
+        }
+      ]
+    }
+  }
+}

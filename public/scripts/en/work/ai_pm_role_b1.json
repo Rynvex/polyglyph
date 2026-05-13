@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.ai_pm_role.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "work",
+  "title": "What Does an AI PM Actually Do?",
+  "description": "A friend considering a career switch asks what an AI PM does day to day. Pull from the Cat Wu / Lenny's Podcast discussion.",
+  "estimated_minutes": 4,
+  "tags": [
+    "pm",
+    "career",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Friend",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "I'm thinking about applying for AI PM roles. What do they actually do?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Less roadmap alignment than a normal PM, more about shrinking the gap from idea to user.",
+          "hint_zh": "比一般 PM 少做路線圖對齊,更多是縮短「想法到用戶」的距離。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "What's different from a regular product role?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "You need a sense of where the model is good and where it isn't. That changes every few months.",
+          "hint_zh": "你要有感覺模型哪裡好、哪裡不行。這每幾個月都在變。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Do I need a coding background?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "It really helps. Cat Wu said engineering background lets you judge how hard things actually are.",
+          "hint_zh": "幫助很大。Cat Wu 說工程背景能讓你判斷事情實際有多難。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "What about PRDs? Do AI PMs still write them?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Most teams skip them. They use weekly metrics readouts and team principles instead.",
+          "hint_zh": "多數團隊不寫了,改用每週數據報告跟團隊原則替代。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "What's the most important skill, then?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Product taste. The intuition for what to build and what to drop.",
+          "hint_zh": "產品品味。判斷該做什麼、該放掉什麼的直覺。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "How do you even build that?"
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Watch users push the product to its limits. Cat spends thirty percent of her time doing that.",
+          "hint_zh": "看用戶把產品推到極限。Cat 自己花三成時間做這件事。"
+        }
+      ]
+    }
+  ]
+}

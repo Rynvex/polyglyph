@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "hotel_check_in_a2",
+  "language": "de",
+  "title": "Hotel-Check-in",
+  "description": "Checke ins Zimmer ein und frage nach den Annehmlichkeiten.",
+  "characters": {
+    "bot": {
+      "name": "Concierge",
+      "voice": "de-DE-KatjaNeural"
+    },
+    "player": {
+      "name": "Du"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Guten Abend, willkommen im Grand Bayview. Sie wollen einchecken?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Ja, ich habe eine Reservierung auf den Namen Lee.",
+          "hint_zh": "是的,我用 Lee 這個名字訂了房。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Ich schaue nach. Darf ich Ihren Reisepass sehen?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Klar, hier bitte.",
+          "hint_zh": "沒問題,給你。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Danke. King-Deluxe-Zimmer fuer drei Naechte, richtig?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Genau. Waere ein hoeheres Stockwerk moeglich?",
+          "hint_zh": "沒錯。可以幫我安排比較高樓層的房間嗎?"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Ich schaue. Ja, ich kann Sie auf die siebzehnte Etage mit Meerblick legen."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Klingt super, danke. Wann gibt's Fruehstueck?",
+          "hint_zh": "聽起來太棒了,謝謝。早餐幾點開始?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Fruehstueck von halb sieben bis zehn in der zweiten Etage. Der Pool ist auf dem Dach."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Super. Kann ich heute abend ins Fitnessstudio?",
+          "hint_zh": "好的。今天晚上可以使用健身房嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Ja, das Fitnessstudio ist 24 Stunden geoeffnet. Ihr Zimmerschluessel oeffnet automatisch."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Perfekt. Letzte Frage, ist das WLAN auf den Zimmern kostenlos?",
+          "hint_zh": "太好了。最後一個問題--房間裡的網路是免費的嗎?"
+        }
+      ]
+    },
+    "t13": {
+      "text": "Ja, der Netzwerkname steht auf dieser Karte, das Passwort ist Ihre Zimmernummer."
+    },
+    "t14": {
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Vielen Dank. Schoenen Abend noch!",
+          "hint_zh": "非常感謝,祝你今晚愉快!"
+        }
+      ]
+    }
+  }
+}

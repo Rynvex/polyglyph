@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "morning_commute_a2",
+  "language": "es",
+  "title": "Atrapado en el trafico",
+  "description": "Llamada al companero desde el coche para avisar de que llegas tarde. Tono coloquial, frases hechas suaves.",
+  "characters": {
+    "bot": {
+      "name": "Maya",
+      "voice": "es-ES-ElviraNeural"
+    },
+    "player": {
+      "name": "Tu"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Oye, donde estas? La reunion va a empezar."
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Lo siento muchisimo, estoy atrapado en el trafico. No avanza nada.",
+          "hint_zh": "抱歉,我塞在路上。整條完全不動。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Vaya. Cuanto crees que tardaras?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Veinte minutos mas, igual? El GPS no se decide.",
+          "hint_zh": "再二十分鐘吧?導航一直在變。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Es una pesadilla cada lunes. Aviso al resto."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Gracias. Puedes cubrir la primera parte por mi?",
+          "hint_zh": "謝啦。前半段你可以先幫我頂嗎?"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Si, tranquilo. Llega cuando puedas."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Eres un crack. Te debo una.",
+          "hint_zh": "你救了我。下次還你人情。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "El proximo cafe lo pagas tu. Conduce con cuidado!"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Hecho. Hasta ahora.",
+          "hint_zh": "成交,等下見。"
+        }
+      ]
+    }
+  }
+}

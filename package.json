@@ -1,0 +1,55 @@
+{
+  "name": "polyglyph",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline-friendly, zero-LLM multilingual typing-dialogue game. Practice real conversations across 7 languages.",
+  "author": "Rynvex",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rynvex/polyglyph.git"
+  },
+  "homepage": "https://github.com/Rynvex/polyglyph#readme",
+  "scripts": {
+    "dev": "next dev -p 3014",
+    "build": "next build",
+    "start": "next start -p 3014",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:cov": "vitest run --coverage",
+    "validate-scripts": "tsx scripts/validate-scripts.ts",
+    "promote-generated": "tsx scripts/promote-generated.ts",
+    "migrate-ja-furigana": "tsx scripts/migrate-ja-furigana-to-kana.ts",
+    "audit-translations": "tsx scripts/audit-translations.ts",
+    "audit-vocab": "tsx scripts/audit-vocab.ts",
+    "assign-visuals": "tsx scripts/assign-visuals.ts",
+    "import-frequency-list": "tsx scripts/import-frequency-list.ts",
+    "categorize-concepts": "tsx scripts/categorize-concepts.ts",
+    "auto-translate": "tsx scripts/auto-translate.ts",
+    "fetch-images": "tsx scripts/fetch-images.ts"
+  },
+  "dependencies": {
+    "next": "16.2.5",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "^4.1.5",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.5",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.19.2",
+    "typescript": "^5",
+    "vitest": "^4.1.5"
+  }
+}

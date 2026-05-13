@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "restaurant_dinner_b1",
+  "language": "de",
+  "title": "Abendessen mit dem Kellner",
+  "description": "Bestelle ein komplettes Abendessen — Getraenke, Vorspeise, Hauptgang — und teilt am Ende die Rechnung.",
+  "characters": {
+    "bot": {
+      "name": "Kellner",
+      "voice": "de-DE-ConradNeural"
+    },
+    "player": {
+      "name": "Du"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Guten Abend, herzlich willkommen. Darf ich erstmal etwas zu trinken bringen?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Ja, eine Flasche Sprudelwasser und ein Glas Rotwein, bitte.",
+          "hint_zh": "好的,可以給我們一瓶氣泡水跟一杯紅酒嗎?"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Gerne. Vorzug beim Rotwein? Heute haben wir einen schoenen Malbec im offenen Ausschank."
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Der Malbec klingt super. Den nehm ich.",
+          "hint_zh": "Malbec 聽起來不錯,我點那個。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Schoene Wahl. Habt ihr die Karte schon gesehen oder soll ich euch noch ein paar Minuten geben?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Wir sind bereit. Als Vorspeise teilen wir uns eine Burrata.",
+          "hint_zh": "我們其實已經想好了,前菜想分一份布拉塔起司。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Sehr gerne, die Burrata ist einer unserer Favoriten. Und beim Hauptgang?"
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Ich nehm den Lachs. Was ist heute im Risotto drin?",
+          "hint_zh": "我要鮭魚,可以說一下今天的燉飯有什麼食材嗎?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Heute Abend ist es ein Risotto mit Wildpilzen, Trueffeloel, Parmesan und Schnittlauch zum Schluss."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Klingt koestlich. Das nehmen wir als zweiten Hauptgang.",
+          "hint_zh": "聽起來很棒,我們第二個主菜要那個。"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Wunderbar. Allergien, die ich der Kueche melden soll?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Keine Allergien, aber mein Freund isst keine Schalentiere, falls du das durchgibst.",
+          "hint_zh": "沒有過敏,但麻煩告知我朋友不吃帶殼海鮮。"
+        }
+      ]
+    },
+    "t13": {
+      "text": "Ich gebe das weiter. Bringe gleich die Getraenke."
+    },
+    "t14": {
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Super, danke. Koennen wir am Ende getrennt zahlen?",
+          "hint_zh": "好的,謝謝。等等吃完可以幫我們分開結帳嗎?"
+        }
+      ]
+    },
+    "t15": {
+      "text": "Selbstverstaendlich. Sagt mir am Ende einfach, wie ihr's aufteilen wollt."
+    },
+    "t16": {
+      "templates": [
+        {
+          "id": "t16.0",
+          "text": "Perfekt. Vielen Dank fuer die Hilfe.",
+          "hint_zh": "太好了,真的謝謝你。"
+        }
+      ]
+    }
+  }
+}

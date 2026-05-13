@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "morning_commute_a2",
+  "language": "en",
+  "title": "Stuck in Traffic",
+  "description": "Calling a coworker from the car to say you'll be late. Casual register, mild idioms — 'bumper-to-bumper', 'a nightmare'.",
+  "characters": {
+    "bot": {
+      "name": "Maya",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Hey, where are you? The meeting's about to start."
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "I'm so sorry, I'm stuck in traffic. It's bumper-to-bumper out here.",
+          "hint_zh": "抱歉,我塞在車陣裡。整條都動不了。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Oh no. Any idea how long?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Maybe twenty more minutes? My GPS keeps changing its mind.",
+          "hint_zh": "再二十分鐘吧?導航一直在變。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "It's a nightmare every Monday. I'll let everyone know."
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Thanks. Can you cover the first part for me?",
+          "hint_zh": "謝謝,前半段你可以先幫我頂嗎?"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Yeah, no worries. Just get here when you can."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "You're a lifesaver. I owe you one.",
+          "hint_zh": "你救了我。下次還你人情。"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Coffee on you next time. Drive safe!"
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Deal. See you soon.",
+          "hint_zh": "成交,等下見。"
+        }
+      ]
+    }
+  }
+}

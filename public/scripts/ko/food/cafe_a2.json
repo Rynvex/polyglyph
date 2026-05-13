@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "ko.cafe.a2",
+  "language": "ko",
+  "level": "A2",
+  "topic": "food",
+  "title": "카페에서",
+  "description": "Order at a Korean café. Type Revised Romanization; cells render Hangul via the IME.",
+  "estimated_minutes": 3,
+  "tags": ["cafe", "service"],
+  "characters": {
+    "bot": { "name": "직원", "voice": "ko-KR-InJoonNeural" },
+    "player": { "name": "당신" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "어서 오세요. 뭐 드릴까요?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "아메리카노주세요", "display": "아메리카노 주세요.", "hint_zh": "amerikano juseyo — 請給我美式咖啡。" }] },
+    { "id": "t3", "speaker": "bot", "text": "사이즈는 어떻게 해드릴까요?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "보통이요", "display": "보통이요.", "hint_zh": "botong-iyo — 中杯就好。" }] },
+    { "id": "t5", "speaker": "bot", "text": "드시고 가시나요, 가지고 가시나요?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "여기서마실게요", "display": "여기서 마실게요.", "hint_zh": "yeogiseo masilkkeyo — 在這裡用。" }] },
+    { "id": "t7", "speaker": "bot", "text": "사천 오백원입니다." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "감사합니다", "display": "감사합니다.", "hint_zh": "gamsahapnida — 謝謝。" }] }
+  ]
+}

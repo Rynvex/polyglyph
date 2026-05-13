@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "time_a1",
+  "title": "Time Words",
+  "cefr": "A1",
+  "description": "Day, night, today, tomorrow — basic time references.",
+  "estimated_minutes": 4,
+  "conceptIds": [
+    "day",
+    "night",
+    "morning",
+    "evening",
+    "today",
+    "tomorrow",
+    "yesterday",
+    "hour",
+    "minute",
+    "week"
+  ]
+}

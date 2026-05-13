@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "en.dietary_restrictions.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "food",
+  "title": "I'm Vegetarian — What's Safe?",
+  "description": "Explain dietary restrictions to a server and find a dish that works.",
+  "estimated_minutes": 4,
+  "tags": ["restaurant", "service"],
+  "characters": {
+    "bot": { "name": "Server", "voice": "en-US-GuyNeural" },
+    "player": { "name": "You" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "Hi! Are you ready to order?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "Almost. Quick question — I'm vegetarian, no meat or fish. Which dishes work for me?", "hint_zh": "快好了。先問一下,我吃素,不吃肉跟魚。哪些可以點?" }] },
+    { "id": "t3", "speaker": "bot", "text": "Got it. The mushroom risotto, the eggplant parmigiana, and the garden pasta are all vegetarian." },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "Does the risotto have any meat broth in it?", "hint_zh": "燉飯裡有用肉湯嗎?" }] },
+    { "id": "t5", "speaker": "bot", "text": "Good catch — yes, it's made with chicken stock. The pasta is fully vegetarian, though." },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "Then I'll go with the garden pasta. Is the parmesan vegetarian-friendly?", "hint_zh": "那我點蔬菜義大利麵。帕馬森起司是吃素可以的嗎?" }] },
+    { "id": "t7", "speaker": "bot", "text": "Some of our cheeses use animal rennet. I can ask the kitchen and let you know." },
+    { "id": "t8", "speaker": "player", "templates": [{ "id": "t8.0", "text": "Please do. If not, no cheese is fine.", "hint_zh": "麻煩你問一下,如果是的話那不加起司也可以。" }] },
+    { "id": "t9", "speaker": "bot", "text": "Of course. Anything to drink?" },
+    { "id": "t10", "speaker": "player", "templates": [{ "id": "t10.0", "text": "Sparkling water, please.", "hint_zh": "氣泡水就好。" }] }
+  ]
+}

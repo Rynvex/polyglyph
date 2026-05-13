@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ko.hoeui.b1",
+  "language": "ko",
+  "level": "B1",
+  "topic": "work",
+  "title": "회의에서",
+  "description": "Quick standup status update with your team lead. Type Revised Romanization; cells render Hangul.",
+  "estimated_minutes": 4,
+  "tags": ["meeting", "casual"],
+  "characters": {
+    "bot": { "name": "팀장", "voice": "ko-KR-InJoonNeural" },
+    "player": { "name": "당신" }
+  },
+  "turns": [
+    { "id": "t1", "speaker": "bot", "text": "프로젝트 어떻게 되어가요?" },
+    { "id": "t2", "speaker": "player", "templates": [{ "id": "t2.0", "text": "잘되고있어요", "display": "잘 되고 있어요.", "hint_zh": "jaldoego isseoyo — 進展順利。" }] },
+    { "id": "t3", "speaker": "bot", "text": "문제 있어요?" },
+    { "id": "t4", "speaker": "player", "templates": [{ "id": "t4.0", "text": "없어요", "display": "없어요.", "hint_zh": "eopseoyo — 沒問題。" }] },
+    { "id": "t5", "speaker": "bot", "text": "언제 끝나요?" },
+    { "id": "t6", "speaker": "player", "templates": [{ "id": "t6.0", "text": "다음주에요", "display": "다음 주에요.", "hint_zh": "daeumjueyo — 下週。" }] }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "coffee_shop_order_a1",
+  "language": "zh-tw",
+  "title": "請給我一杯咖啡",
+  "description": "在咖啡廳點咖啡。簡單的 A1 對話 — 打招呼、點餐、選大小、結帳。",
+  "characters": {
+    "bot": { "name": "小安", "voice": "zh-TW-HsiaoChenNeural" },
+    "player": { "name": "你" }
+  },
+  "turns": {
+    "t1": { "text": "你好！今天想喝什麼？" },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "你好，我想要一杯咖啡。",
+          "hint_zh": "你好，我想要一杯咖啡。"
+        }
+      ]
+    },
+    "t3": { "text": "好的！要小杯、中杯還是大杯？" },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "中杯，謝謝。",
+          "hint_zh": "中杯，謝謝。"
+        }
+      ]
+    },
+    "t5": { "text": "好。還需要別的嗎？" },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "不用了，就這樣。謝謝。",
+          "hint_zh": "不用了，就這樣。謝謝。"
+        }
+      ]
+    },
+    "t7": { "text": "一共三十五元。這是你的咖啡，請慢用！" },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "謝謝，再見！",
+          "hint_zh": "謝謝，再見！"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "doctor_visit_a2",
+  "language": "de",
+  "title": "Beim Arzt",
+  "description": "Beschreibe Symptome und vereinbare einen Folgetermin. Hoeflich, halbformell.",
+  "characters": {
+    "bot": {
+      "name": "Frau Dr. Lee",
+      "voice": "de-DE-KatjaNeural"
+    },
+    "player": {
+      "name": "Du"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Guten Morgen. Bitte kommen Sie rein und setzen Sie sich. Was fuehrt Sie heute her?"
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Hallo Frau Doktor, ich habe seit etwa einer Woche Halsweh.",
+          "hint_zh": "醫生好,我喉嚨痛已經大概一個禮拜了。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Verstehe. Fieber, Husten oder Schluckbeschwerden?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Etwas Husten, vor allem nachts. Fieber glaube ich nicht.",
+          "hint_zh": "有點咳嗽,主要是晚上。應該沒發燒。"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Gut. Nehmen Sie momentan irgendwelche Medikamente?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Nur ein paar Erkaeltungstabletten aus der Apotheke, sonst nichts.",
+          "hint_zh": "只有自己買的成藥感冒藥,其他都沒有。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Ich schau mal kurz. Mund weit auf und 'aaa' sagen."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Aaa.",
+          "hint_zh": "啊—"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Leichte Entzuendung. Vermutlich nicht bakteriell. Viel Ruhe, warme Getraenke und diese Halsbonbons. Bei Verschlechterung wieder kommen."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Verstanden. Sollte ich mich krankmelden?",
+          "hint_zh": "了解。需要請假休息嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Wenn moeglich ein, zwei Tage. Sie erholen sich schneller."
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Danke, Frau Doktor. Wirklich nett.",
+          "hint_zh": "謝謝醫師,真的很感謝。"
+        }
+      ]
+    }
+  }
+}

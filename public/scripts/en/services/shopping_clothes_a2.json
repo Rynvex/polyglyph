@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.shopping_clothes.a2",
+  "language": "en",
+  "level": "A2",
+  "topic": "services",
+  "title": "Trying On a Jacket",
+  "description": "Browse a clothing store, try on a jacket, and check the return policy.",
+  "estimated_minutes": 4,
+  "tags": [
+    "shopping",
+    "service",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Sales Associate",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Hi, let me know if you need any help finding a size."
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Actually yes, do you have this jacket in a medium?",
+          "hint_zh": "其實我想問一下,這件外套有中號嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Let me check the back. Is the navy color okay or are you looking at the green one?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "I prefer the navy. The green is a little too bright for me.",
+          "hint_zh": "我比較想要海軍藍,綠色對我來說太亮了一點。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Got it, one second. Here you go, the fitting rooms are over to the right."
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Thanks. By the way, is this on sale or full price?",
+          "hint_zh": "謝謝。對了,這件是特價還是原價?"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "It's twenty percent off this week, including the navy."
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Oh nice, that's a good deal. What's your return policy?",
+          "hint_zh": "喔不錯,折扣不錯。退換貨規則是什麼?"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Thirty days with the receipt, even on sale items. Tags need to be on, though."
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Perfect, that gives me time to try it at home too.",
+          "hint_zh": "太好了,這樣我也能帶回家試穿。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Exactly. Just hold on to your receipt and you're good."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Got it. I'll go try it on now, thanks for your help.",
+          "hint_zh": "了解,我先去試穿,謝謝你。"
+        }
+      ]
+    }
+  ]
+}

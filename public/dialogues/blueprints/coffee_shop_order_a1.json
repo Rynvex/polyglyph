@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "coffee_shop_order_a1",
+  "level": "A1",
+  "topic": "food",
+  "estimated_minutes": 2,
+  "tags": ["cafe", "ordering"],
+  "turns": [
+    { "id": "t1", "speaker": "bot", "has_templates": false },
+    { "id": "t2", "speaker": "player", "has_templates": true, "template_count": 1 },
+    { "id": "t3", "speaker": "bot", "has_templates": false },
+    { "id": "t4", "speaker": "player", "has_templates": true, "template_count": 1 },
+    { "id": "t5", "speaker": "bot", "has_templates": false },
+    { "id": "t6", "speaker": "player", "has_templates": true, "template_count": 1 },
+    { "id": "t7", "speaker": "bot", "has_templates": false },
+    { "id": "t8", "speaker": "player", "has_templates": true, "template_count": 1 }
+  ]
+}

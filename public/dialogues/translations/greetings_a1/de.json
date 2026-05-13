@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "blueprint_id": "greetings_a1",
+  "language": "de",
+  "title": "Erste Begegnung",
+  "description": "Lerne jemanden auf einer lockeren Runde kennen und tauscht euch kurz aus.",
+  "characters": {
+    "bot": {
+      "name": "Sam",
+      "voice": "de-DE-ConradNeural"
+    },
+    "player": {
+      "name": "Du"
+    }
+  },
+  "turns": {
+    "t1": {
+      "text": "Hi, ich glaube wir kennen uns noch nicht. Ich bin Sam."
+    },
+    "t2": {
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Freut mich, Sam. Ich bin Alex.",
+          "hint_zh": "幸會,Sam。我叫 Alex。"
+        }
+      ]
+    },
+    "t3": {
+      "text": "Freut mich auch. Wie laeuft der Abend?"
+    },
+    "t4": {
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "Ganz gut, danke. Und bei dir?",
+          "hint_zh": "我還不錯,謝謝。你呢?"
+        }
+      ]
+    },
+    "t5": {
+      "text": "Auch okay. Bisschen muede, aber froh hier zu sein. Was machst du beruflich?"
+    },
+    "t6": {
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Ich arbeite als Softwareentwickler in der Stadt.",
+          "hint_zh": "我在市區當軟體工程師。"
+        }
+      ]
+    },
+    "t7": {
+      "text": "Cool. Ich bin Designer, da streiten wir uns wahrscheinlich bald in denselben Projekten."
+    },
+    "t8": {
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Haha, garantiert. Wo kommst du urspruenglich her?",
+          "hint_zh": "哈,的確。你本來是哪裡人?"
+        }
+      ]
+    },
+    "t9": {
+      "text": "Eigentlich aus Hamburg, aber ich bin vor ungefaehr zwei Jahren hierher gezogen."
+    },
+    "t10": {
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Schoen, gefaellt es dir hier?",
+          "hint_zh": "喔不錯,你目前喜歡這裡嗎?"
+        }
+      ]
+    },
+    "t11": {
+      "text": "Ja, im Grossen und Ganzen schon. Das Essen ist klasse. So, ich hol mir kurz was zu trinken, sehen uns spaeter?"
+    },
+    "t12": {
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Klar, bis spaeter!",
+          "hint_zh": "好啊沒問題,等等再聊!"
+        }
+      ]
+    }
+  }
+}

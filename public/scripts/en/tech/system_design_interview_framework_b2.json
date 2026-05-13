@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "en.system_design_interview_framework.b2",
+  "language": "en",
+  "level": "B2",
+  "topic": "tech",
+  "title": "System Design Interview Walk-Through",
+  "description": "An interviewer drops you a vague system-design prompt. Drive the four-step framework: scope, high-level design, deep dive, wrap-up.",
+  "estimated_minutes": 5,
+  "tags": [
+    "engineering",
+    "interview",
+    "system-design",
+    "formal"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Interviewer",
+      "voice": "en-US-AriaNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "Let's design a URL shortener. Take it however you'd like."
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Before I jump in, can I ask a few clarifying questions about scope?",
+          "hint_zh": "我動手前,可以先問幾個範圍上的問題嗎?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "Of course. Go ahead."
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "How many writes and reads per day, and do shortened links need to expire?",
+          "hint_zh": "每天的寫入跟讀取量是多少?短連結有沒有過期需求?"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "100 million writes a day, 100 to one read-write ratio, and links live for ten years."
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Got it. Let me sketch the high-level pieces and do a quick back-of-the-envelope estimate.",
+          "hint_zh": "了解。我先畫高層架構並做粗略估算。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "Sounds good."
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Three core pieces: an API service, a hash function for the short codes, and a key-value store for the mapping.",
+          "hint_zh": "三個核心:API 服務、產生短碼的雜湊函式、儲存對應關係的 KV store。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Where would you go deep first?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "The hash function. Length, collision handling, and whether we encode counters or hash the URL directly.",
+          "hint_zh": "雜湊函式。長度、碰撞處理,以及要編碼計數器還是直接雜湊 URL。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Good. Let's say we're at the wrap-up. Anything you'd improve?"
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Add a CDN cache layer for hot links and shard the database when we cross ten times the load.",
+          "hint_zh": "熱門連結加 CDN 快取,流量過十倍時資料庫分片。"
+        }
+      ]
+    },
+    {
+      "id": "t13",
+      "speaker": "bot",
+      "text": "Nice structure. Thanks for walking me through it."
+    },
+    {
+      "id": "t14",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t14.0",
+          "text": "Thank you. I appreciate the chance to think this through.",
+          "hint_zh": "謝謝你,很感謝有機會把流程走過一遍。"
+        }
+      ]
+    }
+  ]
+}

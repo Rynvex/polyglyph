@@ -1,0 +1,11 @@
+{
+  "id": "body_parts_a1",
+  "title": "Body Parts",
+  "cefr": "A1",
+  "description": "Parts of the body, head to toe.",
+  "estimated_minutes": 3,
+  "conceptIds": [
+    "head", "eye", "ear", "nose", "mouth", "tooth", "hand", "arm",
+    "leg", "foot", "heart", "hair", "finger", "knee", "shoulder", "back"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "en.survivorship_bias.b1",
+  "language": "en",
+  "level": "B1",
+  "topic": "mind",
+  "title": "The Bullet Holes That Aren't There",
+  "description": "Push back when a colleague proposes copying every habit of successful startups. Tell the WWII airplane story.",
+  "estimated_minutes": 4,
+  "tags": [
+    "pm",
+    "decision-making",
+    "casual"
+  ],
+  "characters": {
+    "bot": {
+      "name": "Colleague",
+      "voice": "en-US-GuyNeural"
+    },
+    "player": {
+      "name": "You"
+    }
+  },
+  "turns": [
+    {
+      "id": "t1",
+      "speaker": "bot",
+      "text": "I read that all top startups did weekly retros. Should we?"
+    },
+    {
+      "id": "t2",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t2.0",
+          "text": "Maybe. But that argument has a survivorship bias problem.",
+          "hint_zh": "也許吧。但這論點有倖存者偏差的問題。"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "bot",
+      "text": "What do you mean?"
+    },
+    {
+      "id": "t4",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t4.0",
+          "text": "You're only looking at the survivors. Lots of failed startups also did weekly retros.",
+          "hint_zh": "你只看到活下來的。很多倒掉的新創也做週會回顧。"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "bot",
+      "text": "Hmm, fair. Got an example?"
+    },
+    {
+      "id": "t6",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t6.0",
+          "text": "Sure. WWII engineers wanted to armor planes where the bullet holes were.",
+          "hint_zh": "二戰工程師想加固飛機被子彈打中的地方。"
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "speaker": "bot",
+      "text": "And that was wrong?"
+    },
+    {
+      "id": "t8",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t8.0",
+          "text": "Backwards. Wald pointed out: those planes came back. Armor the spots without holes.",
+          "hint_zh": "搞反了。Wald 指出那些飛機都飛回來了,該加固的是沒被打中的地方。"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "speaker": "bot",
+      "text": "Got it. So how do we apply this here?"
+    },
+    {
+      "id": "t10",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t10.0",
+          "text": "Find startups that died despite doing retros. If there are many, the practice doesn't explain success.",
+          "hint_zh": "去找做了回顧但還是倒掉的新創。如果一堆,這做法就不是成功原因。"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "speaker": "bot",
+      "text": "Painful question. Let me dig and come back."
+    },
+    {
+      "id": "t12",
+      "speaker": "player",
+      "templates": [
+        {
+          "id": "t12.0",
+          "text": "Always. Look for the planes that didn't come back.",
+          "hint_zh": "一直都是。找那些沒飛回來的飛機。"
+        }
+      ]
+    }
+  ]
+}
