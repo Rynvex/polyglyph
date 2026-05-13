@@ -27,15 +27,19 @@
     "import-frequency-list": "tsx scripts/import-frequency-list.ts",
     "categorize-concepts": "tsx scripts/categorize-concepts.ts",
     "auto-translate": "tsx scripts/auto-translate.ts",
-    "fetch-images": "tsx scripts/fetch-images.ts"
+    "fetch-images": "tsx scripts/fetch-images.ts",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "opennextjs-cloudflare preview",
+    "cf:deploy": "opennextjs-cloudflare deploy"
   },
   "dependencies": {
-    "next": "16.2.5",
+    "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.19.9",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
@@ -45,11 +49,12 @@
     "@types/react-dom": "^19",
     "@vitest/coverage-v8": "^4.1.5",
     "eslint": "^9",
-    "eslint-config-next": "16.2.5",
+    "eslint-config-next": "16.2.6",
     "jsdom": "^29.1.1",
     "tailwindcss": "^4",
     "tsx": "^4.19.2",
     "typescript": "^5",
-    "vitest": "^4.1.5"
+    "vitest": "^4.1.5",
+    "wrangler": "^4.90.1"
   }
 }

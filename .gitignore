@@ -7,6 +7,10 @@ staging/
 # Cron / runtime logs (created by run-promote-cron.sh)
 logs/
 
+# Cloudflare / OpenNext build output
+.open-next/
+.wrangler/
+
 *$py.class
 # assets/audio/tts/
 /build
