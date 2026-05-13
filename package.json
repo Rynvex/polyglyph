@@ -28,6 +28,9 @@
     "categorize-concepts": "tsx scripts/categorize-concepts.ts",
     "auto-translate": "tsx scripts/auto-translate.ts",
     "fetch-images": "tsx scripts/fetch-images.ts",
+    "build-data-bundle": "tsx scripts/build-data-bundle.ts",
+    "prebuild": "tsx scripts/build-data-bundle.ts",
+    "precf:build": "tsx scripts/build-data-bundle.ts",
     "cf:build": "opennextjs-cloudflare build",
     "cf:preview": "opennextjs-cloudflare preview",
     "cf:deploy": "opennextjs-cloudflare deploy"

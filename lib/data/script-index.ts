@@ -8,6 +8,10 @@
  *
  * Pure grouping/sorting helpers (importable from client components) live
  * in lib/data/script-grouping.ts.
+ *
+ * Cloudflare Workers note: see the comment in dialogues/loader.ts.
+ * Falls back to the static `data-bundle` module when `fs` is unavailable
+ * at runtime so the landing page can still hydrate.
  */
 
 import { promises as fs } from "node:fs";
@@ -17,6 +21,11 @@ import {
   TranslationSchema,
 } from "@/lib/data/dialogues/schema";
 import type { ScriptIndexItem } from "@/lib/data/script-grouping";
+import {
+  BUNDLED_BLUEPRINTS,
+  BUNDLED_BLUEPRINT_IDS,
+  BUNDLED_TRANSLATIONS,
+} from "@/lib/data/data-bundle";
 
 export type { ScriptIndexItem } from "@/lib/data/script-grouping";
 export {
@@ -29,21 +38,49 @@ async function readJsonOrNull(file: string): Promise<unknown | null> {
   try {
     const raw = await fs.readFile(file, "utf-8");
     return JSON.parse(raw);
-  } catch (err) {
-    if ((err as NodeJS.ErrnoException).code === "ENOENT") return null;
-    throw err;
+  } catch {
+    return null;
   }
 }
 
-async function listBlueprintFiles(dialoguesRoot: string): Promise<string[]> {
+interface DiscoveredBlueprint {
+  id: string;
+  blueprintPayload: unknown;
+}
+
+async function discoverBlueprints(
+  dialoguesRoot: string,
+): Promise<DiscoveredBlueprint[]> {
   const dir = path.join(dialoguesRoot, "blueprints");
   try {
-    return (await fs.readdir(dir))
-      .filter((f) => f.endsWith(".json"))
-      .map((f) => path.join(dir, f));
+    const entries = await fs.readdir(dir);
+    const found: DiscoveredBlueprint[] = [];
+    for (const f of entries) {
+      if (!f.endsWith(".json")) continue;
+      const id = f.replace(/\.json$/, "");
+      const payload = await readJsonOrNull(path.join(dir, f));
+      if (payload !== null) found.push({ id, blueprintPayload: payload });
+    }
+    return found;
   } catch {
-    return [];
+    // No fs (Worker runtime). Use the bundled blueprint catalog.
+    return BUNDLED_BLUEPRINT_IDS.map((id) => ({
+      id,
+      blueprintPayload: BUNDLED_BLUEPRINTS[id],
+    })).filter((b) => b.blueprintPayload !== undefined);
   }
+}
+
+async function loadTranslationPayload(
+  dialoguesRoot: string,
+  id: string,
+  language: string,
+): Promise<unknown | null> {
+  const filePayload = await readJsonOrNull(
+    path.join(dialoguesRoot, "translations", id, `${language}.json`),
+  );
+  if (filePayload !== null) return filePayload;
+  return BUNDLED_TRANSLATIONS[id]?.[language] ?? null;
 }
 
 export async function readScriptIndex(
@@ -51,16 +88,13 @@ export async function readScriptIndex(
   language: string,
 ): Promise<ScriptIndexItem[]> {
   const items: ScriptIndexItem[] = [];
-  for (const file of await listBlueprintFiles(dialoguesRoot)) {
-    const raw = await fs.readFile(file, "utf-8");
-    const blueprint = BlueprintSchema.parse(JSON.parse(raw));
-    const translationPath = path.join(
+  for (const found of await discoverBlueprints(dialoguesRoot)) {
+    const blueprint = BlueprintSchema.parse(found.blueprintPayload);
+    const translationPayload = await loadTranslationPayload(
       dialoguesRoot,
-      "translations",
       blueprint.id,
-      `${language}.json`,
+      language,
     );
-    const translationPayload = await readJsonOrNull(translationPath);
     if (!translationPayload) continue;
     const translation = TranslationSchema.parse(translationPayload);
     items.push({

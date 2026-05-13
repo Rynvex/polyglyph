@@ -119,9 +119,14 @@ describe("readScriptIndex", () => {
     expect(jaItems.map((i) => i.scriptId)).toEqual(["has_ja"]);
   });
 
-  test("returns empty array if blueprints dir does not exist", async () => {
+  test("falls back to bundled blueprints when the fs dir is missing", async () => {
+    // tmp is a fresh tmpdir with no blueprints/ subdir; the loader is
+    // expected to silently fall back to the in-bundle catalog so the
+    // landing page hydrates on Cloudflare Workers (no fs at runtime).
     const items = await readScriptIndex(tmp, "en");
-    expect(items).toEqual([]);
+    expect(items.length).toBeGreaterThan(0);
+    // Every returned item should carry the requested language tag.
+    for (const item of items) expect(item.language).toBe("en");
   });
 
   test("propagates blueprint validation errors so bad files surface early", async () => {

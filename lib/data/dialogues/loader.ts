@@ -6,6 +6,12 @@
  *
  * Used at SSR/SSG time. Browser code receives the composed Dialogue as
  * props and never reads the filesystem directly.
+ *
+ * Cloudflare Workers note: at runtime, files under `public/` are served
+ * via the ASSETS binding, not visible to `node:fs`. The loaders therefore
+ * try `fs.readFile` first (works in dev / build / tests) and fall back to
+ * the static `data-bundle` module (works at Worker runtime). Regenerate
+ * the bundle with `pnpm build-data-bundle` after editing dialogue content.
  */
 
 import { promises as fs } from "node:fs";
@@ -18,6 +24,11 @@ import {
 } from "./schema";
 import { composeDialogue, composeDialogueWithNative } from "./compose";
 import type { Dialogue } from "@/lib/data/schema";
+import {
+  BUNDLED_BLUEPRINTS,
+  BUNDLED_TRANSLATIONS,
+  BUNDLED_BLUEPRINT_IDS,
+} from "@/lib/data/data-bundle";
 
 const BLUEPRINTS_DIR = ["public", "dialogues", "blueprints"];
 const TRANSLATIONS_DIR = ["public", "dialogues", "translations"];
@@ -38,13 +49,16 @@ async function readJsonOrNull(file: string): Promise<unknown | null> {
     return JSON.parse(raw);
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") return null;
-    throw err;
+    // Any other fs error (permission, runtime without fs, etc.) → null
+    // so callers can fall back to the static bundle.
+    return null;
   }
 }
 
 export async function loadBlueprint(blueprintId: string): Promise<Blueprint | null> {
   if (!ID_PATTERN.test(blueprintId)) return null;
-  const payload = await readJsonOrNull(resolveBlueprintPath(blueprintId));
+  let payload = await readJsonOrNull(resolveBlueprintPath(blueprintId));
+  if (!payload) payload = BUNDLED_BLUEPRINTS[blueprintId] ?? null;
   if (!payload) return null;
   return BlueprintSchema.parse(payload);
 }
@@ -55,7 +69,8 @@ export async function loadTranslation(
 ): Promise<Translation | null> {
   if (!ID_PATTERN.test(blueprintId)) return null;
   if (!/^[a-z][a-z0-9-]*$/.test(language)) return null;
-  const payload = await readJsonOrNull(resolveTranslationPath(blueprintId, language));
+  let payload = await readJsonOrNull(resolveTranslationPath(blueprintId, language));
+  if (!payload) payload = BUNDLED_TRANSLATIONS[blueprintId]?.[language] ?? null;
   if (!payload) return null;
   return TranslationSchema.parse(payload);
 }
@@ -102,29 +117,31 @@ export async function loadComposedDialogueWithNative(
 
 export async function listBlueprintIds(): Promise<string[]> {
   const dir = path.join(process.cwd(), ...BLUEPRINTS_DIR);
-  let entries: string[];
   try {
-    entries = await fs.readdir(dir);
+    const entries = await fs.readdir(dir);
+    return entries
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => f.replace(/\.json$/, ""))
+      .sort();
   } catch {
-    return [];
+    // No fs (e.g. Cloudflare Worker runtime). Fall back to the static
+    // bundle so the script-grouping / curated lists still hydrate.
+    return [...BUNDLED_BLUEPRINT_IDS].sort();
   }
-  return entries
-    .filter((f) => f.endsWith(".json"))
-    .map((f) => f.replace(/\.json$/, ""))
-    .sort();
 }
 
 export async function listTranslationLanguages(blueprintId: string): Promise<string[]> {
   if (!ID_PATTERN.test(blueprintId)) return [];
   const dir = path.join(process.cwd(), ...TRANSLATIONS_DIR, blueprintId);
-  let entries: string[];
   try {
-    entries = await fs.readdir(dir);
+    const entries = await fs.readdir(dir);
+    return entries
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => f.replace(/\.json$/, ""))
+      .sort();
   } catch {
-    return [];
+    const bundled = BUNDLED_TRANSLATIONS[blueprintId];
+    if (!bundled) return [];
+    return Object.keys(bundled).sort();
   }
-  return entries
-    .filter((f) => f.endsWith(".json"))
-    .map((f) => f.replace(/\.json$/, ""))
-    .sort();
 }
