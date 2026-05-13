@@ -47,4 +47,18 @@ describe("pickHint", () => {
     const t = { ...base, hint_en: "" } as Template & { hint_en?: string };
     expect(pickHint(t, "en")).toBe("中文提示");
   });
+
+  test("prefers nativeText overlay over hint_zh fallback", () => {
+    const t: Template = { ...base, nativeText: "実際の中間値" };
+    expect(pickHint(t, "ja")).toBe("実際の中間値");
+  });
+
+  test("nativeText wins over hint_<lang> too — it is the authoritative translation", () => {
+    const t = {
+      ...base,
+      nativeText: "literal translation",
+      hint_ja: "old shorthand hint",
+    } as Template & { hint_ja?: string };
+    expect(pickHint(t, "ja")).toBe("literal translation");
+  });
 });

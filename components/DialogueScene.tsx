@@ -449,9 +449,18 @@ export function DialogueScene({
   const botName = dialogue.characters?.bot?.name;
   const totalTurns = dialogue.turns.length;
   const currentPlayerTurn = controller.dialogue.turns[controller.turnIdx];
-  const hint = controller.isFinished
-    ? undefined
-    : pickHint(currentPlayerTurn?.templates?.[0], nativeLang);
+  // Look up the enriched copy of the current turn so `pickHint` sees the
+  // `nativeText` overlay attached by attachNativeText(). Without this,
+  // the hint falls back to legacy `hint_zh` regardless of nativeLang.
+  // Same-lang pairs short-circuit the hint entirely — you don't need a
+  // translation hint for a language you already read.
+  const enrichedCurrentTemplate = enrichedTurnById
+    .get(currentPlayerTurn?.id ?? "")
+    ?.templates?.[0];
+  const hint =
+    controller.isFinished || nativeLang === dialogue.language
+      ? undefined
+      : pickHint(enrichedCurrentTemplate, nativeLang);
   // Show the native-script form (display field) above the romaji cells
   // so non-Latin learners can see what they're typing toward. Latin
   // languages leave display unset so the row is hidden.
